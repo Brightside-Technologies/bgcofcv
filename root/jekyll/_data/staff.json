@@ -10,15 +10,6 @@
       }
     },
     {
-      "name": "Tony Williams",
-      "title": "Director of Operations",
-      "email": "twilliams@bgcofcv.org",
-      "phone": {
-        "number": "760-836-1160",
-        "extension": "108"
-      }
-    },
-    {
       "name": "Bridget Kerr",
       "title": "Director of Special Events",
       "email": "bkerr@bgcofcv.org",
@@ -34,15 +25,6 @@
       "phone": {
         "number": "760-836-1160",
         "extension": "104"
-      }
-    },
-    {
-      "name": "Susan Ogrodnick",
-      "title": "Executive Assistant",
-      "email": "sogrodnick@bgcofcv.org",
-      "phone": {
-        "number": "760-836-1160",
-        "extension": "101"
       }
     }
   ]
