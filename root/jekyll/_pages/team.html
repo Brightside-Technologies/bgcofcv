@@ -59,15 +59,19 @@ permalink: team.html
     <div class="container">
         <h2 class="text-center section-header">Board of Directors</h2>
         <div class="row">
-            {% for board in site.data.board-members.board-members %}
-            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="d-flex flex-column my-3">
-                    <p class="lead m-0">{{ board.name }}</p>
-                    {% if board.title %}
-                    <small class="text-muted">{{ board.title }}</small> {% endif
-                    %}
-                </div>
-            </div>
+            {% assign board_members = site.data.board-members.board-members | sort: "last_name" %}
+            {% assign board_officer_titles = "Chair|Vice Chair & Treasurer|Secretary|Past Chair" | split: "|" %}
+            {% for officer_title in board_officer_titles %}
+            {% for board in board_members %}
+            {% if board.title == officer_title %}
+            {% include board-member.html member=board %}
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+            {% for board in board_members %}
+            {% unless board_officer_titles contains board.title %}
+            {% include board-member.html member=board %}
+            {% endunless %}
             {% endfor %}
         </div>
     </div>

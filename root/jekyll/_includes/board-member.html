@@ -1,0 +1,24 @@
+<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+    <div class="d-flex flex-column my-3">
+        {% assign prefix = include.member.prefix | default: "" %}
+        {% assign middle_name = include.member.middle_name | default: "" %}
+        {% assign suffix = include.member.suffix | default: "" %}
+        {% assign title = include.member.title | default: "" %}
+        {% assign display_name = "" %}
+        {% if prefix != "" %}
+        {% assign display_name = display_name | append: prefix | append: " " %}
+        {% endif %}
+        {% assign display_name = display_name | append: include.member.first_name %}
+        {% if middle_name != "" %}
+        {% assign display_name = display_name | append: " " | append: middle_name %}
+        {% endif %}
+        {% assign display_name = display_name | append: " " | append: include.member.last_name %}
+        {% if suffix != "" %}
+        {% assign display_name = display_name | append: ", " | append: suffix %}
+        {% endif %}
+        <p class="lead m-0">{{ display_name }}</p>
+        {% if title != "" %}
+        <small class="text-muted">{{ title }}</small>
+        {% endif %}
+    </div>
+</div>

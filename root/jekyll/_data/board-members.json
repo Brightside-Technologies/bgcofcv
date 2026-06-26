@@ -1,139 +1,178 @@
 {
   "board-members": [
     {
-      "name": "Lee Osborne",
+      "first_name": "Lee",
+      "last_name": "Osborne",
       "title": "Chair"
     },
     {
-      "name": "Wally Grimm",
+      "first_name": "Wally",
+      "last_name": "Grimm",
       "title": "Vice Chair & Treasurer"
     },
     {
-      "name": "Judy Vossler",
+      "first_name": "Judy",
+      "last_name": "Vossler",
       "title": "Secretary"
     },
     {
-      "name": "Douglas P. Miller",
+      "first_name": "Douglas",
+      "middle_name": "P.",
+      "last_name": "Miller",
       "title": "Past Chair"
     },
     {
-      "name": "Anthony Bianco",
+      "first_name": "Anthony",
+      "last_name": "Bianco",
       "title": ""
     },
     {
-      "name": "Carlos Campos",
+      "first_name": "Carlos",
+      "last_name": "Campos",
       "title": ""
     },
     {
-      "name": "David Cantwell",
+      "first_name": "David",
+      "last_name": "Cantwell",
       "title": ""
     },
     {
-      "name": "Anthony Caridi",
+      "first_name": "Anthony",
+      "last_name": "Caridi",
       "title": ""
     },
     {
-      "name": "Mike Carl",
+      "first_name": "Mike",
+      "last_name": "Carl",
       "title": ""
     },
     {
-      "name": "Dana Crosby",
+      "first_name": "Dana",
+      "last_name": "Crosby",
       "title": ""
     },
     {
-      "name": "Rondi Edwards",
+      "first_name": "Rondi",
+      "last_name": "Edwards",
       "title": ""
     },
     {
-      "name": "Jose L. Fernandez, M.D",
+      "first_name": "Jose",
+      "middle_name": "L.",
+      "last_name": "Fernandez",
+      "suffix": "M.D",
       "title": ""
     },
     {
-      "name": "David Field",
+      "first_name": "David",
+      "last_name": "Field",
       "title": ""
     },
     {
-      "name": "John Foster",
+      "first_name": "John",
+      "last_name": "Foster",
       "title": ""
     },
     {
-      "name": "Esther Gelineau",
+      "first_name": "Esther",
+      "last_name": "Gelineau",
       "title": ""
     },
     {
-      "name": "Kate Graham",
+      "first_name": "Kate",
+      "last_name": "Graham",
       "title": ""
     },
     {
-      "name": "Brian Harnik",
+      "first_name": "Brian",
+      "last_name": "Harnik",
       "title": ""
     },
     {
-      "name": "James A. Jackson",
+      "first_name": "Peter",
+      "last_name": "Kim",
       "title": ""
     },
     {
-      "name": "Peter Kim",
+      "first_name": "George",
+      "last_name": "Kirkjan",
       "title": ""
     },
     {
-      "name": "George Kirkjan",
+      "first_name": "Darrell",
+      "last_name": "Mike",
       "title": ""
     },
     {
-      "name": "Darrell Mike",
+      "first_name": "Glenn",
+      "last_name": "Miller",
       "title": ""
     },
     {
-      "name": "Glenn Miller",
+      "first_name": "Mark",
+      "last_name": "Nickerson",
       "title": ""
     },
     {
-      "name": "Mark Nickerson",
+      "first_name": "David",
+      "middle_name": "A.",
+      "last_name": "Peat",
       "title": ""
     },
     {
-      "name": "David A. Peat",
+      "first_name": "Greg",
+      "last_name": "Raumin",
       "title": ""
     },
     {
-      "name": "Greg Raumin",
+      "first_name": "Tony",
+      "last_name": "Reagins",
       "title": ""
     },
     {
-      "name": "Tony Reagins",
+      "first_name": "Margo",
+      "last_name": "Ritter",
       "title": ""
     },
     {
-      "name": "Margo Ritter",
+      "first_name": "Mark",
+      "middle_name": "D.",
+      "last_name": "Simon",
       "title": ""
     },
     {
-      "name": "Mark D. Simon",
+      "first_name": "Darlene",
+      "last_name": "Slater",
       "title": ""
     },
     {
-      "name": "Sue Steding",
+      "first_name": "Sue",
+      "last_name": "Steding",
       "title": ""
     },
     {
-      "name": "Reena Valdez",
+      "first_name": "Tim",
+      "last_name": "Stupka",
       "title": ""
     },
     {
-      "name": "Sandy Taylor",
+      "first_name": "Sandy",
+      "last_name": "Taylor",
       "title": ""
     },
     {
-      "name": "Mike Way",
+      "first_name": "Morgan",
+      "last_name": "Timberlake",
       "title": ""
     },
     {
-      "name": "Darlene Slater",
+      "first_name": "Reena",
+      "last_name": "Valdez",
       "title": ""
     },
     {
-      "name": "Tim Stupka",
+      "first_name": "Mike",
+      "last_name": "Way",
       "title": ""
     }
   ]
