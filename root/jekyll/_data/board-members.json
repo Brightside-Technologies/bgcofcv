@@ -1,13 +1,13 @@
 {
   "board-members": [
     {
-      "first_name": "Lee",
-      "last_name": "Osborne",
+      "first_name": "Wally",
+      "last_name": "Grimm",
       "title": "Chair"
     },
     {
-      "first_name": "Wally",
-      "last_name": "Grimm",
+      "first_name": "Peter",
+      "last_name": "Kim",
       "title": "Vice Chair & Treasurer"
     },
     {
@@ -16,9 +16,8 @@
       "title": "Secretary"
     },
     {
-      "first_name": "Douglas",
-      "middle_name": "P.",
-      "last_name": "Miller",
+      "first_name": "Lee",
+      "last_name": "Osborne",
       "title": "Past Chair"
     },
     {
@@ -89,11 +88,6 @@
       "title": ""
     },
     {
-      "first_name": "Peter",
-      "last_name": "Kim",
-      "title": ""
-    },
-    {
       "first_name": "George",
       "last_name": "Kirkjan",
       "title": ""
@@ -101,6 +95,12 @@
     {
       "first_name": "Darrell",
       "last_name": "Mike",
+      "title": ""
+    },
+    {
+      "first_name": "Douglas",
+      "middle_name": "P.",
+      "last_name": "Miller",
       "title": ""
     },
     {
