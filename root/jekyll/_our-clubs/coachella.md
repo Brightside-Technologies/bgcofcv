@@ -3,11 +3,11 @@ layout: clubs-layout
 title: Frank Foster & Palmer Powell Family Clubhouse
 phone: (760)-398-5287
 fax: (760)-398-8468
-email: cobgcofcv@aol.com
+email: snix@bgcofcv.org
 address: 85350 Bagdad Ave
 city: "Coachella, CA"
 zip: 92236
-unitDirector: Juanita Godwin
+unitDirector: Siah Nix
 isSchoolHours: true
 schoolHours: "2:00pm - 7:00pm"
 summerHours: "7:30am - 5:30pm"

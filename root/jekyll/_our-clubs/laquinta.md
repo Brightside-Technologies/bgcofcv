@@ -3,11 +3,11 @@ layout: clubs-layout
 title: President Gerald R. Ford Clubhouse
 phone: (760)-564-5555
 fax: (760)-564-5527
-email: twopositive@dc.rr.com
+email: mavpcm9884@gmail.com
 address: 49995 Moon River Drive
 city: "La Quinta, CA"
 zip: 92253
-unitDirector: Siah Nix
+unitDirector: Mayra DuBose
 isSchoolHours: true
 schoolHours: "2:00pm - 7:00pm"
 summerHours: "7:30am - 5:30pm"
