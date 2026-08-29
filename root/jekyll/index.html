@@ -279,7 +279,7 @@ permalink: index.html
                                 <li><a href="{{files[1].path}}" target="_blank" rel="noopener">{{files[1].basename | date_to_string: "ordinal", "US"}}</a></li>
                                 <li><a href="{{files[2].path}}" target="_blank" rel="noopener">{{files[2].basename | date_to_string: "ordinal", "US"}}</a></li>
                             </ul>
-                            <a href="{{'be-in-the-know.html' | absolute_url}}" class="p-0 btn btn-link">View All</a>
+                            {%- comment -%} <a href="{{'be-in-the-know.html' | absolute_url}}" class="p-0 btn btn-link">View All</a> {%- endcomment -%}
                         </div>
                     </div>
                     </div>
