@@ -11,7 +11,7 @@ unitDirector: Tracy Reed
 isSchoolHours: true
 schoolHours: "2:00pm - 7:00pm"
 summerHours: "7:30am - 5:30pm"
-image: assets/images/indio-club.jpg
+image: assets/images/indio-clubhouse.jpg
 calendar: assets/images/october-calendar-2019-1-.pdf
 zoomUrl: https://us04web.zoom.us/j/3103684399
 showVirtualCalendar: true
