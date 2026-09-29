@@ -3,7 +3,7 @@
 
 <head>
     {% include collection-head.html %}
-<link href="../site.f3950fd52547ebc9d5ea.min.css" rel="stylesheet"></head>
+<link href="../site.7151e6cd158228d53590.min.css" rel="stylesheet"></head>
 
 <body>
     {% include navbar.html %}
@@ -35,9 +35,11 @@
                 {% endif %}
                 <p class="lead text-justify px-3">{{content | smartify | markdownify | replace: "<p>" |
                         replace: "</p>"}}</p>
+                {%- comment -%}
                 {% if page.calendar != null %}
                 <a href="{{page.calendar | absolute_url}}" target="_blank" class="mb-4 text-uppercase btn btn-secondary">View Events</a>
                 {% endif %}
+                {%- endcomment -%}
                 <div class="list-group">
                     <div class="list-group-item border-0 bg-light d-flex">
                         {% assign nameArray = page.unitDirector | split: " " %} 

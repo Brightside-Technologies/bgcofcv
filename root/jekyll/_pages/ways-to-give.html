@@ -3,10 +3,10 @@ layout: site-layout
 title: Why Giving Matters
 hero: assets/images/ways-to-give-1.jpg
 description: >-
-  Last year **6,500** youth participated in life-changing programs and fun
-  activities at one of our four clubhouses throughout the Coachella Valley.
+  Last year **5,000** youth participated in life-changing programs and fun
+  activities at one of our four Clubhouses throughout the Coachella Valley.
   Join our life-changing movement by giving a gift that lasts a lifetime in
-  support of our Clubs! Contact your local club today for details.
+  support of our Clubs! Contact your local Club today for details.
 video:
   description: >-
     Long ago, the mice had a general council to consider what measures they
@@ -61,124 +61,169 @@ permalink: ways-to-give.html
   </div>
 </section>
 {%- endcomment -%}
-<section class="my-5 py-5 bg-primary">
+<section
+  class="ways-to-give-section my-5 py-5 bg-primary"
+  aria-labelledby="ways-to-give-title"
+>
   <div class="container">
-    <div class="row">
-      <div
-        class="col-sm-12 d-flex justify-content-center flex-column align-items-center"
-      >
-        <h3 class="text-center mb-3 text-white">Ways to Give</h3>
-        <p class="pb-5 text-white">
-          All donations are tax deductible. Federal Tax ID Number 95-6122699
+    <div class="ways-to-give-header">
+      <h2 id="ways-to-give-title" class="ways-to-give-title">Ways to Give</h2>
+      <p class="ways-to-give-tax-note">
+        All donations are tax deductible.<br />
+        Federal Tax ID Number 95-6122699
+      </p>
+    </div>
+
+    <article class="ways-to-give-zelle">
+      <div class="ways-to-give-zelle__content">
+        <h3>Give with Zelle</h3>
+        <p class="ways-to-give-zelle__instruction">
+          <strong>Open your banking app</strong> before scanning the QR code.
+        </p>
+        <p class="ways-to-give-zelle__email">
+          The email registered to the account is
+          <a href="mailto:JBrazil@bgcofcv.org"
+            ><strong>JBrazil@bgcofcv.org</strong></a
+          >.
         </p>
       </div>
-      <div class="col-sm-6 col-md-4">
-        <div
-          class="d-flex flex-column justify-content-center align-items-center p-3"
-        >
-          <i
-            class="display-4 fa fa-credit-card text-white font-weight-bold"
-            aria-hidden="true"
-          ></i>
-          <a
-            href="{{ site.data.global.donateUrl }}"
-            target="_blank"
-            rel="noopener"
-            class="stretched-link text-center text-white m-0 font-weight-bold"
-            >Credit Card</a
-          >
-        </div>
+      <div class="ways-to-give-zelle__qr">
+        <img
+          src="{{ 'assets/images/zelle-qr-code.png' | absolute_url }}"
+          alt="Zelle QR code for donations to Boys & Girls Clubs of Coachella Valley"
+          width="334"
+          height="324"
+          loading="lazy"
+        />
       </div>
-      <div class="col-sm-6 col-md-4">
-        <div
-          class="d-flex flex-column justify-content-center align-items-center p-3"
-        >
-          <i class="text-white display-4 fas fa-money-check"></i>
-          <p class="text-center text-white m-0 font-weight-bold">Check</p>
-          <small class="text-white"
-            >42600 Cook Street, Ste 120 Palm Desert, CA 92211</small
-          >
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div
-          class="d-flex flex-column justify-content-center align-items-center p-3"
-        >
-          <i class="text-white display-4 fas fa-phone"></i>
-          <p class="text-center text-white m-0 font-weight-bold">Phone</p>
-          <small class="text-white"
-            ><a
-              class="text-white font-weight-bold"
-              style="text-decoration: underline"
-              href="tel:7608361160;107"
-              >760-836-1160 ext. 107</a
-            ></small
-          >
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div
-          class="d-flex flex-column justify-content-center align-items-center p-3"
-        >
-          <i class="text-white display-4 fas fa-exchange-alt"></i>
-          <a
-            href="{{ site.data.global.donateUrl }}"
-            target="_blank"
-            rel="noopener"
-            class="stretched-link text-center text-white m-0 font-weight-bold"
-            >Electronic Funds</a
-          >
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
-        <div
-          class="d-flex flex-column justify-content-center align-items-center p-3"
-        >
-          <i class="text-white display-4 fas fa-hand-holding-usd"></i>
-          <p class="text-center text-white m-0 font-weight-bold">
-            Appreciated Funds
-          </p>
-          <small class="text-white"
-            ><a
-              class="text-white font-weight-bold"
-              style="text-decoration: underline"
-              href="tel:7608361160;107"
-              >760-836-1160 ext. 107</a
-            ></small
-          >
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4">
+    </article>
+
+    <div class="ways-to-give-grid">
+      <div class="ways-to-give-row">
         <form
           action="https://www.paypal.com/cgi-bin/webscr"
-          id="paypal-form"
           method="post"
           target="_blank"
-          class="d-flex flex-column justify-content-center align-items-center p-3 position-relative"
+          class="ways-to-give-form"
         >
           <input type="hidden" name="cmd" value="_s-xclick" />
           <input type="hidden" name="hosted_button_id" value="9SP9PWBGH6B22" />
-          <i class="text-white display-4 fab fa-paypal"></i>
-          <a
-            href="#"
-            class="font-weight-bold btn btn-link text-white stretched-link p-0"
-            role="button"
-            onclick="document.getElementById('paypal-form').submit();"
-            >Paypal</a
-          >
+          <button type="submit" class="ways-to-give-method">
+            <i
+              class="ways-to-give-method__icon fab fa-paypal"
+              aria-hidden="true"
+            ></i>
+            <span class="ways-to-give-method__copy">
+              <strong class="ways-to-give-method__label">PayPal</strong>
+              <small>Donate using your PayPal account.</small>
+            </span>
+            <i
+              class="ways-to-give-method__arrow fas fa-arrow-right"
+              aria-hidden="true"
+            ></i>
+          </button>
         </form>
+
+        <a
+          href="{{ site.data.global.donateUrl }}"
+          target="_blank"
+          rel="noopener"
+          class="ways-to-give-method"
+        >
+          <i
+            class="ways-to-give-method__icon fa fa-credit-card"
+            aria-hidden="true"
+          ></i>
+          <span class="ways-to-give-method__copy">
+            <strong class="ways-to-give-method__label">Credit Card</strong>
+            <small>Make a secure gift online.</small>
+          </span>
+          <i
+            class="ways-to-give-method__arrow fas fa-arrow-right"
+            aria-hidden="true"
+          ></i>
+        </a>
+
+        <a
+          href="{{ site.data.global.donateUrl }}"
+          target="_blank"
+          rel="noopener"
+          class="ways-to-give-method"
+        >
+          <i
+            class="ways-to-give-method__icon fas fa-exchange-alt"
+            aria-hidden="true"
+          ></i>
+          <span class="ways-to-give-method__copy">
+            <strong class="ways-to-give-method__label">Electronic Funds</strong>
+            <small>Give through our secure donation form.</small>
+          </span>
+          <i
+            class="ways-to-give-method__arrow fas fa-arrow-right"
+            aria-hidden="true"
+          ></i>
+        </a>
       </div>
-      <div class="col-sm-12">
-        <p class="lead pt-5 text-white text-center">
-          For <strong>planned giving</strong> click
-          <a
-            href="{{ 'assets/planned-giving-bequests.pdf' | absolute_url }}"
-            target="_blank"
-            class="font-weight-bold text-white"
-            rel="noopener noreferrer"
-            >here</a
-          >
-        </p>
+
+      <div class="ways-to-give-row">
+        <div class="ways-to-give-method ways-to-give-method--static">
+          <i
+            class="ways-to-give-method__icon fas fa-money-check"
+            aria-hidden="true"
+          ></i>
+          <span class="ways-to-give-method__copy">
+            <strong class="ways-to-give-method__label">Check</strong>
+            <small>42600 Cook Street, Ste 120<br />Palm Desert, CA 92211</small>
+          </span>
+        </div>
+
+        <a href="tel:7608361160;107" class="ways-to-give-method">
+          <i
+            class="ways-to-give-method__icon fas fa-phone"
+            aria-hidden="true"
+          ></i>
+          <span class="ways-to-give-method__copy">
+            <strong class="ways-to-give-method__label">Phone</strong>
+            <small>760-836-1160 ext. 107</small>
+          </span>
+          <i
+            class="ways-to-give-method__arrow fas fa-arrow-right"
+            aria-hidden="true"
+          ></i>
+        </a>
+
+        <a href="tel:7608361160;107" class="ways-to-give-method">
+          <i
+            class="ways-to-give-method__icon fas fa-hand-holding-usd"
+            aria-hidden="true"
+          ></i>
+          <span class="ways-to-give-method__copy">
+            <strong class="ways-to-give-method__label"
+              >Appreciated Funds</strong
+            >
+            <small>Call 760-836-1160 ext. 107.</small>
+          </span>
+          <i
+            class="ways-to-give-method__arrow fas fa-arrow-right"
+            aria-hidden="true"
+          ></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="ways-to-give-planned">
+      <div>
+        <h3>Planning for the future?</h3>
+        <p>Make a lasting impact through a planned gift.</p>
+      </div>
+      <div>
+        <a
+          href="{{ 'assets/planned-giving-bequests.pdf' | absolute_url }}"
+          target="_blank"
+          class="btn btn-light text-secondary font-weight-bold"
+          rel="noopener noreferrer"
+          >Explore Planned Giving</a
+        >
       </div>
     </div>
   </div>
@@ -186,34 +231,18 @@ permalink: ways-to-give.html
 <section class="py-5">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-4 my-1">
+      <div class="col-sm-12 col-md-6 col-lg-6 my-1">
         <div class="card border-0 shadow h-100">
           {% include img_srcset.html class="card-img-top" alt="One Time
-          Donation" style="height: 300px" filename="presidents-circle.jpg"%}
+          Donation" style="height: 300px"
+          filename="presidents-circle-logo-2024.png"%}
           <div class="card-body px-1 d-flex flex-column align-items-center">
             <div>
               <a
                 href="{{ 'ways-to-give/presidents-circle.html' | absolute_url }}"
                 class="btn btn-light font-weight-bold text-secondary btn-sm btn-give text-uppercase stretched-link"
               >
-                Presidents Circle
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-4 my-1">
-        <div class="card border-0 shadow h-100">
-          {% include img_srcset.html class="card-img-top" alt="Friends of Boys
-          and Girls Club Coachella Valley " style="height: 300px"
-          filename="friends-of-bgcofcv.jpg" %}
-          <div class="card-body px-1 d-flex flex-column align-items-center">
-            <div>
-              <a
-                href="{{ 'ways-to-give/friends.html' | absolute_url }}"
-                class="btn btn-light font-weight-bold text-secondary btn-sm btn-give text-uppercase stretched-link"
-              >
-                Friends
+                President's Circle
               </a>
             </div>
           </div>
@@ -237,7 +266,7 @@ permalink: ways-to-give.html
                     </div>
                 </div>
             </div> -->
-      <div class="col-sm-12 col-md-6 col-lg-4 my-1">
+      <div class="col-sm-12 col-md-6 col-lg-6 my-1">
         <div class="card border-0 shadow h-100">
           {% include img_srcset.html class="card-img-top" alt="Become a
           Fundraiser" style="height: 300px" filename="kids.jpg" %}
@@ -287,6 +316,7 @@ permalink: ways-to-give.html
     </div>
 </section> -->
 {%- endcomment -%}
+{%- comment -%}
 <section class="py-5">
   <div class="container">
     <div class="row">
@@ -341,3 +371,4 @@ permalink: ways-to-give.html
     </div>
   </div>
 </section>
+{%- endcomment -%}

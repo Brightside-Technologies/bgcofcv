@@ -1,5 +1,10 @@
-<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
-    <div class="d-flex flex-column my-3">
+{% if include.featured %}
+<div class="col-sm-12 col-md-6 col-xl-3 mb-3 mb-xl-0">
+    <div class="board-member board-member--officer">
+{% else %}
+<div class="board-member board-member--director">
+    <div class="board-member__content">
+{% endif %}
         {% assign prefix = include.member.prefix | default: "" %}
         {% assign middle_name = include.member.middle_name | default: "" %}
         {% assign suffix = include.member.suffix | default: "" %}
@@ -16,9 +21,9 @@
         {% if suffix != "" %}
         {% assign display_name = display_name | append: ", " | append: suffix %}
         {% endif %}
-        <p class="lead m-0">{{ display_name }}</p>
+        <p class="board-member__name">{{ display_name }}</p>
         {% if title != "" %}
-        <small class="text-muted">{{ title }}</small>
+        <small class="board-member__title">{{ title }}</small>
         {% endif %}
     </div>
 </div>
