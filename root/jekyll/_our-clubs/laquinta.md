@@ -117,4 +117,4 @@ virtualSchedule:
 ---
 
 President Gerald R. Ford Boys & Girls Club (La Quinta) opened in 1994 and dedicated to
-President Ford with a ceremony attended by General Colin Powell. This clubhouse is a great space that youth have been coming together after school for over two decades.
+President Ford with a ceremony attended by General Colin Powell. This Clubhouse is a great space that youth have been coming together after school for over two decades.

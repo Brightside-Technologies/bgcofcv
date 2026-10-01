@@ -61,4 +61,4 @@ virtualSchedule:
         subject: "Storytelling with Ms. Silvia"
 ---
 
-With the vision and support of the Foster and Powell families, this clubhouse opened in 2002 and was funded in large part from a California Youth Authority grant. Located next to Bobby Duke Middle School and Palm View Elementary School in Coachella, this club hosts a variety of after-school and summer activities. Today this club still benefits from the involvement and support of the Foster and Powell children and grandchildren.
+With the vision and support of the Foster and Powell families, this Clubhouse opened in 2002 and was funded in large part from a California Youth Authority grant. Located next to Bobby Duke Middle School and Palm View Elementary School in Coachella, this Club hosts a variety of after-school and summer activities. Today this Club still benefits from the involvement and support of the Foster and Powell children and grandchildren.

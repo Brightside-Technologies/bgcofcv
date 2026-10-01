@@ -64,4 +64,4 @@ virtualSchedule:
         subject: "Where Am I/Who Am I with Ron"
 ---
 
-Our flagship clubhouse, began serving the community in 1966. Directly next to Thomas Jefferson Middle School and just blocks from Van Buren Elementary School, the club boasts a newly renovated gymnasium. This facility includes the separate 9,000 square foot Smilow Family Teen Center and a 4,400 square foot Boxing and Athletic Center.
+Our flagship Clubhouse, began serving the community in 1966. Directly next to Thomas Jefferson Middle School and just blocks from Van Buren Elementary School, the club boasts a newly renovated gymnasium. This facility includes the separate 9,000 square foot Smilow Family Teen Center and a 4,400 square foot Boxing and Athletic Center.
