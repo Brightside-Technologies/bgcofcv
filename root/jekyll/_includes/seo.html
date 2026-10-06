@@ -1,0 +1,38 @@
+{%- assign seo_entry = site.data.seo[page.url] -%}
+{%- assign seo_topic = page.seo_title | default: seo_entry.title | default: page.title | strip_html | decode_html_entities | normalize_whitespace -%}
+{%- if page.url == '/index.html' or page.url == '/' -%}
+  {%- assign seo_title = site.data.metadata.title -%}
+{%- else -%}
+  {%- assign seo_title = seo_topic | append: ' | ' | append: site.data.metadata.title -%}
+{%- endif -%}
+{%- assign seo_description = page.seo_description | default: seo_entry.description | default: page.description | default: page.excerpt | default: page.content | markdownify | strip_html | decode_html_entities | normalize_whitespace | strip -%}
+{%- if seo_description == '' -%}
+  {%- assign seo_description = site.data.metadata.description -%}
+{%- endif -%}
+{%- assign seo_description = seo_description | truncate: 180 -%}
+{%- assign seo_image = page.seo_image | default: page.image | default: page.hero | default: site.data.metadata.image | absolute_url -%}
+{%- capture seo_path -%}{%- include canonical-path.html url=page.url -%}{%- endcapture -%}
+{%- assign seo_url = seo_path | absolute_url -%}
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="robots" content="{% if page.noindex %}noindex, follow{% else %}index, follow{% endif %}" />
+<title>{{ seo_title | escape }}</title>
+<meta name="description" content="{{ seo_description | escape }}" />
+<link rel="canonical" href="{{ seo_url | escape }}" />
+<meta itemprop="name" content="{{ seo_title | escape }}" />
+<meta itemprop="description" content="{{ seo_description | escape }}" />
+<meta itemprop="image" content="{{ seo_image | escape }}" />
+<meta property="og:site_name" content="{{ site.data.metadata.title | escape }}" />
+<meta property="og:title" content="{{ seo_title | escape }}" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="{{ seo_description | escape }}" />
+<meta property="og:image" content="{{ seo_image | escape }}" />
+<meta property="og:url" content="{{ seo_url | escape }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ seo_title | escape }}" />
+<meta name="twitter:description" content="{{ seo_description | escape }}" />
+<meta name="twitter:image" content="{{ seo_image | escape }}" />
+<meta name="twitter:url" content="{{ seo_url | escape }}" />
+<link rel="shortcut icon" href="{{ site.data.metadata.favicon | absolute_url }}" />
+{% include organization-schema.html %}

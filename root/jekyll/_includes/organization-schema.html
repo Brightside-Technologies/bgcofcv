@@ -1,0 +1,75 @@
+{%- assign organization_url = '/' | absolute_url -%}
+{%- assign organization_id = organization_url | append: '#organization' -%}
+{%- if page.url == '/index.html' or page.url == '/' -%}
+{%- assign office_city = site.data.global.location.city | remove: ',' | strip -%}
+{%- assign office_phone = site.data.global.phone | remove: '(' | remove: ')' | remove: ' ' | remove: '-' | prepend: '+1' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": {{ organization_id | jsonify }},
+  "name": {{ site.data.metadata.title | jsonify | replace: '</', '<\/' }},
+  "url": {{ organization_url | jsonify }},
+  "logo": {{ '/assets/images/hero-logo.png' | absolute_url | jsonify }},
+  "description": {{ seo_description | jsonify | replace: '</', '<\/' }},
+  "telephone": {{ office_phone | jsonify }},
+  "taxID": "95-6122699",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": {{ site.data.global.location.address | jsonify | replace: '</', '<\/' }},
+    "addressLocality": {{ office_city | jsonify }},
+    "addressRegion": {{ site.data.global.location.state | jsonify }},
+    "postalCode": {{ site.data.global.location.zip | jsonify }},
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    {{ site.data.global.facebookUrl | jsonify }},
+    {{ site.data.global.instagramUrl | jsonify }},
+    {{ site.data.global.twitterUrl | jsonify }}
+  ]
+}
+</script>
+{%- elsif page.collection == 'our-clubs' -%}
+{%- assign club_city = page.city | split: ',' | first | strip -%}
+{%- assign club_region = page.city | split: ',' | last | strip -%}
+{%- assign club_phone = page.phone | remove: '(' | remove: ')' | remove: '-' | remove: ' ' | prepend: '+1' -%}
+{%- assign clubs_url = '/our-clubs' | absolute_url -%}
+{%- assign club_id = seo_url | append: '#clubhouse' -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": {{ club_id | jsonify }},
+      "name": {{ page.title | jsonify | replace: '</', '<\/' }},
+      "url": {{ seo_url | jsonify }},
+      "image": {{ seo_image | jsonify }},
+      "description": {{ seo_description | jsonify | replace: '</', '<\/' }},
+      "telephone": {{ club_phone | jsonify }},
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": {{ page.address | jsonify | replace: '</', '<\/' }},
+        "addressLocality": {{ club_city | jsonify }},
+        "addressRegion": {{ club_region | jsonify }},
+        "postalCode": {{ page.zip | append: '' | jsonify }},
+        "addressCountry": "US"
+      },
+      "parentOrganization": {
+        "@type": "Organization",
+        "@id": {{ organization_id | jsonify }},
+        "name": {{ site.data.metadata.title | jsonify }}
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": {{ organization_url | jsonify }} },
+        { "@type": "ListItem", "position": 2, "name": "Our Clubs", "item": {{ clubs_url | jsonify }} },
+        { "@type": "ListItem", "position": 3, "name": {{ page.title | jsonify | replace: '</', '<\/' }}, "item": {{ seo_url | jsonify }} }
+      ]
+    }
+  ]
+}
+</script>
+{%- endif -%}

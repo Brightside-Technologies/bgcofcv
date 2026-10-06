@@ -1,0 +1,17 @@
+Configuration file: C:/Users/hola/Workspace/bgcofcv/_config.yml
+            Source: C:/Users/hola/Workspace/bgcofcv/root/jekyll
+       Destination: C:/Users/hola/Workspace/bgcofcv/dist
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+           Warning: Excerpt modified in _events/tony-reagins-golf-tournament.html!
+                    Found a Liquid block containing the excerpt separator "\n\n". 
+                    The block has been modified with the appropriate closing tag.
+                    Feel free to define a custom excerpt or excerpt_separator in the
+                    document's Front Matter if the generated excerpt is unsatisfactory.
+           Warning: Excerpt modified in _events/virtual-grand-auction-2022.html!
+                    Found a Liquid block containing the excerpt separator "\n\n". 
+                    The block has been modified with the appropriate closing tag.
+                    Feel free to define a custom excerpt or excerpt_separator in the
+                    document's Front Matter if the generated excerpt is unsatisfactory.
+                    done in 17.908 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

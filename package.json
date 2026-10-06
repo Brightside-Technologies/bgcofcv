@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
+        "test": "bundle exec ruby tests/seo_render_test.rb && node tests/seo.test.cjs",
         "start": "bundle exec jekyll serve --config _config.dev.yml",
         "dev": "bundle exec jekyll serve --config _config.dev.yml",
         "build": "webpack && bundle exec jekyll build",

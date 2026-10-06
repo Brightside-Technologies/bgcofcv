@@ -1,0 +1,3 @@
+{%- assign canonical_path = include.url | replace: '/index.html', '/' -%}
+{%- assign canonical_entry = site.data.seo[include.url] -%}
+{{- canonical_entry.canonical | default: canonical_path -}}

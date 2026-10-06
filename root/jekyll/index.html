@@ -32,7 +32,7 @@ permalink: index.html
                     <p class="h2 text-center text-white">Thousands of Coachella Valley youth (and their families) served annually</p>
                 </div>
                 {%- comment -%} <!-- <h2 class="h1 text-center text-uppercase font-weight-bold text-white py-4"> 6,004 Coachella Valley youth served last year</h2> --> {%- endcomment -%}
-                <img class="hero-logo" src={{page.heroLogo | absolute_url}} width="250">
+                <img class="hero-logo" src="{{ page.heroLogo | absolute_url }}" width="250" height="134" alt="Boys &amp; Girls Clubs of Coachella Valley">
             {%- comment -%} <!-- </div>     --> {%- endcomment -%}
         </div>
         <span style="z-index: -1" class="mask mask-25"></span>
@@ -42,6 +42,7 @@ permalink: index.html
     rel="noopener"
     role="button" class="call-to-action shadow btn btn-secondary px-5 py-4 text-white btn-lg mx-auto">DONATE NOW</a>
 </section>
+{% include home-intro.html %}
 <section class="container py-5">
   <div class="row">
     <div class="col-sm-12">
@@ -49,6 +50,10 @@ permalink: index.html
         class="img-fluid w-100"
         src="/assets/images/impact-report-img.png"
         alt="Impact report"
+        width="1427"
+        height="1102"
+        loading="lazy"
+        decoding="async"
       />
     </div>
   </div>
@@ -61,6 +66,10 @@ permalink: index.html
         class="img-fluid w-100"
         src="/assets/images/presidents-circle-donate-info.jpg"
         alt="President's Circle"
+        width="1650"
+        height="1275"
+        loading="lazy"
+        decoding="async"
       />
       </a>
     </div>
@@ -73,6 +82,10 @@ permalink: index.html
         class="img-fluid w-100"
         src="/assets/images/club-locations.png"
         alt="Boys &amp; Girls Clubs of Coachella Valley locations"
+        width="1536"
+        height="1024"
+        loading="lazy"
+        decoding="async"
       />
     </div>
   </div>
@@ -84,6 +97,10 @@ permalink: index.html
         class="img-fluid w-100"
         src="/assets/images/mission-vision-core-beliefs.png"
         alt="Mission, vision, and core beliefs"
+        width="1536"
+        height="1024"
+        loading="lazy"
+        decoding="async"
       />
     </div>
   </div>

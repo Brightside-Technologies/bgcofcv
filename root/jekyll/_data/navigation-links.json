@@ -1,34 +1,34 @@
 [
     {
-        "url": "index.html",
+        "url": "/",
         "label": "Home"
     },
     {
-        "url": "our-clubs.html",
+        "url": "/our-clubs",
         "label": "Our Clubs"
     },
     {
-        "url": "programs.html",
+        "url": "/programs",
         "label": "Programs"
     },
     {
-        "url": "ways-to-give.html",
+        "url": "/ways-to-give",
         "label": "Ways to Give"
     },
     {
-        "url": "events.html",
+        "url": "/events",
         "label": "Events"
     },
     {
-        "url": "team.html",
+        "url": "/team",
         "label": "Team"
     },
     {
-        "url": "alumni.html",
+        "url": "/alumni",
         "label": "Alumni"
     },
     {
-        "url": "contact-us.html",
+        "url": "/contact-us",
         "label": "Contact Us"
     }
 ]

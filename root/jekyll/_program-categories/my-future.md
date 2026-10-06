@@ -11,7 +11,7 @@ programs:
     description: >-
       In each of the five tutorials (Web Tech, Design Tech, Photo Tech, Music
       Tech and Movie Tech), members advance through three levels of animated
-      lessons online at [myclubmylife.com](myclubmylife.com) and participate in
+      lessons online and participate in
       instructor-led group activities. Club members ages 10 to 18 are invited to
       submit their artwork to the annual .
     image: assets/images/digital-arts-festival.jpg
@@ -36,7 +36,7 @@ programs:
       age-appropriate modules; Clicky's Web World (for ages 6 to 7);
       NetSmartz Rules (for ages 8 to 12); and I-360 (for ages 13 to 18). To
       learn more, youth ages 12 and younger can go directly to
-      [netsmartz.org](netsmartz.org). Funded by the U.S. Department of Justice,
+      [NetSmartz](https://www.missingkids.org/netsmartz/home). Funded by the U.S. Department of Justice,
       Office of Justice Programs.
     image: assets/images/netsmartz.png
   - title: Clay Tech

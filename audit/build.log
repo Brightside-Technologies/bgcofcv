@@ -1,0 +1,1406 @@
+
+> bgcofcv@1.0.0 build C:\Users\hola\Workspace\bgcofcv
+> webpack && bundle exec jekyll build
+
+clean-webpack-plugin: C:\Users\hola\Workspace\bgcofcv\root\jekyll\*.js has been removed.
+clean-webpack-plugin: C:\Users\hola\Workspace\bgcofcv\root\jekyll\*.css has been removed.
+clean-webpack-plugin: C:\Users\hola\Workspace\bgcofcv\root\jekyll\*.map has been removed.
+clean-webpack-plugin: C:\Users\hola\Workspace\bgcofcv\root\jekyll\assets\* has been removed.
+clean-webpack-plugin: C:\Users\hola\Workspace\bgcofcv\root\jekyll\assets\images\* has been removed.
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+Hash: b855db44029b044353de
+Version: webpack 4.44.2
+Time: 418145ms
+Built at: 10/02/2026 11:36:35 AM
+                                                                                                      Asset       Size  Chunks                                Chunk Names
+                                                                             1.site.6578b5831bc171de518c.js     83 KiB       1  [emitted] [immutable]         vendors~date-fns
+                                                                         1.site.6578b5831bc171de518c.js.map    638 KiB       1  [emitted] [dev]               vendors~date-fns
+                                                                                 _data\images-metadata.json    480 KiB          [emitted]              [big]  
+                                                                                  _includes\img_srcset.html  818 bytes          [emitted]                     
+                                                                                 _layouts\clubs-layout.html   6.19 KiB          [emitted]                     
+                                                                                _layouts\events-layout.html   17.4 KiB          [emitted]                     
+                                                                                  _layouts\home-layout.html  415 bytes          [emitted]                     
+                                                                              _layouts\programs-layout.html   3.73 KiB          [emitted]                     
+                                                                                  _layouts\site-layout.html  399 bytes          [emitted]                     
+                                                 assets/2024-tony-reagins-golf-touranament-registration.pdf    303 KiB          [emitted]              [big]  
+                                                                    assets/2025-auction-donation-packet.pdf   4.34 MiB          [emitted]              [big]  
+                                                                     assets/2025-swg-player-application.pdf   1.71 MiB          [emitted]              [big]  
+                                                                    assets/2025-swg-sponsor-application.pdf   1.51 MiB          [emitted]              [big]  
+                                                                     assets/2026 SWG Schedule of Events.pdf    427 KiB          [emitted]              [big]  
+                                                              assets/2026 SWG Sponsorship Opportunities.pdf    482 KiB          [emitted]              [big]  
+                                                                                       assets/COVID-FAQ.pdf   52.1 KiB          [emitted]                     
+                                                                                  assets/bali-trip-info.pdf   2.26 MiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2020-07-03.pdf    902 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2020-08-14.pdf    733 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2020-08-28.pdf    307 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2020-09-18.pdf    338 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2020-10-07.pdf    675 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2020-11-30.pdf    359 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2021-01-19.pdf    412 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2021-02-17.pdf    335 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2021-03-22.pdf    395 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2021-06-01.pdf    899 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2021-07-07.pdf    810 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2021-09-21.pdf    553 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2021-11-23.pdf   1000 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2022-01-22.pdf   1010 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2022-04-12.pdf    633 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2022-10-11.pdf    542 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2023-01-20.pdf    655 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2023-04-17.pdf    513 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2023-07-01.pdf    472 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2023-09-01.pdf    488 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2023-11-15.pdf    485 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2024-04-01.pdf    507 KiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2024-08-01.pdf   1.65 MiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2025-06-01.pdf   1.31 MiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2025-08-01.pdf   1.59 MiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2026-03-21.pdf   2.03 MiB          [emitted]              [big]  
+                                                                       assets/be-in-the-know/2026-08-01.pdf   2.14 MiB          [emitted]              [big]  
+                                                                      assets/bgc-membership-application.pdf   60.4 KiB          [emitted]                     
+                                                                             assets/bgc-membership-form.pdf    527 KiB          [emitted]              [big]  
+                                                                                  assets/bgc-newsletter.pdf    1.4 MiB          [emitted]              [big]  
+                                                                 assets/bgcofcv-annual-report-2017-2018.pdf    898 KiB          [emitted]              [big]  
+                                                                   assets/bgcofcv-annual-statement-2019.pdf   1.15 MiB          [emitted]              [big]  
+                                                                 assets/bgcofcv-impact-report-2017-2018.pdf   1.12 MiB          [emitted]              [big]  
+                                                                       assets/car-drawing-purchase-form.pdf    951 KiB          [emitted]              [big]  
+                                                                        assets/car-ticket-purchase-2023.pdf    687 KiB          [emitted]              [big]  
+                                                                   assets/friends-update-september-2020.pdf    338 KiB          [emitted]              [big]  
+                                                                      assets/holiday-charity-drive-form.pdf    339 KiB          [emitted]              [big]  
+                               assets/images/1-international-paper-7bec4d4102ae024fe5e45c89bdf7e60b-640.png   11.4 KiB          [emitted]                     
+                               assets/images/1-international-paper-8c9be46e01b51f82426e086d82e15a63-500.png    8.8 KiB          [emitted]                     
+                                                                    assets/images/1-international-paper.png   9.52 KiB          [emitted]                     
+                                     assets/images/10-des-pac-prop-a7312004b86d834b85fa0d29de7f5584-500.png   94.2 KiB          [emitted]                     
+                                     assets/images/10-des-pac-prop-edfc6dd6bf4a55392531c57ac40592e7-586.png    123 KiB          [emitted]                     
+                                                                          assets/images/10-des-pac-prop.png    144 KiB          [emitted]                     
+                                  assets/images/12-western-growers-07515ff186e8621ad59e4d8915fbefff-500.png   59.9 KiB          [emitted]                     
+                                 assets/images/12-western-growers-5115c0413d053ac1bd059a01d3d46909-1000.png    168 KiB          [emitted]                     
+                                  assets/images/12-western-growers-f49ddbcc2be70ce14e6cdd93ae3f9b78-750.png    109 KiB          [emitted]                     
+                                                                       assets/images/12-western-growers.png    156 KiB          [emitted]                     
+                                 assets/images/13-anthonyvineyards-90d4c02de9452135463f0f4a99869fb7-211.png     44 KiB          [emitted]                     
+                                                                      assets/images/13-anthonyvineyards.png   43.6 KiB          [emitted]                     
+                               assets/images/14-desert-valley-date-419ad662a7bf6a2c20ac56ac9ecddd05-245.png   73.4 KiB          [emitted]                     
+                                                                    assets/images/14-desert-valley-date.png   70.5 KiB          [emitted]                     
+                                           assets/images/15-dimare-6828e92e4f28d06249c45ebf5d686844-200.jpg   20.5 KiB          [emitted]                     
+                                                                                assets/images/15-dimare.jpg   75.2 KiB          [emitted]                     
+                                   assets/images/16-foster-gardner-bd560b01d84b537f4a1d7610cd358aab-324.png   21.7 KiB          [emitted]                     
+                                                                        assets/images/16-foster-gardner.png   15.5 KiB          [emitted]                     
+                                  assets/images/17-perricone-farms-4bbb589400d29af61670414c4db43d73-597.png    255 KiB          [emitted]              [big]  
+                                  assets/images/17-perricone-farms-de72c8c27bf18c36f79d1b828519fa49-500.png    186 KiB          [emitted]                     
+                                                                       assets/images/17-perricone-farms.png    288 KiB          [emitted]              [big]  
+                               assets/images/18-peter-rabbit-farms-0a6f0f548ef42e4e9d553c8f8a4eea52-530.png   92.4 KiB          [emitted]                     
+                               assets/images/18-peter-rabbit-farms-add26db5a860a8d1cd3b6b28e3d884ed-500.png   88.2 KiB          [emitted]                     
+                                                                    assets/images/18-peter-rabbit-farms.png    110 KiB          [emitted]                     
+                                       assets/images/19-prime-time-e0927ebb9b26411a90334149fa9df8d1-401.png   61.9 KiB          [emitted]                     
+                                                                            assets/images/19-prime-time.png   70.9 KiB          [emitted]                     
+                              assets/images/20-richard-bagdasarian-5ee4f34de6399de12b1019418b1fa753-500.png   76.3 KiB          [emitted]                     
+                              assets/images/20-richard-bagdasarian-6b882fb43ea59345af50f1ed9528d58c-750.png    157 KiB          [emitted]                     
+                              assets/images/20-richard-bagdasarian-b5e588c7747d63a98a8dc4499d86bdd3-767.png    171 KiB          [emitted]                     
+                                                                   assets/images/20-richard-bagdasarian.png    176 KiB          [emitted]                     
+                     assets/images/20190123_boysandgirlsclub_0055-19f7db086a11a9592256c9c430de2f5f-1000.jpg    125 KiB          [emitted]                     
+                      assets/images/20190123_boysandgirlsclub_0055-bdf32caf62c1a075faf08daaa5d9350f-750.jpg   81.3 KiB          [emitted]                     
+                      assets/images/20190123_boysandgirlsclub_0055-e4a2879a16962d21cf46aa2a959211f6-500.jpg   45.4 KiB          [emitted]                     
+                                                           assets/images/20190123_boysandgirlsclub_0055.jpg   1.33 MiB          [emitted]              [big]  
+                      assets/images/20190123_boysandgirlsclub_0068-0993711bb933e4bbde4c1f34981b4ad2-750.jpg   81.2 KiB          [emitted]                     
+                     assets/images/20190123_boysandgirlsclub_0068-55ff8bce30834bdb9f0ad1302d2d8bfd-1000.jpg    125 KiB          [emitted]                     
+                      assets/images/20190123_boysandgirlsclub_0068-e923eac5904555b9dc2c4a5b4ddced15-500.jpg   44.9 KiB          [emitted]                     
+                                                           assets/images/20190123_boysandgirlsclub_0068.jpg   1.21 MiB          [emitted]              [big]  
+                                         assets/images/2020-alumni-5c02ff7718dc8777aa41a3eb60955bbb-500.png    102 KiB          [emitted]                     
+                                        assets/images/2020-alumni-85cb577d99aaa1d1f6b194d8d36bead7-1000.png    253 KiB          [emitted]              [big]  
+                                         assets/images/2020-alumni-b2b2bcfe6187eb11ea02711b1305f4b7-750.png    178 KiB          [emitted]                     
+                                                                              assets/images/2020-alumni.png    272 KiB          [emitted]              [big]  
+                              assets/images/21-shields-date-garden-f59068ef42697432754c4782a7d893f2-623.png    175 KiB          [emitted]                     
+                              assets/images/21-shields-date-garden-ffbe25fd49fcae268cfb8bad93baca59-500.png    120 KiB          [emitted]                     
+                                                                   assets/images/21-shields-date-garden.png    208 KiB          [emitted]                     
+                                      assets/images/4-legacy-farms-40095c04064dff6194a7236ead063330-240.png     36 KiB          [emitted]                     
+                                                                           assets/images/4-legacy-farms.png   38.3 KiB          [emitted]                     
+                                     assets/images/5-osbornerincon-82c40200e072e31788055a10a3881f69-564.png   48.6 KiB          [emitted]                     
+                                     assets/images/5-osbornerincon-d38c7aa3d3b5de3d7b76ea830a70d315-500.png   40.2 KiB          [emitted]                     
+                                                                          assets/images/5-osbornerincon.png   54.7 KiB          [emitted]                     
+                                        assets/images/6-weingarten-20946569bdcecf8a361bc04f398e0d30-400.png   38.4 KiB          [emitted]                     
+                                                                             assets/images/6-weingarten.png   21.2 KiB          [emitted]                     
+                                               assets/images/7-rdo-1f3624fc40c497a2b352510555d06c75-500.png   42.5 KiB          [emitted]                     
+                                               assets/images/7-rdo-c1263e89f02178a7630908e637355419-820.png   85.7 KiB          [emitted]                     
+                                               assets/images/7-rdo-e9463cc4d4dfa0e3f3ce87a29589aa3a-750.png   79.8 KiB          [emitted]                     
+                                                                                    assets/images/7-rdo.png     81 KiB          [emitted]                     
+                                        assets/images/9-bochnewich-befcad31e6a403e295cf788590b94636-956.png   23.6 KiB          [emitted]                     
+                                        assets/images/9-bochnewich-c7a25a3266dc7ba80b5190cd73bc94d1-750.png   77.7 KiB          [emitted]                     
+                                        assets/images/9-bochnewich-fef8f8826208bc268bd02912d3cb967a-500.png   51.5 KiB          [emitted]                     
+                                                                             assets/images/9-bochnewich.png   7.23 KiB          [emitted]                     
+                        assets/images/BGCCV DS Auction 2020_Page_1-0cfe7c94b8fbdbdd2ba58fc8f381a80a-816.png    309 KiB          [emitted]              [big]  
+                        assets/images/BGCCV DS Auction 2020_Page_1-b7be3b07d1ea70ec415f7242766da673-500.png    209 KiB          [emitted]                     
+                        assets/images/BGCCV DS Auction 2020_Page_1-ec22db15bd89be63463916e928f7e254-750.png    378 KiB          [emitted]              [big]  
+                                                             assets/images/BGCCV DS Auction 2020_Page_1.png    261 KiB          [emitted]              [big]  
+                       assets/images/BGCCV DS Auction 2020_Page_2-57942865ae5ef1f115da23d81d66364b-1000.png    431 KiB          [emitted]              [big]  
+                        assets/images/BGCCV DS Auction 2020_Page_2-bd5ea5850734ae9b8b4cf490f1f8596f-500.png    185 KiB          [emitted]                     
+                        assets/images/BGCCV DS Auction 2020_Page_2-cfcbe872b089e9c6ad885fe6d4fb4b09-750.png    326 KiB          [emitted]              [big]  
+                                                             assets/images/BGCCV DS Auction 2020_Page_2.png   86.9 KiB          [emitted]                     
+                          assets/images/Banner+1+Summer+Camp+2019-4dcf65e14fadb8b4d8327965e2e9ceac-1000.jpg   89.1 KiB          [emitted]                     
+                           assets/images/Banner+1+Summer+Camp+2019-c567c7c73940553c0a49fd94dd14be0d-750.jpg   56.5 KiB          [emitted]                     
+                           assets/images/Banner+1+Summer+Camp+2019-c9d0d957ae5898e5a6b244d3d9e3114f-500.jpg   32.9 KiB          [emitted]                     
+                                                                assets/images/Banner+1+Summer+Camp+2019.jpg   91.1 KiB          [emitted]                     
+                         assets/images/Desert Sun 4.7.2017_Page_1-31ff3b5a2d82599536070b7f05c640af-1000.png    870 KiB          [emitted]              [big]  
+                          assets/images/Desert Sun 4.7.2017_Page_1-4270bb4c27d740e4ed376439183b1436-750.png    520 KiB          [emitted]              [big]  
+                          assets/images/Desert Sun 4.7.2017_Page_1-fb1889c5309097b2dfd1590d17f05814-500.png    251 KiB          [emitted]              [big]  
+                                                               assets/images/Desert Sun 4.7.2017_Page_1.png   4.65 MiB          [emitted]              [big]  
+                          assets/images/Desert Sun 4.7.2017_Page_2-70f93e419e97ac3196c68a36df128884-500.png    488 KiB          [emitted]              [big]  
+                          assets/images/Desert Sun 4.7.2017_Page_2-765e9b0d5224857f04f17a7966191bd5-750.png      1 MiB          [emitted]              [big]  
+                         assets/images/Desert Sun 4.7.2017_Page_2-7a9ad4ef1ce07ad6c553811bad4b34e8-1000.png   1.69 MiB          [emitted]              [big]  
+                                                               assets/images/Desert Sun 4.7.2017_Page_2.png   3.85 MiB          [emitted]              [big]  
+                                 assets/images/Desert Sun 5.7.2017-95f79e72a6489991d760bdd27df215aa-500.png    453 KiB          [emitted]              [big]  
+                                 assets/images/Desert Sun 5.7.2017-d447471ee5441ca966e0b15d5caf3eb2-750.png    949 KiB          [emitted]              [big]  
+                                assets/images/Desert Sun 5.7.2017-e62e7a2397ffb7587a98de0ea55b4921-1000.png   1.57 MiB          [emitted]              [big]  
+                                                                      assets/images/Desert Sun 5.7.2017.png   3.75 MiB          [emitted]              [big]  
+                   assets/images/Desert Sun article 4.15.16_Page_1-1044dac0adaedc225033f6a423d3757d-750.png   1010 KiB          [emitted]              [big]  
+                   assets/images/Desert Sun article 4.15.16_Page_1-29f9f7d9cb05a8fef02256163881169d-500.png    530 KiB          [emitted]              [big]  
+                  assets/images/Desert Sun article 4.15.16_Page_1-c43fdaf41a489b85e4eae44c708f5ef9-1000.png   1.56 MiB          [emitted]              [big]  
+                                                        assets/images/Desert Sun article 4.15.16_Page_1.png   5.08 MiB          [emitted]              [big]  
+                  assets/images/Desert Sun article 4.15.16_Page_2-3a3c774e3986d0e85bac21fb1b231d8b-1000.png   1.75 MiB          [emitted]              [big]  
+                   assets/images/Desert Sun article 4.15.16_Page_2-9acb626bc95b7a0a5ff3bd42b9f33f70-500.png    645 KiB          [emitted]              [big]  
+                   assets/images/Desert Sun article 4.15.16_Page_2-d7e8a862e5e5348004fd2e0f87a7c1db-750.png   1.18 MiB          [emitted]              [big]  
+                                                        assets/images/Desert Sun article 4.15.16_Page_2.png    594 KiB          [emitted]              [big]  
+          assets/images/Desert Sun post event coverage 2015_Page_1-330543a0e4e58c6cfc33641b725cb0a6-500.png    535 KiB          [emitted]              [big]  
+         assets/images/Desert Sun post event coverage 2015_Page_1-61d9ef55a3ba86167d178e398186d49b-1000.png   1.52 MiB          [emitted]              [big]  
+          assets/images/Desert Sun post event coverage 2015_Page_1-94fdc526f4ec1281967cb8d87da68b2c-750.png   1010 KiB          [emitted]              [big]  
+                                               assets/images/Desert Sun post event coverage 2015_Page_1.png   1.77 MiB          [emitted]              [big]  
+          assets/images/Desert Sun post event coverage 2015_Page_2-28386f2e83d403eb2fbb7ffcb65753b6-500.png    559 KiB          [emitted]              [big]  
+          assets/images/Desert Sun post event coverage 2015_Page_2-d2cc81c6cce2caea6423642e1436485a-750.png   1.04 MiB          [emitted]              [big]  
+         assets/images/Desert Sun post event coverage 2015_Page_2-fab9cfe93d53a714b5b3fa82a5b9616f-1000.png    1.6 MiB          [emitted]              [big]  
+                                               assets/images/Desert Sun post event coverage 2015_Page_2.png   1.74 MiB          [emitted]              [big]  
+                                     assets/images/Loyal_Sponsors-0aa8d2f3683b3d451d92ef91ee1d8e0b-1000.jpg    300 KiB          [emitted]              [big]  
+                                      assets/images/Loyal_Sponsors-9b12eb423b66504746cf91f4aea45711-500.jpg   97.4 KiB          [emitted]                     
+                                      assets/images/Loyal_Sponsors-e3e2524a1b13b1aa81d25bb69a784e2f-750.jpg    189 KiB          [emitted]                     
+                                                                           assets/images/Loyal_Sponsors.jpg    297 KiB          [emitted]              [big]  
+                          assets/images/Sponsorship_Opportunities-770831538d001c1e76954d2f452c7975-1000.jpg    337 KiB          [emitted]              [big]  
+                           assets/images/Sponsorship_Opportunities-b6baa8ab87860af5debcd75f683623ad-750.jpg    215 KiB          [emitted]                     
+                           assets/images/Sponsorship_Opportunities-f434f398f93d7739eb429b503ae11ba3-500.jpg    108 KiB          [emitted]                     
+                                                                assets/images/Sponsorship_Opportunities.jpg    325 KiB          [emitted]              [big]  
+                                      assets/images/aguirre-wilson-15882334e6ede96e780294ab2ca1ab27-500.png   75.3 KiB          [emitted]                     
+                                      assets/images/aguirre-wilson-2377ac68635e2546242a301f96a2de8e-633.png    116 KiB          [emitted]                     
+                                                                           assets/images/aguirre-wilson.png    117 KiB          [emitted]                     
+                                         assets/images/alumni-hero-59ef7398daa039906f378ec8f2bfc9e7-500.png    295 KiB          [emitted]              [big]  
+                                        assets/images/alumni-hero-d0ffc984713755c3549f751880997419-1000.png   1.02 MiB          [emitted]              [big]  
+                                         assets/images/alumni-hero-fc27a2ce3935ef34302bb4739fe61f3a-750.png    619 KiB          [emitted]              [big]  
+                                                                              assets/images/alumni-hero.png   2.06 MiB          [emitted]              [big]  
+                                        assets/images/amazon-smile-9895b42609cd0729f176ce2e3de6acef-493.jpg   30.3 KiB          [emitted]                     
+                                                                             assets/images/amazon-smile.jpg   23.6 KiB          [emitted]                     
+                                               assets/images/arts-56e84352ce2f883e239754c99cc78298-1000.jpg    103 KiB          [emitted]                     
+                                                assets/images/arts-5d7482121fa05e8770000d95314a1be0-500.jpg   37.7 KiB          [emitted]                     
+                                                assets/images/arts-e39ada52187af92627c603ad506efe9e-750.jpg     67 KiB          [emitted]                     
+                                                                                     assets/images/arts.jpg    221 KiB          [emitted]                     
+                                          assets/images/ask-letter-274a960b6068c54519130a33c31ad5a7-750.jpg    140 KiB          [emitted]                     
+                                          assets/images/ask-letter-52b49130b44340b8d7983bf950e63d71-500.jpg   70.1 KiB          [emitted]                     
+                                         assets/images/ask-letter-cb1195825c23b1c8849a474492845358-1000.jpg    220 KiB          [emitted]                     
+                                                                               assets/images/ask-letter.jpg    671 KiB          [emitted]              [big]  
+                         assets/images/auction-2025-save-the-date-593125d42fd78c802e3ede4bb8137930-1000.jpg    237 KiB          [emitted]                     
+                          assets/images/auction-2025-save-the-date-9ff948355c884b68f0216b11c7797f42-750.jpg    153 KiB          [emitted]                     
+                          assets/images/auction-2025-save-the-date-da649bf40b4b2dc0ba3fe894677992a8-500.jpg   82.5 KiB          [emitted]                     
+                                                               assets/images/auction-2025-save-the-date.jpg    266 KiB          [emitted]              [big]  
+                                             assets/images/auction-2b77ff92335909fb2527d525f4df2de9-500.jpg     71 KiB          [emitted]                     
+                                            assets/images/auction-4d7340e582cf323fe936037dfeca46c7-1000.jpg    218 KiB          [emitted]                     
+                                             assets/images/auction-d58b30dc5664e645ef56e731d1443657-750.jpg    137 KiB          [emitted]                     
+                                                                                  assets/images/auction.jpg   3.17 MiB          [emitted]              [big]  
+                             assets/images/back-to-school-campaign-38ec9045856a4643c8ebc531c55b556b-750.jpg     51 KiB          [emitted]                     
+                             assets/images/back-to-school-campaign-73411b5e718c4cf2ddbea7e64855a8f7-500.jpg   27.6 KiB          [emitted]                     
+                             assets/images/back-to-school-campaign-db720b45f00c306b0359e0077ba38a44-970.jpg   71.8 KiB          [emitted]                     
+                                                                  assets/images/back-to-school-campaign.jpg   43.5 KiB          [emitted]                     
+                                          assets/images/basketball-0ca7d5f627fc33f71ec3fa33c027a740-500.jpg   50.6 KiB          [emitted]                     
+                                         assets/images/basketball-c58979b9d031a5e1d131bdc5339ffe9e-1000.jpg    139 KiB          [emitted]                     
+                                          assets/images/basketball-fb53bb84e3362d75eee9273c9f75e5cd-750.jpg   90.6 KiB          [emitted]                     
+                                                                               assets/images/basketball.jpg    296 KiB          [emitted]              [big]  
+                                       assets/images/bgc-coachella-08f3ae7f0df8b5097e5c7e618d1eddcf-500.jpg   38.3 KiB          [emitted]                     
+                                       assets/images/bgc-coachella-4143d98dad3732c748017401fd3d44eb-640.jpg   54.7 KiB          [emitted]                     
+                                                                            assets/images/bgc-coachella.jpg   41.6 KiB          [emitted]                     
+                                           assets/images/bgc-indio-cc94ce550a972a86637705c894e81f28-640.jpg   73.1 KiB          [emitted]                     
+                                           assets/images/bgc-indio-eeebce1b53994042bec27f9cbfc306cf-500.jpg   50.4 KiB          [emitted]                     
+                                                                                assets/images/bgc-indio.jpg   56.3 KiB          [emitted]                     
+                                        assets/images/bgc-laquinta-4e47ee36388d96ad61fa1f8402b0814e-500.jpg   39.6 KiB          [emitted]                     
+                                        assets/images/bgc-laquinta-d0e35d8ffaba6c9c1e95bc4952726bed-640.jpg   56.7 KiB          [emitted]                     
+                                                                             assets/images/bgc-laquinta.jpg   44.2 KiB          [emitted]                     
+                                           assets/images/bgc-mecca-74f27683bdd0d4e5a82ae02be613fcc5-750.jpg   68.7 KiB          [emitted]                     
+                                           assets/images/bgc-mecca-b1449b55a9ca3df9ce726c08443f55b7-500.jpg   36.3 KiB          [emitted]                     
+                                          assets/images/bgc-mecca-d75d73eff0c4305586b05aa004bd8653-1000.jpg    106 KiB          [emitted]                     
+                                                                                assets/images/bgc-mecca.jpg   80.3 KiB          [emitted]                     
+                                   assets/images/bgca-cyber-safety-3c147d3569fe5e58f7963c35687f60cb-500.png    183 KiB          [emitted]                     
+                                   assets/images/bgca-cyber-safety-e31d7f0580580a310c45f849cca357d6-666.png    306 KiB          [emitted]              [big]  
+                                                                        assets/images/bgca-cyber-safety.png    258 KiB          [emitted]              [big]  
+                                             assets/images/bgcofcv-1763ab0a250e4849c141cfb9cc402d0b-750.jpg   84.9 KiB          [emitted]                     
+                                             assets/images/bgcofcv-974554e92b00363cf77c518b62b90336-500.jpg   47.9 KiB          [emitted]                     
+                                            assets/images/bgcofcv-b4bf20648783beb27eb4d2585d430c6d-1000.jpg    127 KiB          [emitted]                     
+                                                                                  assets/images/bgcofcv.jpg    436 KiB          [emitted]              [big]  
+                                assets/images/bidding-instructions-5b440d896dc2918f24ef52171718dc5e-750.jpg    127 KiB          [emitted]                     
+                                assets/images/bidding-instructions-b39303e56082f734cbc37fd3103869e3-500.jpg   67.5 KiB          [emitted]                     
+                               assets/images/bidding-instructions-decfd4aa32aeecbb7302e8ac136fd0ee-1000.jpg    186 KiB          [emitted]                     
+                                                                     assets/images/bidding-instructions.jpg    211 KiB          [emitted]                     
+                                          assets/images/brain-gain-e4b6618289bd89a93eb0be421c8a74c3-300.jpg   20.5 KiB          [emitted]                     
+                                                                               assets/images/brain-gain.jpg   30.8 KiB          [emitted]                     
+                                       assets/images/campaign-1966-3c9f2f61c515a8260c49348232ba90b0-940.jpg    167 KiB          [emitted]                     
+                                       assets/images/campaign-1966-9603c1e986b607208d86088f21246cd0-500.jpg   60.7 KiB          [emitted]                     
+                                       assets/images/campaign-1966-c0430b2e329a8cf8aabbebf06679cd0e-750.jpg    108 KiB          [emitted]                     
+                                                                            assets/images/campaign-1966.jpg    201 KiB          [emitted]                     
+                                    assets/images/campaign-auction-6afbba4700c8ec79953360e0b55bf3ac-500.png    291 KiB          [emitted]              [big]  
+                                    assets/images/campaign-auction-d987efcffd45c8d1a1e39deabcae25ae-951.png    972 KiB          [emitted]              [big]  
+                                    assets/images/campaign-auction-f6e0430a954d4db9c006f6a139676118-750.png    609 KiB          [emitted]              [big]  
+                                                                         assets/images/campaign-auction.png   1.04 MiB          [emitted]              [big]  
+                                       assets/images/campaign-love-265db3bc78326c843939ad75ebb38e2a-500.png    207 KiB          [emitted]                     
+                                       assets/images/campaign-love-a2fe5f49f54c6dd0744906bfad6c4c15-750.png    407 KiB          [emitted]              [big]  
+                                      assets/images/campaign-love-e90562ca42c621e0fdd9f972f4c1c990-1000.png    649 KiB          [emitted]              [big]  
+                                                                            assets/images/campaign-love.png   1.23 MiB          [emitted]              [big]  
+                                  assets/images/cancelation-notice-2801decb4b073fa7e3f624489da9367f-894.jpg    100 KiB          [emitted]                     
+                                  assets/images/cancelation-notice-caa1549e5185bfc6a70e5525fb65c409-750.jpg   80.3 KiB          [emitted]                     
+                                  assets/images/cancelation-notice-e8c47127e6492ad2cb6cf16b44d37be3-500.jpg   45.1 KiB          [emitted]                     
+                                                                       assets/images/cancelation-notice.jpg   52.5 KiB          [emitted]                     
+                                       assets/images/career-launch-be1ecd878cbc0c9b50247557d6b3b056-300.png   16.8 KiB          [emitted]                     
+                                                                            assets/images/career-launch.png   21.3 KiB          [emitted]                     
+                          assets/images/character-leadership-thumb-1175fbbdb9b77a9c973ff4050a6b4779-635.jpg   70.6 KiB          [emitted]                     
+                          assets/images/character-leadership-thumb-3a27dcf7fbfc928063d66d5fb7527654-500.jpg   42.9 KiB          [emitted]                     
+                                                               assets/images/character-leadership-thumb.jpg   74.2 KiB          [emitted]                     
+                                           assets/images/clay-tech-d994259d44fa2f325615bb6960262aa9-300.png    6.6 KiB          [emitted]                     
+                                                                                assets/images/clay-tech.png   2.61 KiB          [emitted]                     
+                                      assets/images/club-locations-4f2134c60a50724988b452b4039cdd2b-750.png    400 KiB          [emitted]              [big]  
+                                      assets/images/club-locations-6619a97b8be488619d2bff39b77cb9be-500.png    194 KiB          [emitted]                     
+                                     assets/images/club-locations-f12c955d0bb16b74e1ca041842e00236-1000.png    658 KiB          [emitted]              [big]  
+                                                                           assets/images/club-locations.png   1.29 MiB          [emitted]              [big]  
+                                     assets/images/coachella-club-7f6760074a749242654c71027678fcb8-1000.jpg    153 KiB          [emitted]                     
+                                      assets/images/coachella-club-9fd08c9f1d79cd7733a353eaf5613fbd-500.jpg   48.9 KiB          [emitted]                     
+                                      assets/images/coachella-club-e319b2317df83558103dd50f1083612a-750.jpg   95.5 KiB          [emitted]                     
+                                                                           assets/images/coachella-club.jpg    481 KiB          [emitted]              [big]  
+                                                          assets/images/coachella-january-2020-calendar.pdf    222 KiB          [emitted]                     
+                                             assets/images/college-2e6336e904ebd67e8f172cda7532ec32-500.jpg   39.3 KiB          [emitted]                     
+                                             assets/images/college-6bd50fd662a28643acb9c854bfb980d9-750.jpg   71.9 KiB          [emitted]                     
+                                            assets/images/college-792a38cb49ba7fd2c78d657be3cb685a-1000.jpg    112 KiB          [emitted]                     
+                                                                                  assets/images/college.jpg    244 KiB          [emitted]              [big]  
+                            assets/images/community-service-hours-364093b9e9498452870f7e6543fe035b-1000.jpg    149 KiB          [emitted]                     
+                             assets/images/community-service-hours-6b3fc30cb9b22d281ad1933e6260189c-500.jpg   51.9 KiB          [emitted]                     
+                             assets/images/community-service-hours-bdacd91b681ac254fe7db56b67edae6b-750.jpg   95.3 KiB          [emitted]                     
+                                                                  assets/images/community-service-hours.jpg    325 KiB          [emitted]              [big]  
+                                           assets/images/computers-5023df9a5b07768b6ca8f43662acf14e-500.jpg   42.5 KiB          [emitted]                     
+                                           assets/images/computers-7857404b54bce6a17cf4500c3d7cc212-750.jpg   76.6 KiB          [emitted]                     
+                                          assets/images/computers-c2f1ba540768aa7701e2e9fc93d1690a-1000.jpg    116 KiB          [emitted]                     
+                                                                                assets/images/computers.jpg    151 KiB          [emitted]                     
+                                     assets/images/contact-us-hero-1a04342203a3a7afcd9d11a7042b9fa0-500.jpg     41 KiB          [emitted]                     
+                                    assets/images/contact-us-hero-84c5c74b37edc48998d14253a071af28-1000.jpg    112 KiB          [emitted]                     
+                                     assets/images/contact-us-hero-9d0d2acecee7cd6d15bef50a1e222124-750.jpg   73.8 KiB          [emitted]                     
+                                                                          assets/images/contact-us-hero.jpg    145 KiB          [emitted]                     
+                                          assets/images/date-smart-4cc091d17f436b9ffd5bf9bc2f10f8c6-300.jpg   14.4 KiB          [emitted]                     
+                                                                               assets/images/date-smart.jpg   6.36 KiB          [emitted]                     
+                               assets/images/digital-arts-festival-49e191eb88f0286d2b4991474bced999-300.jpg   11.7 KiB          [emitted]                     
+                                                                    assets/images/digital-arts-festival.jpg   18.6 KiB          [emitted]                     
+                                  assets/images/diplomas-2-degrees-0bdbb53e95e2b6205bed326fc44471b1-300.jpg   8.59 KiB          [emitted]                     
+                                                                       assets/images/diplomas-2-degrees.jpg   8.78 KiB          [emitted]                     
+                                       assets/images/drama-matters-5a5048e39d550e1fddea17e8f86e005e-300.jpg   6.68 KiB          [emitted]                     
+                                                                            assets/images/drama-matters.jpg   6.55 KiB          [emitted]                     
+                               assets/images/dreamstime_m_20200665-22643b7feb8cb541080bb3044837bd3e-500.jpg   55.1 KiB          [emitted]                     
+                               assets/images/dreamstime_m_20200665-9376ec914dcf7f7889b411bfe6dea04f-750.jpg   97.3 KiB          [emitted]                     
+                              assets/images/dreamstime_m_20200665-aae0bda88081e3a47ea3982b42e59983-1000.jpg    146 KiB          [emitted]                     
+                                                                    assets/images/dreamstime_m_20200665.jpg    848 KiB          [emitted]              [big]  
+                             assets/images/education-careers-thumb-57173393103d2f4ca717b46fcd05011b-460.jpg   21.1 KiB          [emitted]                     
+                                                                  assets/images/education-careers-thumb.jpg   16.6 KiB          [emitted]                     
+                                         assets/images/events-hero-462e84aa5d9077024e23de081da89568-500.jpg   44.3 KiB          [emitted]                     
+                                         assets/images/events-hero-7a63145083923825bf123b319bf47786-750.jpg   88.7 KiB          [emitted]                     
+                                        assets/images/events-hero-ece5f0f7f573dc7f053a0eb84274ed76-1000.jpg    145 KiB          [emitted]                     
+                                                                              assets/images/events-hero.jpg   3.06 MiB          [emitted]              [big]  
+                                                                 assets/images/events/presidents-circle.jpg   11.4 KiB          [emitted]                     
+                                                      assets/images/events/putting-party-with-a-purpose.jpg     31 KiB          [emitted]                     
+                                                  assets/images/events/save-the-date-grand-auction-2024.jpg    220 KiB          [emitted]                     
+                                                                                  assets/images/favicon.ico   14.7 KiB          [emitted]                     
+                                            assets/images/fmc_fund-18f9cf29335bb9fc681834be6db7c297-500.png   13.6 KiB          [emitted]                     
+                                           assets/images/fmc_fund-b570a93d18857fc12851a77a8d95a5d0-1000.png   32.4 KiB          [emitted]                     
+                                            assets/images/fmc_fund-c907dd29ec680dd0814b08e6fbee0d4e-750.png   22.6 KiB          [emitted]                     
+                                                                                 assets/images/fmc_fund.png   32.5 KiB          [emitted]                     
+                                           assets/images/food4less-ea3cdb6547fb4992517cb95057b76f4c-500.png    151 KiB          [emitted]                     
+                                           assets/images/food4less-f2f4569f876c8c13823b0c007f8d0f6f-750.png    296 KiB          [emitted]              [big]  
+                                          assets/images/food4less-f45b9d47dda7b1303e6fc3553ab05b5e-1000.png    468 KiB          [emitted]              [big]  
+                                                                                assets/images/food4less.png   2.39 MiB          [emitted]              [big]  
+                                          assets/images/free-lunch-0273a10f702a339f6f3ec4780a3d6dd6-500.jpg   54.4 KiB          [emitted]                     
+                                          assets/images/free-lunch-eccc84d1de71f2685c4220a1d9a1be08-750.jpg    108 KiB          [emitted]                     
+                                         assets/images/free-lunch-f680da83332411b8b4c1c44b09ac7d9f-1000.jpg    178 KiB          [emitted]                     
+                                                                               assets/images/free-lunch.jpg    409 KiB          [emitted]              [big]  
+                                 assets/images/friends-of-bgcofcv-b8aaa2a79d102493f8b5eb9d3214050c-1000.jpg    157 KiB          [emitted]                     
+                                  assets/images/friends-of-bgcofcv-e599e32875abc3fd871b5110100d469e-500.jpg   49.3 KiB          [emitted]                     
+                                  assets/images/friends-of-bgcofcv-e655a13a443344f4fedb97d4e31b78dc-750.jpg   97.1 KiB          [emitted]                     
+                                                                       assets/images/friends-of-bgcofcv.jpg   2.68 MiB          [emitted]              [big]  
+                                          assets/images/fundraiser-43d53e52b2579189d575b5863bd13cb8-640.jpg   81.1 KiB          [emitted]                     
+                                          assets/images/fundraiser-5514afd4b80b43f5b78cc0be3754277b-500.jpg   55.9 KiB          [emitted]                     
+                                                                               assets/images/fundraiser.jpg   63.1 KiB          [emitted]                     
+                                           assets/images/game-tech-897a04fd10fd95f23057c89ec5f4aa21-300.png   6.66 KiB          [emitted]                     
+                                                                                assets/images/game-tech.png   2.55 KiB          [emitted]                     
+                                    assets/images/graduate-for-mas-ac1bda74b5afa3d4ff05dc85e7484e8a-200.jpg   6.12 KiB          [emitted]                     
+                                                                         assets/images/graduate-for-mas.jpg   8.16 KiB          [emitted]                     
+                                  assets/images/grand-auction-2026-1ed23f2972352f015978b8a50e095ab9-715.png   59.5 KiB          [emitted]                     
+                                  assets/images/grand-auction-2026-e30d92f49da900e7f5214feb2bc316df-500.png   45.6 KiB          [emitted]                     
+                                                                       assets/images/grand-auction-2026.png   46.1 KiB          [emitted]                     
+                                 assets/images/happy-holidays-2022-06520120cb4adbf2adc6a47cbcb7198c-750.png    228 KiB          [emitted]                     
+                                assets/images/happy-holidays-2022-18631c85d8a03b701d52cba237b0aa39-1000.png    370 KiB          [emitted]              [big]  
+                                 assets/images/happy-holidays-2022-c7034b3a83e3d9194162b4e9f416843b-500.png    113 KiB          [emitted]                     
+                                                                      assets/images/happy-holidays-2022.png    558 KiB          [emitted]              [big]  
+                                              assets/images/hero-2-bc621e40942040d1f0b77e2c311d36b0-750.jpg   82.7 KiB          [emitted]                     
+                                              assets/images/hero-2-d86fddd3ce7f2a726f71d5825c001eb2-500.jpg   44.9 KiB          [emitted]                     
+                                             assets/images/hero-2-f2f8f5461cca9541e3a7e1b47fdcd1a7-1000.jpg    130 KiB          [emitted]                     
+                                                                                   assets/images/hero-2.jpg    282 KiB          [emitted]              [big]  
+                                              assets/images/hero-3-15852db0937ebed2302ad5570f720ecf-500.jpg   45.2 KiB          [emitted]                     
+                                             assets/images/hero-3-39a8897f68eb343179d758e5cfb1f66d-1000.jpg    119 KiB          [emitted]                     
+                                              assets/images/hero-3-9ebd5a2b4cda7ff8f03efd453ba72a6a-750.jpg   79.3 KiB          [emitted]                     
+                                                                                   assets/images/hero-3.jpg    155 KiB          [emitted]                     
+                                                assets/images/hero-5bfff82aa42ed38582402e45f62bced9-500.jpg   52.9 KiB          [emitted]                     
+                                                assets/images/hero-6bb75801ed0609ea282692f041e309b5-750.jpg   97.8 KiB          [emitted]                     
+                                               assets/images/hero-d98c915ad6ebc4b39706e26a5d825596-1000.jpg    151 KiB          [emitted]                     
+                                           assets/images/hero-logo-0dd2ec56f740eb76603d016a4ccc2cbe-500.png   27.8 KiB          [emitted]                     
+                                          assets/images/hero-logo-b3198747aeb021c73d82ce76c40941e9-1000.png   56.7 KiB          [emitted]                     
+                                           assets/images/hero-logo-dd9ade966d8a8b95a6ce2e080ef46c91-750.png   42.1 KiB          [emitted]                     
+                                                                                assets/images/hero-logo.png     75 KiB          [emitted]                     
+                                                                                     assets/images/hero.jpg    326 KiB          [emitted]              [big]  
+                                             assets/images/image-1-2606de564463e471ebde0ce92af13e3c-500.jpg   50.7 KiB          [emitted]                     
+                                            assets/images/image-1-2ec0ad4bee075aa2a4104d12bf3ff46b-1000.jpg    144 KiB          [emitted]                     
+                                             assets/images/image-1-31916592bf22b7f071b2f986fa6f3654-750.jpg   93.1 KiB          [emitted]                     
+                                                                                  assets/images/image-1.jpg    183 KiB          [emitted]                     
+                                            assets/images/image-2-1bf60edaa9c0622d96b8806ec93bb60e-1000.jpg    114 KiB          [emitted]                     
+                                             assets/images/image-2-8b077b1b82e05f8e23f6305aac41f236-500.jpg   40.4 KiB          [emitted]                     
+                                             assets/images/image-2-8decbbe88c1623830f0410b8ad1631e9-750.jpg   73.8 KiB          [emitted]                     
+                                                                                  assets/images/image-2.jpg    144 KiB          [emitted]                     
+                                             assets/images/image-3-9b507bf2836739e1964a60a9e53453f9-500.jpg   69.6 KiB          [emitted]                     
+                                            assets/images/image-3-a8629888db1f55aef092a96d0622c8b7-1000.jpg    216 KiB          [emitted]                     
+                                             assets/images/image-3-de4f68122da88688d649dd6878bd0548-750.jpg    133 KiB          [emitted]                     
+                                                                                  assets/images/image-3.jpg    238 KiB          [emitted]                     
+                                             assets/images/image-4-36a1e367c6a608b3de3046ec5de09537-750.jpg   72.2 KiB          [emitted]                     
+                                            assets/images/image-4-982111e5acf5d7ee95a25c1baf6463d9-1000.jpg    109 KiB          [emitted]                     
+                                             assets/images/image-4-a43cdc149e7a8ec16203ec44812b6299-500.jpg   40.5 KiB          [emitted]                     
+                                                                                  assets/images/image-4.jpg    142 KiB          [emitted]                     
+                                            assets/images/image-5-0002dc4e6b693913547e18b54a8f8531-1000.jpg    151 KiB          [emitted]                     
+                                             assets/images/image-5-33c1624adfc7735771f2723a74dd3e9b-500.jpg   54.9 KiB          [emitted]                     
+                                             assets/images/image-5-40a21960e4596f2a4ddc6e9911719048-750.jpg   99.7 KiB          [emitted]                     
+                                                                                  assets/images/image-5.jpg    189 KiB          [emitted]                     
+                                        assets/images/image-makers-6ea7e05246c19001d6157473904907f3-350.png   24.6 KiB          [emitted]                     
+                                                                             assets/images/image-makers.png     28 KiB          [emitted]                     
+                                  assets/images/impact-report-img-150c3aca46f5d6042845c6963da9e93a-1000.png   1.16 MiB          [emitted]              [big]  
+                                   assets/images/impact-report-img-359e38f71ef50623608fe8ec4010067b-750.png    722 KiB          [emitted]              [big]  
+                                   assets/images/impact-report-img-a0bba9c480d2f1c5a72f0cced2400d45-500.png    356 KiB          [emitted]              [big]  
+                                                                        assets/images/impact-report-img.png    1.9 MiB          [emitted]              [big]  
+                                     assets/images/indio-clubhouse-11829d39de02654a7a4c6c6a3cfb3676-500.jpg   53.3 KiB          [emitted]                     
+                                     assets/images/indio-clubhouse-20c3619c44a770afaf26fdc63f5eef01-640.jpg   91.3 KiB          [emitted]                     
+                                                                          assets/images/indio-clubhouse.jpg    266 KiB          [emitted]              [big]  
+                                          assets/images/iwcc-pic-2-87001066b946edcb444d65be572b02d0-900.png    934 KiB          [emitted]              [big]  
+                                          assets/images/iwcc-pic-2-daedc8803b826221e138ca979d497a32-500.png    289 KiB          [emitted]              [big]  
+                                          assets/images/iwcc-pic-2-efc076076a666c6e9775c80eec85741d-750.png    620 KiB          [emitted]              [big]  
+                                                                               assets/images/iwcc-pic-2.png    922 KiB          [emitted]              [big]  
+                                            assets/images/keystone-7a818bf6f6f2563e3f9cca054fd9f86e-274.png   12.8 KiB          [emitted]                     
+                                                                                 assets/images/keystone.png   4.04 KiB          [emitted]                     
+                                                assets/images/kids-4c7d128f2a6f54906fa363f83d08f70c-750.jpg    119 KiB          [emitted]                     
+                                                assets/images/kids-5dcbd752bb8cd84c31caca7aedde46cd-500.jpg   58.5 KiB          [emitted]                     
+                                               assets/images/kids-c45ecc01ebc997f6930d1c73d42c2bad-1000.jpg    195 KiB          [emitted]                     
+                                                                                     assets/images/kids.jpg    244 KiB          [emitted]                     
+                                      assets/images/la-quinta-club-2660d31ea6f0ad9ee745631a748389aa-750.jpg    102 KiB          [emitted]                     
+                                      assets/images/la-quinta-club-31c5c84e6bc7fbf5e35b038b8627fe34-500.jpg   51.1 KiB          [emitted]                     
+                                     assets/images/la-quinta-club-3ef1e2c336b2956b5d481e2bd09eb4de-1000.jpg    169 KiB          [emitted]                     
+                                                                           assets/images/la-quinta-club.jpg   7.45 MiB          [emitted]              [big]  
+                                            assets/images/level-up-00cce06dbabad32a59e474304f5184be-750.jpg    112 KiB          [emitted]                     
+                                            assets/images/level-up-0e72077e2a05bccbea16c576717a11e5-500.jpg   59.4 KiB          [emitted]                     
+                                           assets/images/level-up-b5eaddbe16ad903951b6db0fe5296cb6-1000.jpg    175 KiB          [emitted]                     
+                                                                                 assets/images/level-up.jpg    363 KiB          [emitted]              [big]  
+                                      assets/images/lewis-brisbois-26b64a511274f8ae301f7d551fc92729-500.png   81.6 KiB          [emitted]                     
+                                      assets/images/lewis-brisbois-adb589419564c36c155adb88cc375ec8-750.png    156 KiB          [emitted]                     
+                                     assets/images/lewis-brisbois-e4fe296a88ca77f1e61018dc3326cfe3-1000.png    246 KiB          [emitted]              [big]  
+                                                                           assets/images/lewis-brisbois.png    459 KiB          [emitted]              [big]  
+                                               assets/images/logo2-ffb788da3b5b2fc3962d61d2317c3aed-161.png     20 KiB          [emitted]                     
+                                                                                    assets/images/logo2.png   17.2 KiB          [emitted]                     
+                                               assets/images/logo3-74bd40cce41f80e67c6285e3ad718852-752.jpg   51.1 KiB          [emitted]                     
+                                               assets/images/logo3-90f5b7b89c6cf51b8dd10a54e898f294-750.jpg   50.2 KiB          [emitted]                     
+                                               assets/images/logo3-92f596480af6d5c4c679dc43ed7de49c-500.jpg   30.6 KiB          [emitted]                     
+                                                                                    assets/images/logo3.jpg   32.9 KiB          [emitted]                     
+                                          assets/images/mask-pattern-7d6a52aa4dd9939967ff0f0c8630f9d0-2.png   71 bytes          [emitted]                     
+                                                                             assets/images/mask-pattern.png  209 bytes          [emitted]                     
+                            assets/images/mathis-brothers-campaign-1c4d76282ea3f550edb16b34bd3ba596-750.png    644 KiB          [emitted]              [big]  
+                            assets/images/mathis-brothers-campaign-3fb84f1bfa3b5dc364d5c7fe6b03fd9c-500.png    314 KiB          [emitted]              [big]  
+                           assets/images/mathis-brothers-campaign-4add3d15cbb30e13f79fc7c24b58eac6-1000.png   1.01 MiB          [emitted]              [big]  
+                                                                 assets/images/mathis-brothers-campaign.png   1.58 MiB          [emitted]              [big]  
+                                 assets/images/meal-distribution-1-694a33bc8df78b3b3145430c20b3d9fe-607.png    226 KiB          [emitted]                     
+                                 assets/images/meal-distribution-1-b4a201699cc536f2a56c3ef32c3629ff-500.png    193 KiB          [emitted]                     
+                                                                      assets/images/meal-distribution-1.png    129 KiB          [emitted]                     
+                                 assets/images/meal-distribution-2-8d0abfc93534963e691650829872576c-395.png    248 KiB          [emitted]              [big]  
+                                                                      assets/images/meal-distribution-2.png    196 KiB          [emitted]                     
+                                               assets/images/meals-1fb38dd343e8f21ea3f6cf86663262f3-500.jpg   47.5 KiB          [emitted]                     
+                                               assets/images/meals-4957349a6ee3dd146a0ebb4b479a3c2e-750.jpg   87.7 KiB          [emitted]                     
+                                              assets/images/meals-6744f955f425a75e23b7aabdcd8c9ee8-1000.jpg    136 KiB          [emitted]                     
+                                                                                    assets/images/meals.jpg    288 KiB          [emitted]              [big]  
+                                          assets/images/mecca-club-26231f37d57ebbf90b50ca950a8af990-750.jpg   65.6 KiB          [emitted]                     
+                                         assets/images/mecca-club-32ce7135fcfa09959136299ae21bf828-1000.jpg    110 KiB          [emitted]                     
+                                          assets/images/mecca-club-6d93a4e9897f1da21bf8dc34cdb8d3fe-500.jpg   31.7 KiB          [emitted]                     
+                                                                               assets/images/mecca-club.jpg   16.4 MiB          [emitted]              [big]  
+                                                                                  assets/images/melissa.JPG   5.83 MiB          [emitted]              [big]  
+                                     assets/images/million-members-be11cb24f5663f5662d4985ef19df20f-159.png   16.2 KiB          [emitted]                     
+                                                                          assets/images/million-members.png   5.74 KiB          [emitted]                     
+                        assets/images/mission-vision-core-beliefs-2c92797817b91021799f6438413576cf-1000.png    684 KiB          [emitted]              [big]  
+                         assets/images/mission-vision-core-beliefs-7c5f86b706216f526d9371b637a06006-750.png    414 KiB          [emitted]              [big]  
+                         assets/images/mission-vision-core-beliefs-cf01d71fc9e8c32db80242c8fd7a55aa-500.png    201 KiB          [emitted]                     
+                                                              assets/images/mission-vision-core-beliefs.png    1.4 MiB          [emitted]              [big]  
+                                       assets/images/money-matters-8c44f8b772c562093ac4da9edda472e2-302.png   12.2 KiB          [emitted]                     
+                                                                            assets/images/money-matters.png    7.8 KiB          [emitted]                     
+                                    assets/images/monthly-donation-0bcf2c60f9155cb4042e4c0c5c4f5886-640.jpg   77.8 KiB          [emitted]                     
+                                    assets/images/monthly-donation-93c718fe83cfee8e3b4e7383cee1a562-500.jpg   53.3 KiB          [emitted]                     
+                                                                         assets/images/monthly-donation.jpg   48.5 KiB          [emitted]                     
+                                      assets/images/my-future-hero-27dc04594fd632baf55e7e73e8e9e651-750.jpg   36.3 KiB          [emitted]                     
+                                     assets/images/my-future-hero-2d8692ef303a0d89f220ee7ddf50a584-1000.jpg   53.8 KiB          [emitted]                     
+                                      assets/images/my-future-hero-5113c819b750991677a0a0ae94866f1d-500.jpg     21 KiB          [emitted]                     
+                                                                           assets/images/my-future-hero.jpg    663 KiB          [emitted]              [big]  
+                                     assets/images/my-future-thumb-aa87ffd6f645e4a7f4ce4b1a3cfc8712-500.jpg   27.6 KiB          [emitted]                     
+                                     assets/images/my-future-thumb-e57f8babef0540cc9655203a56e41cd6-640.jpg   43.4 KiB          [emitted]                     
+                                                                          assets/images/my-future-thumb.jpg   36.4 KiB          [emitted]                     
+                          assets/images/national-fine-arts-exhibit-656b42ea3f1ef4f3b76c6170971fcbae-300.jpg   9.38 KiB          [emitted]                     
+                                                               assets/images/national-fine-arts-exhibit.jpg   18.3 KiB          [emitted]                     
+                                           assets/images/netsmartz-cf9ea4542ac6a8e0a71245303db17b36-500.png   83.7 KiB          [emitted]                     
+                                                                                assets/images/netsmartz.png   97.1 KiB          [emitted]                     
+                                                                 assets/images/october-calendar-2019-1-.pdf    226 KiB          [emitted]                     
+                                                          assets/images/october-calendar-2019-la-quinta.pdf    131 KiB          [emitted]                     
+                                                              assets/images/october-calendar-2019-mecca.pdf    165 KiB          [emitted]                     
+                                   assets/images/one-time-donation-204c1c12766af411277ea7f21504636c-640.jpg   92.9 KiB          [emitted]                     
+                                   assets/images/one-time-donation-e9e2675515613c6175bb1f3da66d985a-500.jpg   64.4 KiB          [emitted]                     
+                                                                        assets/images/one-time-donation.jpg   71.8 KiB          [emitted]                     
+                                         assets/images/open-graph-2e8dbf5329470ce5ce8a61699354e02d-1000.png    362 KiB          [emitted]              [big]  
+                                          assets/images/open-graph-376a14cfee4e28a0b2e27e119e2cb610-750.png    233 KiB          [emitted]                     
+                                          assets/images/open-graph-cf542eb25cf98f9556d0de6d97449def-500.png    123 KiB          [emitted]                     
+                                                                               assets/images/open-graph.png   1.56 MiB          [emitted]              [big]  
+                                           assets/images/our-clubs-102056934836e3fcf44c326770aebd05-500.jpg   44.4 KiB          [emitted]                     
+                                           assets/images/our-clubs-1f32b18c720b86b4fb79cd5309e42983-750.jpg   82.1 KiB          [emitted]                     
+                                          assets/images/our-clubs-60664d4662718a40c41009e48bf5d503-1000.jpg    126 KiB          [emitted]                     
+                                                                                assets/images/our-clubs.jpg    161 KiB          [emitted]                     
+                                                            assets/images/partners/aguirre-wilson-group.png   44.6 KiB          [emitted]                     
+                                                               assets/images/partners/american-agcredit.png   11.1 KiB          [emitted]                     
+                                                   assets/images/partners/anderson-childrens-foundation.png     24 KiB          [emitted]                     
+                                                               assets/images/partners/anthony-vineyards.png    103 KiB          [emitted]                     
+                                                                 assets/images/partners/ashlock-company.png   88.5 KiB          [emitted]                     
+                                             assets/images/partners/audrey-demirjian-insurance-services.png   1.13 KiB          [emitted]                     
+                                                                 assets/images/partners/bank-of-america.png   3.99 KiB          [emitted]                     
+                                                                assets/images/partners/bank-of-the-west.png   3.03 KiB          [emitted]                     
+                                                               assets/images/partners/berger-foundation.png   5.42 KiB          [emitted]                     
+                                                     assets/images/partners/bighorn-golf-club-charities.png   12.4 KiB          [emitted]                     
+                                                          assets/images/partners/bochnewich-law-offices.png   1.36 KiB          [emitted]                     
+                                                                 assets/images/partners/bolthouse-farms.png   46.7 KiB          [emitted]                     
+                                                                     assets/images/partners/bridgestone.png   3.05 KiB          [emitted]                     
+                                                  assets/images/partners/champions-volunteer-foundation.png   6.92 KiB          [emitted]                     
+                                                            assets/images/partners/city-of-indian-wells.png   3.11 KiB          [emitted]                     
+                                                                   assets/images/partners/city-of-indio.png   75.3 KiB          [emitted]                     
+                                                               assets/images/partners/city-of-la-quinta.png   53.3 KiB          [emitted]                     
+                                                      assets/images/partners/coachella-valley-spotlight.png   8.52 KiB          [emitted]                     
+                                                         assets/images/partners/coeta-barker-foundation.png   1.95 KiB          [emitted]                     
+                                                            assets/images/partners/community-foundation.png   15.9 KiB          [emitted]                     
+                                                                          assets/images/partners/costco.png   7.99 KiB          [emitted]                     
+                                                             assets/images/partners/county-of-riverside.png   71.6 KiB          [emitted]                     
+                                                        assets/images/partners/desert-classic-charities.png   23.3 KiB          [emitted]                     
+                                                       assets/images/partners/desert-pacific-properties.png   43.4 KiB          [emitted]                     
+                                                              assets/images/partners/desert-valley-date.png    102 KiB          [emitted]                     
+                                                            assets/images/partners/dicks-sporting-goods.png   5.09 KiB          [emitted]                     
+                                                                          assets/images/partners/dimare.png   10.5 KiB          [emitted]                     
+                                                             assets/images/partners/doling-shaw-hanover.PNG   8.45 KiB          [emitted]                     
+                                                             assets/images/partners/federated-insurance.png   56.2 KiB          [emitted]                     
+                                                                assets/images/partners/first-foundation.png   20.9 KiB          [emitted]                     
+                                                assets/images/partners/flanagan-wealth-management-group.png   49.4 KiB          [emitted]                     
+                                                                            assets/images/partners/ford.png   76.3 KiB          [emitted]                     
+                                                                  assets/images/partners/foster-gardner.png   15.3 KiB          [emitted]                     
+                                                             assets/images/partners/fulton-distribution.png   27.4 KiB          [emitted]                     
+                                                          assets/images/partners/honda-toyota-chevrolet.png   26.9 KiB          [emitted]                     
+                                                             assets/images/partners/international-paper.png   8.55 KiB          [emitted]                     
+                                                                    assets/images/partners/jfk-hospital.png   58.4 KiB          [emitted]                     
+                                                                assets/images/partners/jj-ranch-produce.png   59.7 KiB          [emitted]                     
+                                                               assets/images/partners/kaiser-permanente.png   5.38 KiB          [emitted]                     
+                                                         assets/images/partners/lewis-brisbois-bisgaard.PNG   24.7 KiB          [emitted]                     
+                                                              assets/images/partners/mastros-steakhouse.png     10 KiB          [emitted]                     
+                                                                 assets/images/partners/mathis-brothers.PNG   7.97 KiB          [emitted]                     
+                                                                           assets/images/partners/maxco.png   29.1 KiB          [emitted]                     
+                                                                     assets/images/partners/mojave-gold.png   13.7 KiB          [emitted]                     
+                                                     assets/images/partners/northrop-grumman-foundation.png   6.23 KiB          [emitted]                     
+                                                                  assets/images/partners/osborne-rincon.png   45.4 KiB          [emitted]                     
+                                                            assets/images/partners/pacific-western-bank.png   5.58 KiB          [emitted]                     
+                                                                 assets/images/partners/perricone-farms.png    411 KiB          [emitted]              [big]  
+                                                              assets/images/partners/peter-rabbit-farms.png    194 KiB          [emitted]                     
+                                                                      assets/images/partners/prime-time.png    114 KiB          [emitted]                     
+                                                                        assets/images/partners/rabobank.png   42.8 KiB          [emitted]                     
+                                                                             assets/images/partners/rdo.png   26.4 KiB          [emitted]                     
+                                                             assets/images/partners/richard-bagdasarian.png    139 KiB          [emitted]                     
+                                                       assets/images/partners/richard-brooke-foundation.png   17.8 KiB          [emitted]                     
+                                                       assets/images/partners/shalhoub-family-mcdonalds.png   12.1 KiB          [emitted]                     
+                                                             assets/images/partners/shields-date-garden.png     61 KiB          [emitted]                     
+                                                                     assets/images/partners/stater-bros.png   8.42 KiB          [emitted]                     
+                                                                       assets/images/partners/taco-bell.png    8.9 KiB          [emitted]                     
+                                                               assets/images/partners/tolhurst-dentists.PNG   2.17 KiB          [emitted]                     
+                                                                          assets/images/partners/toyota.png   4.69 KiB          [emitted]                     
+                                                            assets/images/partners/trilogy-at-la-quinta.png   5.58 KiB          [emitted]                     
+                                                             assets/images/partners/triple-x-fraternity.png   5.21 KiB          [emitted]                     
+                                       assets/images/partners/twenty-nine-palms-band-of-mission-indians.png   30.1 KiB          [emitted]                     
+                                                                      assets/images/partners/united-way.png   6.17 KiB          [emitted]                     
+                                                                         assets/images/partners/us-bank.png   3.47 KiB          [emitted]                     
+                                                                 assets/images/partners/valley-plumbing.PNG   57.9 KiB          [emitted]                     
+                                                    assets/images/partners/walmart-community-playmakers.png   9.17 KiB          [emitted]                     
+                                                              assets/images/partners/walmart-foundation.png   4.13 KiB          [emitted]                     
+                                                          assets/images/partners/webb-family-foundation.png   1.21 KiB          [emitted]                     
+                                                             assets/images/partners/weingart-foundation.png   5.62 KiB          [emitted]                     
+                                                                assets/images/partners/weingarten-hough.png   21.3 KiB          [emitted]                     
+                                                                     assets/images/partners/wells-fargo.png   3.09 KiB          [emitted]                     
+                                                                 assets/images/partners/west-coast-turf.PNG   23.1 KiB          [emitted]                     
+                                                                 assets/images/partners/western-growers.png   6.21 KiB          [emitted]                     
+                                 assets/images/passport-to-manhood-fa803f0c713a451e03a2690ecbd54a17-300.jpg   9.22 KiB          [emitted]                     
+                                                                      assets/images/passport-to-manhood.jpg   3.42 KiB          [emitted]                     
+                                  assets/images/pga-sports-academy-6aac575cab9f77256cfa47fb9303695b-300.jpg   17.3 KiB          [emitted]                     
+                                                                       assets/images/pga-sports-academy.jpg   10.6 KiB          [emitted]                     
+                                          assets/images/power-hour-09110748d734ac46648f98591e110e5b-300.jpg   13.4 KiB          [emitted]                     
+                                                                               assets/images/power-hour.jpg   6.71 KiB          [emitted]                     
+                                  assets/images/presidents-circle-9d8c17590af5e8b6f84fa43f86efbc54-1000.jpg    132 KiB          [emitted]                     
+                                   assets/images/presidents-circle-a604ff83940d8ea23e91e08f331ead06-500.jpg   44.4 KiB          [emitted]                     
+                                   assets/images/presidents-circle-c6ea92f4dd03718216b9f32b4065257d-500.png    316 KiB          [emitted]              [big]  
+                                   assets/images/presidents-circle-d0bbd18e2c7ccd7d93e4ba7d0ea3f8a3-750.png    660 KiB          [emitted]              [big]  
+                     assets/images/presidents-circle-display-image-e274b420d9fa16d435ac3c41ebeb12ce-225.png   39.4 KiB          [emitted]                     
+                                                          assets/images/presidents-circle-display-image.png   40.4 KiB          [emitted]                     
+                       assets/images/presidents-circle-donate-info-a51aeea17b2625cdebdc0b9b7b30b396-500.jpg   29.5 KiB          [emitted]                     
+                      assets/images/presidents-circle-donate-info-b9592e66273db97ec4dd58b8d74d15fd-1000.jpg   80.4 KiB          [emitted]                     
+                       assets/images/presidents-circle-donate-info-d0e641dad4ec86fc0076843d082a94a6-750.jpg   51.1 KiB          [emitted]                     
+                                                            assets/images/presidents-circle-donate-info.jpg    162 KiB          [emitted]                     
+                                   assets/images/presidents-circle-e30e3cacccc7f4a633e2da73098a6d6d-750.jpg     84 KiB          [emitted]                     
+                                  assets/images/presidents-circle-eee9b0b6a5cfee3120c0a5ea642d8b41-1000.png   1.08 MiB          [emitted]              [big]  
+                         assets/images/presidents-circle-logo-2024-35867ad0eee1ee2316acf85d4ac813df-449.png   91.4 KiB          [emitted]                     
+                                                              assets/images/presidents-circle-logo-2024.png   52.8 KiB          [emitted]                     
+                                                                        assets/images/presidents-circle.jpg   2.46 MiB          [emitted]              [big]  
+                                                                        assets/images/presidents-circle.png   2.49 MiB          [emitted]              [big]  
+                                             assets/images/purple-0a830eb1b95cb9a23d9a74d8e913648c-1000.jpg   95.4 KiB          [emitted]                     
+                                              assets/images/purple-664ee530bead64d848d0961251d6844e-750.jpg   59.5 KiB          [emitted]                     
+                                              assets/images/purple-f6790a9bf72bce2949a1bac561ae69c3-500.jpg   29.8 KiB          [emitted]                     
+                                                                                   assets/images/purple.jpg    117 KiB          [emitted]                     
+                                           assets/images/robo-tech-a82b944096f21890802da7ba51a822d9-300.png   12.1 KiB          [emitted]                     
+                                                                                assets/images/robo-tech.png   5.87 KiB          [emitted]                     
+                                 assets/images/save-the-dates-2023-4bc2253ca17ebd08f1130e5d0a914093-500.png   92.9 KiB          [emitted]                     
+                                assets/images/save-the-dates-2023-749253c417366414c9ff7a1adb523432-1000.png    254 KiB          [emitted]              [big]  
+                                 assets/images/save-the-dates-2023-aff25d16fd438f150100b6438b18d27a-750.png    168 KiB          [emitted]                     
+                                                                      assets/images/save-the-dates-2023.png    143 KiB          [emitted]                     
+                         assets/images/schedule-of-events-sgg-2024-59825e120e631b0e944f5349672e51df-900.jpg    544 KiB          [emitted]              [big]  
+                         assets/images/schedule-of-events-sgg-2024-859e8dc2a8ce67fd6b157e01f988da31-500.jpg    210 KiB          [emitted]                     
+                         assets/images/schedule-of-events-sgg-2024-a7675d17162e5d254a3fc31b4d66f0c0-750.jpg    378 KiB          [emitted]              [big]  
+                                                              assets/images/schedule-of-events-sgg-2024.jpg    570 KiB          [emitted]              [big]  
+                                         assets/images/scholarship-1e7f54be528d16f29464e68dd8bec2a8-750.jpg    130 KiB          [emitted]                     
+                                         assets/images/scholarship-a10881cfbffc58940a7604d5b118ac06-500.jpg   64.8 KiB          [emitted]                     
+                                        assets/images/scholarship-dc6e31226b973ee44ab3efe6ff0c9d35-1000.jpg    211 KiB          [emitted]                     
+                                                                              assets/images/scholarship.jpg   1.67 MiB          [emitted]              [big]  
+                                       assets/images/sgg-promotion-0eae3f0250d004032643a1004b46065f-324.png   36.3 KiB          [emitted]                     
+                                                                            assets/images/sgg-promotion.png   30.1 KiB          [emitted]                     
+                                 assets/images/shalhoub-mcdonald-s-2095b378f8ecbffcb219b24131c82837-446.png     18 KiB          [emitted]                     
+                                                                      assets/images/shalhoub-mcdonald-s.png   15.5 KiB          [emitted]                     
+                                                 assets/images/shl-199a3bb02febcad00b29829f4145b14d-500.png    101 KiB          [emitted]                     
+                                                 assets/images/shl-45b24d2e79a56480d93205e096974891-750.png    188 KiB          [emitted]                     
+                                                 assets/images/shl-9c12e2cad0fbcd4dc1c490d54cb9d5eb-797.png    200 KiB          [emitted]                     
+                                                                                      assets/images/shl.png    213 KiB          [emitted]                     
+                                         assets/images/smart-girls-094934ab45f1c0e8aa00a515185bae1c-300.png   34.7 KiB          [emitted]                     
+                                                                              assets/images/smart-girls.png   40.2 KiB          [emitted]                     
+                                         assets/images/smart-moves-29b367d77c3c588402a5cce0aa57645d-300.png   40.7 KiB          [emitted]                     
+                                                                              assets/images/smart-moves.png   46.7 KiB          [emitted]                     
+                                      assets/images/sports-fitness-09989b62d04f78fa8cdce9deac92249f-750.jpg   82.2 KiB          [emitted]                     
+                                     assets/images/sports-fitness-89334d2ba34a82cc48e014c36c161cbd-1000.jpg    131 KiB          [emitted]                     
+                                      assets/images/sports-fitness-d932463eb55404f3879c8efde16c41b8-500.jpg   44.2 KiB          [emitted]                     
+                                 assets/images/sports-fitness-hero-28dfc238e97f68497f9c941508565582-500.jpg     31 KiB          [emitted]                     
+                                 assets/images/sports-fitness-hero-f0a051bdfddf5e1c969d03aa094dd425-690.jpg   53.7 KiB          [emitted]                     
+                                                                      assets/images/sports-fitness-hero.jpg   37.8 KiB          [emitted]                     
+                                assets/images/sports-fitness-thumb-3477fbc92fd682d97cd05bc9ca53d066-460.jpg   31.8 KiB          [emitted]                     
+                                                                     assets/images/sports-fitness-thumb.jpg   23.1 KiB          [emitted]                     
+                                                                           assets/images/sports-fitness.jpg    309 KiB          [emitted]              [big]  
+                             assets/images/sports-heroes-luncheon-a59a0aa3472bdc3d1c78caf2d2b8fc3f-1000.png    233 KiB          [emitted]                     
+                              assets/images/sports-heroes-luncheon-cc70584af5dccf9b29d023e57a1f1e7c-500.png   82.6 KiB          [emitted]                     
+                              assets/images/sports-heroes-luncheon-e14f8c2492cbce824e738f9cad8a2347-750.png    153 KiB          [emitted]                     
+                                                                   assets/images/sports-heroes-luncheon.png    757 KiB          [emitted]              [big]  
+                        assets/images/spotlight-albertsons-banner-2037a721fd5d5bea825e7c51493faa8c-1000.png    176 KiB          [emitted]                     
+                         assets/images/spotlight-albertsons-banner-37339f8902b700dfba42edf4a506600e-500.png   64.7 KiB          [emitted]                     
+                         assets/images/spotlight-albertsons-banner-b632004a4bb532b954b946270de5b6ef-750.png    123 KiB          [emitted]                     
+                                                              assets/images/spotlight-albertsons-banner.png    651 KiB          [emitted]              [big]  
+                              assets/images/spotlight-vans-banner-9781dc8c6fd526c3df56a19bff1734ab-1000.png   79.7 KiB          [emitted]                     
+                               assets/images/spotlight-vans-banner-a066448020298cc4fa44c0c5b26240c9-500.png     33 KiB          [emitted]                     
+                               assets/images/spotlight-vans-banner-fd19d0ce32be3dea301993e33e3090c0-750.png   56.2 KiB          [emitted]                     
+                                                                    assets/images/spotlight-vans-banner.png    151 KiB          [emitted]                     
+                                           assets/images/stem-team-0b27cfad17a5ee0487559f6ac64a3448-943.png    380 KiB          [emitted]              [big]  
+                                           assets/images/stem-team-8756e7773587888625aeda7eeb900833-750.png    298 KiB          [emitted]              [big]  
+                                           assets/images/stem-team-bb721d6b9bfe2f9047f3044d78feaba9-500.png    148 KiB          [emitted]                     
+                                                                                assets/images/stem-team.png    128 KiB          [emitted]                     
+                                           assets/images/studying-0734ce2ac2c9a4b2dbf570a1272cbb36-1000.jpg   97.7 KiB          [emitted]                     
+                                            assets/images/studying-6092e60fa41eac033b6d1c6381162af4-750.jpg   63.5 KiB          [emitted]                     
+                                            assets/images/studying-70443f4382d08f0fd0450dc96c9b2d52-500.jpg   34.9 KiB          [emitted]                     
+                                                                                 assets/images/studying.jpg    126 KiB          [emitted]                     
+                                            assets/images/swg-2026-690d3af77e0764ef77e06bdf915d03b4-941.png    738 KiB          [emitted]              [big]  
+                                            assets/images/swg-2026-73d96e627b41f69b67898e10e218273a-500.png    289 KiB          [emitted]              [big]  
+                                            assets/images/swg-2026-ad8433114c7516ec9f9f7fa539acd856-750.png    546 KiB          [emitted]              [big]  
+                                     assets/images/swg-2026-info-2-3351d0fcefafafee5cbf43f91bb950e8-500.png    267 KiB          [emitted]              [big]  
+                                     assets/images/swg-2026-info-2-988954cd890fdd99034cc5739a68a6d6-750.png    570 KiB          [emitted]              [big]  
+                                    assets/images/swg-2026-info-2-fb5a119db4174855b2692fa14b0aa7d8-1000.png    973 KiB          [emitted]              [big]  
+                                                                          assets/images/swg-2026-info-2.png   2.28 MiB          [emitted]              [big]  
+                                       assets/images/swg-2026-info-339d4394795ecaa47412767ebbece2de-750.png    499 KiB          [emitted]              [big]  
+                                       assets/images/swg-2026-info-4d4ee62bef804c9b76fc55e22fe40c62-500.png    237 KiB          [emitted]                     
+                                      assets/images/swg-2026-info-4feaabb67cb55f5bcfd05e84e8086636-1000.png    843 KiB          [emitted]              [big]  
+                                                                            assets/images/swg-2026-info.png   2.15 MiB          [emitted]              [big]  
+                                                                                 assets/images/swg-2026.png    756 KiB          [emitted]              [big]  
+                                           assets/images/team-hero-5b25e54993ab9fbec7efc4fa3fcd7409-500.jpg   86.2 KiB          [emitted]                     
+                                          assets/images/team-hero-a9f15d9fe3dba5e8426b8620593a2bea-1000.jpg    312 KiB          [emitted]              [big]  
+                                           assets/images/team-hero-e58751e24092e07f491fbf6c4e961b30-750.jpg    184 KiB          [emitted]                     
+                                                                                assets/images/team-hero.jpg   4.55 MiB          [emitted]              [big]  
+                                           assets/images/testing-2-0324f8a59930cda18e30520438faf578-750.jpg     62 KiB          [emitted]                     
+                                          assets/images/testing-2-0b2d6e5dd9011f8e30dc008e7e2ef40c-1000.jpg   97.1 KiB          [emitted]                     
+                                           assets/images/testing-2-2280246199703e77b08f538576899aac-500.jpg   34.7 KiB          [emitted]                     
+                                                                                assets/images/testing-2.jpg    890 KiB          [emitted]              [big]  
+                                             assets/images/testing-530a64e10f7a6d2c499a0ca4f405ff1f-500.jpg   36.2 KiB          [emitted]                     
+                                            assets/images/testing-5648bd03a2e25f31257abbe56544d83b-1000.jpg   99.7 KiB          [emitted]                     
+                                             assets/images/testing-d1a18bc36bf7b7e3f7984e84580347ed-750.jpg   64.4 KiB          [emitted]                     
+                                                                                  assets/images/testing.jpg    913 KiB          [emitted]              [big]  
+                               assets/images/thanksgiving-campaign-a6182b25de8bdc485bb4b0f401fd798f-500.png   89.5 KiB          [emitted]                     
+                               assets/images/thanksgiving-campaign-bc8790a3012b1d27e473e61576cc7ded-750.png    175 KiB          [emitted]                     
+                              assets/images/thanksgiving-campaign-d5f09d8b4fe99fe13a8f895b05b9b550-1000.png    284 KiB          [emitted]              [big]  
+                                                                    assets/images/thanksgiving-campaign.png    855 KiB          [emitted]              [big]  
+                                               assets/images/tony-0ee8ff01801de99faf0065bf935f3fbe-1000.jpg    139 KiB          [emitted]                     
+                                                assets/images/tony-946ffdb4390826554851be93c8f678e2-500.jpg   48.1 KiB          [emitted]                     
+                                                assets/images/tony-ceac539393297be1a62f40987cae5946-750.jpg   88.9 KiB          [emitted]                     
+                        assets/images/tony-reagins-golf-tournament-49f8beecb42546db6a02635cf0131977-500.jpg   36.5 KiB          [emitted]                     
+                        assets/images/tony-reagins-golf-tournament-635d07f901bb18e9ccad4db5389b9048-511.jpg   40.9 KiB          [emitted]                     
+                                                             assets/images/tony-reagins-golf-tournament.jpg     34 KiB          [emitted]                     
+                                                                                     assets/images/tony.jpg   4.06 MiB          [emitted]              [big]  
+                                          assets/images/torch-club-414ef0a10f2158960a389beb66040eb9-124.png   11.4 KiB          [emitted]                     
+                                                                               assets/images/torch-club.png   3.88 KiB          [emitted]                     
+                                   assets/images/tournament-winner-13f8bd799ee2982ddbc8d936b7b45ed0-750.png    189 KiB          [emitted]                     
+                                   assets/images/tournament-winner-80aba58baf56d72966b4597f452f8b95-500.png    110 KiB          [emitted]                     
+                                  assets/images/tournament-winner-e6f38407cc98fbccd51b06656c89ae17-1000.png    273 KiB          [emitted]              [big]  
+                                                                        assets/images/tournament-winner.png    306 KiB          [emitted]              [big]  
+                                         assets/images/triple-play-d9e9074e1ce8d0b8ada322622e5a8a06-300.jpg   26.8 KiB          [emitted]                     
+                                                                              assets/images/triple-play.jpg   15.4 KiB          [emitted]                     
+assets/images/vector-graphic-abstract-circle-purple-450w-222133453-222fa298ecdc0930e7e757f2fca1769e-450.jpg   19.2 KiB          [emitted]                     
+                                     assets/images/vector-graphic-abstract-circle-purple-450w-222133453.jpg   13.4 KiB          [emitted]                     
+                                             assets/images/visits-4c9b15a366a01f9d9edd7199306f0145-1000.jpg    206 KiB          [emitted]                     
+                                              assets/images/visits-96c7b699324ffd6f99156a515822dec9-750.jpg    122 KiB          [emitted]                     
+                                              assets/images/visits-c8743517c09f1a52920170fa3cbe7c4d-500.jpg   58.9 KiB          [emitted]                     
+                                                                                   assets/images/visits.jpg    489 KiB          [emitted]              [big]  
+                                          assets/images/wanna-play-e2cfbc9cfb89a19242aba7751e67106d-300.jpg   18.7 KiB          [emitted]                     
+                                                                               assets/images/wanna-play.jpg   5.45 KiB          [emitted]                     
+                                                                          assets/images/wash-your-hands.gif   3.02 MiB          [emitted]              [big]  
+                                      assets/images/ways-to-give-1-20454f245ca1e61ec624d1b26b63b174-750.jpg   70.2 KiB          [emitted]                     
+                                     assets/images/ways-to-give-1-776fab7f0397428cb014cfee633b9b76-1000.jpg    109 KiB          [emitted]                     
+                                      assets/images/ways-to-give-1-acb3d95d679ede78911518ae9a67d41f-500.jpg   38.1 KiB          [emitted]                     
+                                                                           assets/images/ways-to-give-1.jpg    140 KiB          [emitted]                     
+                                     assets/images/ways-to-give-2-1ac6b0974d7fd922ac655ef8d0494f92-1000.jpg    119 KiB          [emitted]                     
+                                      assets/images/ways-to-give-2-6164025fbab2773073a8f0bc9f7723d2-500.jpg   43.1 KiB          [emitted]                     
+                                      assets/images/ways-to-give-2-93dda698faadf28af5e2c208122b40fe-750.jpg     78 KiB          [emitted]                     
+                                                                           assets/images/ways-to-give-2.jpg    154 KiB          [emitted]                     
+                      assets/images/ways-to-give-birthday-donation-5e98a7d136cb313969c868a35e396a5a-500.png    298 KiB          [emitted]              [big]  
+                     assets/images/ways-to-give-birthday-donation-c7d33096f3c2ab6eac8404d6582a9cfa-1000.png   1010 KiB          [emitted]              [big]  
+                      assets/images/ways-to-give-birthday-donation-f57652e6f8da7eec9c09e603001502d9-750.png    608 KiB          [emitted]              [big]  
+                                                           assets/images/ways-to-give-birthday-donation.png   2.23 MiB          [emitted]              [big]  
+                                   assets/images/ways-to-give-hero-004889055ba423121c0e34d276024ac3-500.jpg   63.4 KiB          [emitted]                     
+                                   assets/images/ways-to-give-hero-83d8d8874e4f1dec1a31903acc2deb36-750.jpg    117 KiB          [emitted]                     
+                                  assets/images/ways-to-give-hero-c86fdf8cbd8e63eeab085510ba7e16ec-1000.jpg    179 KiB          [emitted]                     
+                                                                        assets/images/ways-to-give-hero.jpg    222 KiB          [emitted]                     
+                                             assets/images/winners-4a14654bbbbb4cca81fb8e04a4ce8060-500.png   71.8 KiB          [emitted]                     
+                                             assets/images/winners-4a583d0e78a14bfbdff2c38f14b28edd-500.jpg    121 KiB          [emitted]                     
+                                             assets/images/winners-4bc0219c68bd2e2db2339a34ef2fa356-950.png    180 KiB          [emitted]                     
+                                             assets/images/winners-655da1f499374dce8c2b75eaf1be3268-750.png    141 KiB          [emitted]                     
+                                            assets/images/winners-6cd8fd92033c2763cb8b81a180acf7c7-1000.jpg    329 KiB          [emitted]              [big]  
+                                             assets/images/winners-c9a2bda92adad483828e88107c088b66-750.jpg    214 KiB          [emitted]                     
+                                                                                  assets/images/winners.jpg    214 KiB          [emitted]                     
+                                                                                  assets/images/winners.png    204 KiB          [emitted]                     
+                                   assets/images/youth-of-the-year-95c7165b070ea51bbb10b55c3796a820-200.jpg   11.2 KiB          [emitted]                     
+                                                                        assets/images/youth-of-the-year.jpg   9.14 KiB          [emitted]                     
+                                       assets/images/zelle-qr-code-400edb6251c1fd5501fcf0c9918dea98-334.png     32 KiB          [emitted]                     
+                                                                            assets/images/zelle-qr-code.png   25.4 KiB          [emitted]                     
+                                                                                   assets/impact-report.pdf    399 KiB          [emitted]              [big]  
+                                                                           assets/mathis-brothers-promo.pdf    534 KiB          [emitted]              [big]  
+                                                                     assets/one-future-coachella-valley.pdf    115 KiB          [emitted]                     
+                                                                           assets/origami-face-covering.pdf    207 KiB          [emitted]                     
+                                                                            assets/parent-handbook-2024.pdf    375 KiB          [emitted]              [big]  
+                                                                         assets/planned-giving-bequests.pdf    124 KiB          [emitted]                     
+                                                                                   assets/ssg-promotion.pdf    939 KiB          [emitted]              [big]  
+                                                                                        assets/sumo-dog.pdf   5.17 MiB          [emitted]              [big]  
+                                                                                         assets/tuscany.pdf   5.05 MiB          [emitted]              [big]  
+                                                                               assets/vidanta-trip-info.pdf   2.48 MiB          [emitted]              [big]  
+                                                                                         assets/vidanta.pdf   2.96 MiB          [emitted]              [big]  
+                                                                               assets/youth-of-the-year.mp4   20.7 MiB          [emitted]              [big]  
+                                                                               site.83d94b781f1758ebf3b8.js    643 KiB       0  [emitted] [immutable]  [big]  main
+                                                                           site.83d94b781f1758ebf3b8.js.map   2.48 MiB       0  [emitted] [dev]               main
+                                                                          site.f876629b6913107c6dcc.min.css    162 KiB       0  [emitted] [immutable]         main
+Entrypoint main [big] = site.f876629b6913107c6dcc.min.css site.83d94b781f1758ebf3b8.js site.83d94b781f1758ebf3b8.js.map
+[139] ./site.js 9.18 KiB {0} [built]
+[140] ./scss/site.scss 1.53 KiB {0} [built]
+[141] C:/Users/hola/Workspace/bgcofcv/node_modules/mini-css-extract-plugin/dist/loader.js!C:/Users/hola/Workspace/bgcofcv/node_modules/css-loader!C:/Users/hola/Workspace/bgcofcv/node_modules/postcss-loader/src!C:/Users/hola/Workspace/bgcofcv/node_modules/sass-loader/dist/cjs.js!./scss/site.scss 39 bytes {0} [built]
+[144] (webpack)/buildin/global.js 472 bytes {0} [built]
+[146] (webpack)/buildin/module.js 497 bytes {0} [built]
+[147] C:/Users/hola/Workspace/bgcofcv/node_modules/moment/locale sync ^\.\/.*$ 3.21 KiB {0} [optional] [built]
+[149] C:/Users/hola/Workspace/bgcofcv/node_modules/date-fns/esm/index.js + 231 modules 509 KiB {1} [built]
+      |    232 modules
+    + 144 hidden modules
+
+WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  assets/images/17-perricone-farms-4bbb589400d29af61670414c4db43d73-597.png (255 KiB)
+  assets/images/2020-alumni-85cb577d99aaa1d1f6b194d8d36bead7-1000.png (253 KiB)
+  assets/images/BGCCV DS Auction 2020_Page_1-ec22db15bd89be63463916e928f7e254-750.png (378 KiB)
+  assets/images/BGCCV DS Auction 2020_Page_1-0cfe7c94b8fbdbdd2ba58fc8f381a80a-816.png (309 KiB)
+  assets/images/BGCCV DS Auction 2020_Page_2-cfcbe872b089e9c6ad885fe6d4fb4b09-750.png (326 KiB)
+  assets/images/BGCCV DS Auction 2020_Page_2-57942865ae5ef1f115da23d81d66364b-1000.png (431 KiB)
+  assets/images/Desert Sun 4.7.2017_Page_1-fb1889c5309097b2dfd1590d17f05814-500.png (251 KiB)
+  assets/images/Desert Sun 4.7.2017_Page_1-4270bb4c27d740e4ed376439183b1436-750.png (520 KiB)
+  assets/images/Desert Sun 4.7.2017_Page_1-31ff3b5a2d82599536070b7f05c640af-1000.png (870 KiB)
+  assets/images/Desert Sun 4.7.2017_Page_2-70f93e419e97ac3196c68a36df128884-500.png (488 KiB)
+  assets/images/Desert Sun 4.7.2017_Page_2-765e9b0d5224857f04f17a7966191bd5-750.png (1 MiB)
+  assets/images/Desert Sun 4.7.2017_Page_2-7a9ad4ef1ce07ad6c553811bad4b34e8-1000.png (1.69 MiB)
+  assets/images/Desert Sun 5.7.2017-95f79e72a6489991d760bdd27df215aa-500.png (453 KiB)
+  assets/images/Desert Sun 5.7.2017-d447471ee5441ca966e0b15d5caf3eb2-750.png (949 KiB)
+  assets/images/Desert Sun 5.7.2017-e62e7a2397ffb7587a98de0ea55b4921-1000.png (1.57 MiB)
+  assets/images/Desert Sun article 4.15.16_Page_1-29f9f7d9cb05a8fef02256163881169d-500.png (530 KiB)
+  assets/images/Desert Sun article 4.15.16_Page_1-1044dac0adaedc225033f6a423d3757d-750.png (1010 KiB)
+  assets/images/Desert Sun article 4.15.16_Page_1-c43fdaf41a489b85e4eae44c708f5ef9-1000.png (1.56 MiB)
+  assets/images/Desert Sun article 4.15.16_Page_2-9acb626bc95b7a0a5ff3bd42b9f33f70-500.png (645 KiB)
+  assets/images/Desert Sun article 4.15.16_Page_2-d7e8a862e5e5348004fd2e0f87a7c1db-750.png (1.18 MiB)
+  assets/images/Desert Sun article 4.15.16_Page_2-3a3c774e3986d0e85bac21fb1b231d8b-1000.png (1.75 MiB)
+  assets/images/Desert Sun post event coverage 2015_Page_1-330543a0e4e58c6cfc33641b725cb0a6-500.png (535 KiB)
+  assets/images/Desert Sun post event coverage 2015_Page_1-94fdc526f4ec1281967cb8d87da68b2c-750.png (1010 KiB)
+  assets/images/Desert Sun post event coverage 2015_Page_1-61d9ef55a3ba86167d178e398186d49b-1000.png (1.52 MiB)
+  assets/images/Desert Sun post event coverage 2015_Page_2-28386f2e83d403eb2fbb7ffcb65753b6-500.png (559 KiB)
+  assets/images/Desert Sun post event coverage 2015_Page_2-d2cc81c6cce2caea6423642e1436485a-750.png (1.04 MiB)
+  assets/images/Desert Sun post event coverage 2015_Page_2-fab9cfe93d53a714b5b3fa82a5b9616f-1000.png (1.6 MiB)
+  assets/images/Loyal_Sponsors-0aa8d2f3683b3d451d92ef91ee1d8e0b-1000.jpg (300 KiB)
+  assets/images/Sponsorship_Opportunities-770831538d001c1e76954d2f452c7975-1000.jpg (337 KiB)
+  assets/images/alumni-hero-59ef7398daa039906f378ec8f2bfc9e7-500.png (295 KiB)
+  assets/images/alumni-hero-fc27a2ce3935ef34302bb4739fe61f3a-750.png (619 KiB)
+  assets/images/alumni-hero-d0ffc984713755c3549f751880997419-1000.png (1.02 MiB)
+  assets/images/bgca-cyber-safety-e31d7f0580580a310c45f849cca357d6-666.png (306 KiB)
+  assets/images/campaign-auction-6afbba4700c8ec79953360e0b55bf3ac-500.png (291 KiB)
+  assets/images/campaign-auction-f6e0430a954d4db9c006f6a139676118-750.png (609 KiB)
+  assets/images/campaign-auction-d987efcffd45c8d1a1e39deabcae25ae-951.png (972 KiB)
+  assets/images/campaign-love-a2fe5f49f54c6dd0744906bfad6c4c15-750.png (407 KiB)
+  assets/images/campaign-love-e90562ca42c621e0fdd9f972f4c1c990-1000.png (649 KiB)
+  assets/images/club-locations-4f2134c60a50724988b452b4039cdd2b-750.png (400 KiB)
+  assets/images/club-locations-f12c955d0bb16b74e1ca041842e00236-1000.png (658 KiB)
+  assets/images/food4less-f2f4569f876c8c13823b0c007f8d0f6f-750.png (296 KiB)
+  assets/images/food4less-f45b9d47dda7b1303e6fc3553ab05b5e-1000.png (468 KiB)
+  assets/images/happy-holidays-2022-18631c85d8a03b701d52cba237b0aa39-1000.png (370 KiB)
+  assets/images/impact-report-img-a0bba9c480d2f1c5a72f0cced2400d45-500.png (356 KiB)
+  assets/images/impact-report-img-359e38f71ef50623608fe8ec4010067b-750.png (722 KiB)
+  assets/images/impact-report-img-150c3aca46f5d6042845c6963da9e93a-1000.png (1.16 MiB)
+  assets/images/iwcc-pic-2-daedc8803b826221e138ca979d497a32-500.png (289 KiB)
+  assets/images/iwcc-pic-2-efc076076a666c6e9775c80eec85741d-750.png (620 KiB)
+  assets/images/iwcc-pic-2-87001066b946edcb444d65be572b02d0-900.png (934 KiB)
+  assets/images/lewis-brisbois-e4fe296a88ca77f1e61018dc3326cfe3-1000.png (246 KiB)
+  assets/images/mathis-brothers-campaign-3fb84f1bfa3b5dc364d5c7fe6b03fd9c-500.png (314 KiB)
+  assets/images/mathis-brothers-campaign-1c4d76282ea3f550edb16b34bd3ba596-750.png (644 KiB)
+  assets/images/mathis-brothers-campaign-4add3d15cbb30e13f79fc7c24b58eac6-1000.png (1.01 MiB)
+  assets/images/meal-distribution-2-8d0abfc93534963e691650829872576c-395.png (248 KiB)
+  assets/images/mission-vision-core-beliefs-7c5f86b706216f526d9371b637a06006-750.png (414 KiB)
+  assets/images/mission-vision-core-beliefs-2c92797817b91021799f6438413576cf-1000.png (684 KiB)
+  assets/images/open-graph-2e8dbf5329470ce5ce8a61699354e02d-1000.png (362 KiB)
+  assets/images/presidents-circle-c6ea92f4dd03718216b9f32b4065257d-500.png (316 KiB)
+  assets/images/presidents-circle-d0bbd18e2c7ccd7d93e4ba7d0ea3f8a3-750.png (660 KiB)
+  assets/images/presidents-circle-eee9b0b6a5cfee3120c0a5ea642d8b41-1000.png (1.08 MiB)
+  assets/images/save-the-dates-2023-749253c417366414c9ff7a1adb523432-1000.png (254 KiB)
+  assets/images/schedule-of-events-sgg-2024-a7675d17162e5d254a3fc31b4d66f0c0-750.jpg (378 KiB)
+  assets/images/schedule-of-events-sgg-2024-59825e120e631b0e944f5349672e51df-900.jpg (544 KiB)
+  assets/images/stem-team-8756e7773587888625aeda7eeb900833-750.png (298 KiB)
+  assets/images/stem-team-0b27cfad17a5ee0487559f6ac64a3448-943.png (380 KiB)
+  assets/images/swg-2026-info-2-3351d0fcefafafee5cbf43f91bb950e8-500.png (267 KiB)
+  assets/images/swg-2026-info-2-988954cd890fdd99034cc5739a68a6d6-750.png (570 KiB)
+  assets/images/swg-2026-info-2-fb5a119db4174855b2692fa14b0aa7d8-1000.png (973 KiB)
+  assets/images/swg-2026-info-339d4394795ecaa47412767ebbece2de-750.png (499 KiB)
+  assets/images/swg-2026-info-4feaabb67cb55f5bcfd05e84e8086636-1000.png (843 KiB)
+  assets/images/swg-2026-73d96e627b41f69b67898e10e218273a-500.png (289 KiB)
+  assets/images/swg-2026-ad8433114c7516ec9f9f7fa539acd856-750.png (546 KiB)
+  assets/images/swg-2026-690d3af77e0764ef77e06bdf915d03b4-941.png (738 KiB)
+  assets/images/team-hero-a9f15d9fe3dba5e8426b8620593a2bea-1000.jpg (312 KiB)
+  assets/images/thanksgiving-campaign-d5f09d8b4fe99fe13a8f895b05b9b550-1000.png (284 KiB)
+  assets/images/tournament-winner-e6f38407cc98fbccd51b06656c89ae17-1000.png (273 KiB)
+  assets/images/ways-to-give-birthday-donation-5e98a7d136cb313969c868a35e396a5a-500.png (298 KiB)
+  assets/images/ways-to-give-birthday-donation-f57652e6f8da7eec9c09e603001502d9-750.png (608 KiB)
+  assets/images/ways-to-give-birthday-donation-c7d33096f3c2ab6eac8404d6582a9cfa-1000.png (1010 KiB)
+  assets/images/winners-6cd8fd92033c2763cb8b81a180acf7c7-1000.jpg (329 KiB)
+  site.83d94b781f1758ebf3b8.js (643 KiB)
+  assets/2024-tony-reagins-golf-touranament-registration.pdf (303 KiB)
+  assets/2025-auction-donation-packet.pdf (4.34 MiB)
+  assets/2025-swg-player-application.pdf (1.71 MiB)
+  assets/2025-swg-sponsor-application.pdf (1.51 MiB)
+  assets/2026 SWG Schedule of Events.pdf (427 KiB)
+  assets/2026 SWG Sponsorship Opportunities.pdf (482 KiB)
+  assets/bali-trip-info.pdf (2.26 MiB)
+  assets/bgc-membership-form.pdf (527 KiB)
+  assets/bgc-newsletter.pdf (1.4 MiB)
+  assets/bgcofcv-annual-report-2017-2018.pdf (898 KiB)
+  assets/bgcofcv-annual-statement-2019.pdf (1.15 MiB)
+  assets/bgcofcv-impact-report-2017-2018.pdf (1.12 MiB)
+  assets/car-drawing-purchase-form.pdf (951 KiB)
+  assets/car-ticket-purchase-2023.pdf (687 KiB)
+  assets/friends-update-september-2020.pdf (338 KiB)
+  assets/holiday-charity-drive-form.pdf (339 KiB)
+  assets/impact-report.pdf (399 KiB)
+  assets/mathis-brothers-promo.pdf (534 KiB)
+  assets/parent-handbook-2024.pdf (375 KiB)
+  assets/ssg-promotion.pdf (939 KiB)
+  assets/sumo-dog.pdf (5.17 MiB)
+  assets/tuscany.pdf (5.05 MiB)
+  assets/vidanta-trip-info.pdf (2.48 MiB)
+  assets/vidanta.pdf (2.96 MiB)
+  assets/youth-of-the-year.mp4 (20.7 MiB)
+  assets/be-in-the-know/2020-07-03.pdf (902 KiB)
+  assets/be-in-the-know/2020-08-14.pdf (733 KiB)
+  assets/be-in-the-know/2020-08-28.pdf (307 KiB)
+  assets/be-in-the-know/2020-09-18.pdf (338 KiB)
+  assets/be-in-the-know/2020-10-07.pdf (675 KiB)
+  assets/be-in-the-know/2020-11-30.pdf (359 KiB)
+  assets/be-in-the-know/2021-01-19.pdf (412 KiB)
+  assets/be-in-the-know/2021-02-17.pdf (335 KiB)
+  assets/be-in-the-know/2021-03-22.pdf (395 KiB)
+  assets/be-in-the-know/2021-06-01.pdf (899 KiB)
+  assets/be-in-the-know/2021-07-07.pdf (810 KiB)
+  assets/be-in-the-know/2021-09-21.pdf (553 KiB)
+  assets/be-in-the-know/2021-11-23.pdf (1000 KiB)
+  assets/be-in-the-know/2022-01-22.pdf (1010 KiB)
+  assets/be-in-the-know/2022-04-12.pdf (633 KiB)
+  assets/be-in-the-know/2022-10-11.pdf (542 KiB)
+  assets/be-in-the-know/2023-01-20.pdf (655 KiB)
+  assets/be-in-the-know/2023-04-17.pdf (513 KiB)
+  assets/be-in-the-know/2023-07-01.pdf (472 KiB)
+  assets/be-in-the-know/2023-09-01.pdf (488 KiB)
+  assets/be-in-the-know/2023-11-15.pdf (485 KiB)
+  assets/be-in-the-know/2024-04-01.pdf (507 KiB)
+  assets/be-in-the-know/2024-08-01.pdf (1.65 MiB)
+  assets/be-in-the-know/2025-06-01.pdf (1.31 MiB)
+  assets/be-in-the-know/2025-08-01.pdf (1.59 MiB)
+  assets/be-in-the-know/2026-03-21.pdf (2.03 MiB)
+  assets/be-in-the-know/2026-08-01.pdf (2.14 MiB)
+  assets/images/17-perricone-farms.png (288 KiB)
+  assets/images/20190123_boysandgirlsclub_0055.jpg (1.33 MiB)
+  assets/images/20190123_boysandgirlsclub_0068.jpg (1.21 MiB)
+  assets/images/2020-alumni.png (272 KiB)
+  assets/images/alumni-hero.png (2.06 MiB)
+  assets/images/ask-letter.jpg (671 KiB)
+  assets/images/auction-2025-save-the-date.jpg (266 KiB)
+  assets/images/auction.jpg (3.17 MiB)
+  assets/images/basketball.jpg (296 KiB)
+  assets/images/bgca-cyber-safety.png (258 KiB)
+  assets/images/BGCCV DS Auction 2020_Page_1.png (261 KiB)
+  assets/images/bgcofcv.jpg (436 KiB)
+  assets/images/campaign-auction.png (1.04 MiB)
+  assets/images/campaign-love.png (1.23 MiB)
+  assets/images/club-locations.png (1.29 MiB)
+  assets/images/coachella-club.jpg (481 KiB)
+  assets/images/college.jpg (244 KiB)
+  assets/images/community-service-hours.jpg (325 KiB)
+  assets/images/Desert Sun 4.7.2017_Page_1.png (4.65 MiB)
+  assets/images/Desert Sun 4.7.2017_Page_2.png (3.85 MiB)
+  assets/images/Desert Sun 5.7.2017.png (3.75 MiB)
+  assets/images/Desert Sun article 4.15.16_Page_1.png (5.08 MiB)
+  assets/images/Desert Sun article 4.15.16_Page_2.png (594 KiB)
+  assets/images/Desert Sun post event coverage 2015_Page_1.png (1.77 MiB)
+  assets/images/Desert Sun post event coverage 2015_Page_2.png (1.74 MiB)
+  assets/images/dreamstime_m_20200665.jpg (848 KiB)
+  assets/images/events-hero.jpg (3.06 MiB)
+  assets/images/food4less.png (2.39 MiB)
+  assets/images/free-lunch.jpg (409 KiB)
+  assets/images/friends-of-bgcofcv.jpg (2.68 MiB)
+  assets/images/happy-holidays-2022.png (558 KiB)
+  assets/images/hero-2.jpg (282 KiB)
+  assets/images/hero.jpg (326 KiB)
+  assets/images/impact-report-img.png (1.9 MiB)
+  assets/images/indio-clubhouse.jpg (266 KiB)
+  assets/images/iwcc-pic-2.png (922 KiB)
+  assets/images/la-quinta-club.jpg (7.45 MiB)
+  assets/images/level-up.jpg (363 KiB)
+  assets/images/lewis-brisbois.png (459 KiB)
+  assets/images/Loyal_Sponsors.jpg (297 KiB)
+  assets/images/mathis-brothers-campaign.png (1.58 MiB)
+  assets/images/meals.jpg (288 KiB)
+  assets/images/mecca-club.jpg (16.4 MiB)
+  assets/images/melissa.JPG (5.83 MiB)
+  assets/images/mission-vision-core-beliefs.png (1.4 MiB)
+  assets/images/my-future-hero.jpg (663 KiB)
+  assets/images/open-graph.png (1.56 MiB)
+  assets/images/presidents-circle.jpg (2.46 MiB)
+  assets/images/presidents-circle.png (2.49 MiB)
+  assets/images/schedule-of-events-sgg-2024.jpg (570 KiB)
+  assets/images/scholarship.jpg (1.67 MiB)
+  assets/images/Sponsorship_Opportunities.jpg (325 KiB)
+  assets/images/sports-fitness.jpg (309 KiB)
+  assets/images/sports-heroes-luncheon.png (757 KiB)
+  assets/images/spotlight-albertsons-banner.png (651 KiB)
+  assets/images/swg-2026-info-2.png (2.28 MiB)
+  assets/images/swg-2026-info.png (2.15 MiB)
+  assets/images/swg-2026.png (756 KiB)
+  assets/images/team-hero.jpg (4.55 MiB)
+  assets/images/testing-2.jpg (890 KiB)
+  assets/images/testing.jpg (913 KiB)
+  assets/images/thanksgiving-campaign.png (855 KiB)
+  assets/images/tony.jpg (4.06 MiB)
+  assets/images/tournament-winner.png (306 KiB)
+  assets/images/visits.jpg (489 KiB)
+  assets/images/wash-your-hands.gif (3.02 MiB)
+  assets/images/ways-to-give-birthday-donation.png (2.23 MiB)
+  assets/images/partners/perricone-farms.png (411 KiB)
+  _data\images-metadata.json (480 KiB)
+
+WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (805 KiB)
+      site.f876629b6913107c6dcc.min.css
+      site.83d94b781f1758ebf3b8.js
+
+Child html-webpack-plugin for "_data\images-metadata.json":
+                                                                                                          Asset      Size  Chunks                    Chunk Names
+                                   assets/images/1-international-paper-7bec4d4102ae024fe5e45c89bdf7e60b-640.png  11.4 KiB          [emitted]         
+                                   assets/images/1-international-paper-8c9be46e01b51f82426e086d82e15a63-500.png   8.8 KiB          [emitted]         
+                                         assets/images/10-des-pac-prop-a7312004b86d834b85fa0d29de7f5584-500.png  94.2 KiB          [emitted]         
+                                         assets/images/10-des-pac-prop-edfc6dd6bf4a55392531c57ac40592e7-586.png   123 KiB          [emitted]         
+                                      assets/images/12-western-growers-07515ff186e8621ad59e4d8915fbefff-500.png  59.9 KiB          [emitted]         
+                                     assets/images/12-western-growers-5115c0413d053ac1bd059a01d3d46909-1000.png   168 KiB          [emitted]         
+                                      assets/images/12-western-growers-f49ddbcc2be70ce14e6cdd93ae3f9b78-750.png   109 KiB          [emitted]         
+                                     assets/images/13-anthonyvineyards-90d4c02de9452135463f0f4a99869fb7-211.png    44 KiB          [emitted]         
+                                   assets/images/14-desert-valley-date-419ad662a7bf6a2c20ac56ac9ecddd05-245.png  73.4 KiB          [emitted]         
+                                               assets/images/15-dimare-6828e92e4f28d06249c45ebf5d686844-200.jpg  20.5 KiB          [emitted]         
+                                       assets/images/16-foster-gardner-bd560b01d84b537f4a1d7610cd358aab-324.png  21.7 KiB          [emitted]         
+                                      assets/images/17-perricone-farms-4bbb589400d29af61670414c4db43d73-597.png   255 KiB          [emitted]  [big]  
+                                      assets/images/17-perricone-farms-de72c8c27bf18c36f79d1b828519fa49-500.png   186 KiB          [emitted]         
+                                   assets/images/18-peter-rabbit-farms-0a6f0f548ef42e4e9d553c8f8a4eea52-530.png  92.4 KiB          [emitted]         
+                                   assets/images/18-peter-rabbit-farms-add26db5a860a8d1cd3b6b28e3d884ed-500.png  88.2 KiB          [emitted]         
+                                           assets/images/19-prime-time-e0927ebb9b26411a90334149fa9df8d1-401.png  61.9 KiB          [emitted]         
+                                  assets/images/20-richard-bagdasarian-5ee4f34de6399de12b1019418b1fa753-500.png  76.3 KiB          [emitted]         
+                                  assets/images/20-richard-bagdasarian-6b882fb43ea59345af50f1ed9528d58c-750.png   157 KiB          [emitted]         
+                                  assets/images/20-richard-bagdasarian-b5e588c7747d63a98a8dc4499d86bdd3-767.png   171 KiB          [emitted]         
+                         assets/images/20190123_boysandgirlsclub_0055-19f7db086a11a9592256c9c430de2f5f-1000.jpg   125 KiB          [emitted]         
+                          assets/images/20190123_boysandgirlsclub_0055-bdf32caf62c1a075faf08daaa5d9350f-750.jpg  81.3 KiB          [emitted]         
+                          assets/images/20190123_boysandgirlsclub_0055-e4a2879a16962d21cf46aa2a959211f6-500.jpg  45.4 KiB          [emitted]         
+                          assets/images/20190123_boysandgirlsclub_0068-0993711bb933e4bbde4c1f34981b4ad2-750.jpg  81.2 KiB          [emitted]         
+                         assets/images/20190123_boysandgirlsclub_0068-55ff8bce30834bdb9f0ad1302d2d8bfd-1000.jpg   125 KiB          [emitted]         
+                          assets/images/20190123_boysandgirlsclub_0068-e923eac5904555b9dc2c4a5b4ddced15-500.jpg  44.9 KiB          [emitted]         
+                                             assets/images/2020-alumni-5c02ff7718dc8777aa41a3eb60955bbb-500.png   102 KiB          [emitted]         
+                                            assets/images/2020-alumni-85cb577d99aaa1d1f6b194d8d36bead7-1000.png   253 KiB          [emitted]  [big]  
+                                             assets/images/2020-alumni-b2b2bcfe6187eb11ea02711b1305f4b7-750.png   178 KiB          [emitted]         
+                                  assets/images/21-shields-date-garden-f59068ef42697432754c4782a7d893f2-623.png   175 KiB          [emitted]         
+                                  assets/images/21-shields-date-garden-ffbe25fd49fcae268cfb8bad93baca59-500.png   120 KiB          [emitted]         
+                                          assets/images/4-legacy-farms-40095c04064dff6194a7236ead063330-240.png    36 KiB          [emitted]         
+                                         assets/images/5-osbornerincon-82c40200e072e31788055a10a3881f69-564.png  48.6 KiB          [emitted]         
+                                         assets/images/5-osbornerincon-d38c7aa3d3b5de3d7b76ea830a70d315-500.png  40.2 KiB          [emitted]         
+                                            assets/images/6-weingarten-20946569bdcecf8a361bc04f398e0d30-400.png  38.4 KiB          [emitted]         
+                                                   assets/images/7-rdo-1f3624fc40c497a2b352510555d06c75-500.png  42.5 KiB          [emitted]         
+                                                   assets/images/7-rdo-c1263e89f02178a7630908e637355419-820.png  85.7 KiB          [emitted]         
+                                                   assets/images/7-rdo-e9463cc4d4dfa0e3f3ce87a29589aa3a-750.png  79.8 KiB          [emitted]         
+                                            assets/images/9-bochnewich-befcad31e6a403e295cf788590b94636-956.png  23.6 KiB          [emitted]         
+                                            assets/images/9-bochnewich-c7a25a3266dc7ba80b5190cd73bc94d1-750.png  77.7 KiB          [emitted]         
+                                            assets/images/9-bochnewich-fef8f8826208bc268bd02912d3cb967a-500.png  51.5 KiB          [emitted]         
+                            assets/images/BGCCV DS Auction 2020_Page_1-0cfe7c94b8fbdbdd2ba58fc8f381a80a-816.png   309 KiB          [emitted]  [big]  
+                            assets/images/BGCCV DS Auction 2020_Page_1-b7be3b07d1ea70ec415f7242766da673-500.png   209 KiB          [emitted]         
+                            assets/images/BGCCV DS Auction 2020_Page_1-ec22db15bd89be63463916e928f7e254-750.png   378 KiB          [emitted]  [big]  
+                           assets/images/BGCCV DS Auction 2020_Page_2-57942865ae5ef1f115da23d81d66364b-1000.png   431 KiB          [emitted]  [big]  
+                            assets/images/BGCCV DS Auction 2020_Page_2-bd5ea5850734ae9b8b4cf490f1f8596f-500.png   185 KiB          [emitted]         
+                            assets/images/BGCCV DS Auction 2020_Page_2-cfcbe872b089e9c6ad885fe6d4fb4b09-750.png   326 KiB          [emitted]  [big]  
+                              assets/images/Banner+1+Summer+Camp+2019-4dcf65e14fadb8b4d8327965e2e9ceac-1000.jpg  89.1 KiB          [emitted]         
+                               assets/images/Banner+1+Summer+Camp+2019-c567c7c73940553c0a49fd94dd14be0d-750.jpg  56.5 KiB          [emitted]         
+                               assets/images/Banner+1+Summer+Camp+2019-c9d0d957ae5898e5a6b244d3d9e3114f-500.jpg  32.9 KiB          [emitted]         
+                             assets/images/Desert Sun 4.7.2017_Page_1-31ff3b5a2d82599536070b7f05c640af-1000.png   870 KiB          [emitted]  [big]  
+                              assets/images/Desert Sun 4.7.2017_Page_1-4270bb4c27d740e4ed376439183b1436-750.png   520 KiB          [emitted]  [big]  
+                              assets/images/Desert Sun 4.7.2017_Page_1-fb1889c5309097b2dfd1590d17f05814-500.png   251 KiB          [emitted]  [big]  
+                              assets/images/Desert Sun 4.7.2017_Page_2-70f93e419e97ac3196c68a36df128884-500.png   488 KiB          [emitted]  [big]  
+                              assets/images/Desert Sun 4.7.2017_Page_2-765e9b0d5224857f04f17a7966191bd5-750.png     1 MiB          [emitted]  [big]  
+                             assets/images/Desert Sun 4.7.2017_Page_2-7a9ad4ef1ce07ad6c553811bad4b34e8-1000.png  1.69 MiB          [emitted]  [big]  
+                                     assets/images/Desert Sun 5.7.2017-95f79e72a6489991d760bdd27df215aa-500.png   453 KiB          [emitted]  [big]  
+                                     assets/images/Desert Sun 5.7.2017-d447471ee5441ca966e0b15d5caf3eb2-750.png   949 KiB          [emitted]  [big]  
+                                    assets/images/Desert Sun 5.7.2017-e62e7a2397ffb7587a98de0ea55b4921-1000.png  1.57 MiB          [emitted]  [big]  
+                       assets/images/Desert Sun article 4.15.16_Page_1-1044dac0adaedc225033f6a423d3757d-750.png  1010 KiB          [emitted]  [big]  
+                       assets/images/Desert Sun article 4.15.16_Page_1-29f9f7d9cb05a8fef02256163881169d-500.png   530 KiB          [emitted]  [big]  
+                      assets/images/Desert Sun article 4.15.16_Page_1-c43fdaf41a489b85e4eae44c708f5ef9-1000.png  1.56 MiB          [emitted]  [big]  
+                      assets/images/Desert Sun article 4.15.16_Page_2-3a3c774e3986d0e85bac21fb1b231d8b-1000.png  1.75 MiB          [emitted]  [big]  
+                       assets/images/Desert Sun article 4.15.16_Page_2-9acb626bc95b7a0a5ff3bd42b9f33f70-500.png   645 KiB          [emitted]  [big]  
+                       assets/images/Desert Sun article 4.15.16_Page_2-d7e8a862e5e5348004fd2e0f87a7c1db-750.png  1.18 MiB          [emitted]  [big]  
+              assets/images/Desert Sun post event coverage 2015_Page_1-330543a0e4e58c6cfc33641b725cb0a6-500.png   535 KiB          [emitted]  [big]  
+             assets/images/Desert Sun post event coverage 2015_Page_1-61d9ef55a3ba86167d178e398186d49b-1000.png  1.52 MiB          [emitted]  [big]  
+              assets/images/Desert Sun post event coverage 2015_Page_1-94fdc526f4ec1281967cb8d87da68b2c-750.png  1010 KiB          [emitted]  [big]  
+              assets/images/Desert Sun post event coverage 2015_Page_2-28386f2e83d403eb2fbb7ffcb65753b6-500.png   559 KiB          [emitted]  [big]  
+              assets/images/Desert Sun post event coverage 2015_Page_2-d2cc81c6cce2caea6423642e1436485a-750.png  1.04 MiB          [emitted]  [big]  
+             assets/images/Desert Sun post event coverage 2015_Page_2-fab9cfe93d53a714b5b3fa82a5b9616f-1000.png   1.6 MiB          [emitted]  [big]  
+                                         assets/images/Loyal_Sponsors-0aa8d2f3683b3d451d92ef91ee1d8e0b-1000.jpg   300 KiB          [emitted]  [big]  
+                                          assets/images/Loyal_Sponsors-9b12eb423b66504746cf91f4aea45711-500.jpg  97.4 KiB          [emitted]         
+                                          assets/images/Loyal_Sponsors-e3e2524a1b13b1aa81d25bb69a784e2f-750.jpg   189 KiB          [emitted]         
+                              assets/images/Sponsorship_Opportunities-770831538d001c1e76954d2f452c7975-1000.jpg   337 KiB          [emitted]  [big]  
+                               assets/images/Sponsorship_Opportunities-b6baa8ab87860af5debcd75f683623ad-750.jpg   215 KiB          [emitted]         
+                               assets/images/Sponsorship_Opportunities-f434f398f93d7739eb429b503ae11ba3-500.jpg   108 KiB          [emitted]         
+                                          assets/images/aguirre-wilson-15882334e6ede96e780294ab2ca1ab27-500.png  75.3 KiB          [emitted]         
+                                          assets/images/aguirre-wilson-2377ac68635e2546242a301f96a2de8e-633.png   116 KiB          [emitted]         
+                                             assets/images/alumni-hero-59ef7398daa039906f378ec8f2bfc9e7-500.png   295 KiB          [emitted]  [big]  
+                                            assets/images/alumni-hero-d0ffc984713755c3549f751880997419-1000.png  1.02 MiB          [emitted]  [big]  
+                                             assets/images/alumni-hero-fc27a2ce3935ef34302bb4739fe61f3a-750.png   619 KiB          [emitted]  [big]  
+                                            assets/images/amazon-smile-9895b42609cd0729f176ce2e3de6acef-493.jpg  30.3 KiB          [emitted]         
+                                                   assets/images/arts-56e84352ce2f883e239754c99cc78298-1000.jpg   103 KiB          [emitted]         
+                                                    assets/images/arts-5d7482121fa05e8770000d95314a1be0-500.jpg  37.7 KiB          [emitted]         
+                                                    assets/images/arts-e39ada52187af92627c603ad506efe9e-750.jpg    67 KiB          [emitted]         
+                                              assets/images/ask-letter-274a960b6068c54519130a33c31ad5a7-750.jpg   140 KiB          [emitted]         
+                                              assets/images/ask-letter-52b49130b44340b8d7983bf950e63d71-500.jpg  70.1 KiB          [emitted]         
+                                             assets/images/ask-letter-cb1195825c23b1c8849a474492845358-1000.jpg   220 KiB          [emitted]         
+                             assets/images/auction-2025-save-the-date-593125d42fd78c802e3ede4bb8137930-1000.jpg   237 KiB          [emitted]         
+                              assets/images/auction-2025-save-the-date-9ff948355c884b68f0216b11c7797f42-750.jpg   153 KiB          [emitted]         
+                              assets/images/auction-2025-save-the-date-da649bf40b4b2dc0ba3fe894677992a8-500.jpg  82.5 KiB          [emitted]         
+                                                 assets/images/auction-2b77ff92335909fb2527d525f4df2de9-500.jpg    71 KiB          [emitted]         
+                                                assets/images/auction-4d7340e582cf323fe936037dfeca46c7-1000.jpg   218 KiB          [emitted]         
+                                                 assets/images/auction-d58b30dc5664e645ef56e731d1443657-750.jpg   137 KiB          [emitted]         
+                                 assets/images/back-to-school-campaign-38ec9045856a4643c8ebc531c55b556b-750.jpg    51 KiB          [emitted]         
+                                 assets/images/back-to-school-campaign-73411b5e718c4cf2ddbea7e64855a8f7-500.jpg  27.6 KiB          [emitted]         
+                                 assets/images/back-to-school-campaign-db720b45f00c306b0359e0077ba38a44-970.jpg  71.8 KiB          [emitted]         
+                                              assets/images/basketball-0ca7d5f627fc33f71ec3fa33c027a740-500.jpg  50.6 KiB          [emitted]         
+                                             assets/images/basketball-c58979b9d031a5e1d131bdc5339ffe9e-1000.jpg   139 KiB          [emitted]         
+                                              assets/images/basketball-fb53bb84e3362d75eee9273c9f75e5cd-750.jpg  90.6 KiB          [emitted]         
+                                           assets/images/bgc-coachella-08f3ae7f0df8b5097e5c7e618d1eddcf-500.jpg  38.3 KiB          [emitted]         
+                                           assets/images/bgc-coachella-4143d98dad3732c748017401fd3d44eb-640.jpg  54.7 KiB          [emitted]         
+                                               assets/images/bgc-indio-cc94ce550a972a86637705c894e81f28-640.jpg  73.1 KiB          [emitted]         
+                                               assets/images/bgc-indio-eeebce1b53994042bec27f9cbfc306cf-500.jpg  50.4 KiB          [emitted]         
+                                            assets/images/bgc-laquinta-4e47ee36388d96ad61fa1f8402b0814e-500.jpg  39.6 KiB          [emitted]         
+                                            assets/images/bgc-laquinta-d0e35d8ffaba6c9c1e95bc4952726bed-640.jpg  56.7 KiB          [emitted]         
+                                               assets/images/bgc-mecca-74f27683bdd0d4e5a82ae02be613fcc5-750.jpg  68.7 KiB          [emitted]         
+                                               assets/images/bgc-mecca-b1449b55a9ca3df9ce726c08443f55b7-500.jpg  36.3 KiB          [emitted]         
+                                              assets/images/bgc-mecca-d75d73eff0c4305586b05aa004bd8653-1000.jpg   106 KiB          [emitted]         
+                                       assets/images/bgca-cyber-safety-3c147d3569fe5e58f7963c35687f60cb-500.png   183 KiB          [emitted]         
+                                       assets/images/bgca-cyber-safety-e31d7f0580580a310c45f849cca357d6-666.png   306 KiB          [emitted]  [big]  
+                                                 assets/images/bgcofcv-1763ab0a250e4849c141cfb9cc402d0b-750.jpg  84.9 KiB          [emitted]         
+                                                 assets/images/bgcofcv-974554e92b00363cf77c518b62b90336-500.jpg  47.9 KiB          [emitted]         
+                                                assets/images/bgcofcv-b4bf20648783beb27eb4d2585d430c6d-1000.jpg   127 KiB          [emitted]         
+                                    assets/images/bidding-instructions-5b440d896dc2918f24ef52171718dc5e-750.jpg   127 KiB          [emitted]         
+                                    assets/images/bidding-instructions-b39303e56082f734cbc37fd3103869e3-500.jpg  67.5 KiB          [emitted]         
+                                   assets/images/bidding-instructions-decfd4aa32aeecbb7302e8ac136fd0ee-1000.jpg   186 KiB          [emitted]         
+                                              assets/images/brain-gain-e4b6618289bd89a93eb0be421c8a74c3-300.jpg  20.5 KiB          [emitted]         
+                                           assets/images/campaign-1966-3c9f2f61c515a8260c49348232ba90b0-940.jpg   167 KiB          [emitted]         
+                                           assets/images/campaign-1966-9603c1e986b607208d86088f21246cd0-500.jpg  60.7 KiB          [emitted]         
+                                           assets/images/campaign-1966-c0430b2e329a8cf8aabbebf06679cd0e-750.jpg   108 KiB          [emitted]         
+                                        assets/images/campaign-auction-6afbba4700c8ec79953360e0b55bf3ac-500.png   291 KiB          [emitted]  [big]  
+                                        assets/images/campaign-auction-d987efcffd45c8d1a1e39deabcae25ae-951.png   972 KiB          [emitted]  [big]  
+                                        assets/images/campaign-auction-f6e0430a954d4db9c006f6a139676118-750.png   609 KiB          [emitted]  [big]  
+                                           assets/images/campaign-love-265db3bc78326c843939ad75ebb38e2a-500.png   207 KiB          [emitted]         
+                                           assets/images/campaign-love-a2fe5f49f54c6dd0744906bfad6c4c15-750.png   407 KiB          [emitted]  [big]  
+                                          assets/images/campaign-love-e90562ca42c621e0fdd9f972f4c1c990-1000.png   649 KiB          [emitted]  [big]  
+                                      assets/images/cancelation-notice-2801decb4b073fa7e3f624489da9367f-894.jpg   100 KiB          [emitted]         
+                                      assets/images/cancelation-notice-caa1549e5185bfc6a70e5525fb65c409-750.jpg  80.3 KiB          [emitted]         
+                                      assets/images/cancelation-notice-e8c47127e6492ad2cb6cf16b44d37be3-500.jpg  45.1 KiB          [emitted]         
+                                           assets/images/career-launch-be1ecd878cbc0c9b50247557d6b3b056-300.png  16.8 KiB          [emitted]         
+                              assets/images/character-leadership-thumb-1175fbbdb9b77a9c973ff4050a6b4779-635.jpg  70.6 KiB          [emitted]         
+                              assets/images/character-leadership-thumb-3a27dcf7fbfc928063d66d5fb7527654-500.jpg  42.9 KiB          [emitted]         
+                                               assets/images/clay-tech-d994259d44fa2f325615bb6960262aa9-300.png   6.6 KiB          [emitted]         
+                                          assets/images/club-locations-4f2134c60a50724988b452b4039cdd2b-750.png   400 KiB          [emitted]  [big]  
+                                          assets/images/club-locations-6619a97b8be488619d2bff39b77cb9be-500.png   194 KiB          [emitted]         
+                                         assets/images/club-locations-f12c955d0bb16b74e1ca041842e00236-1000.png   658 KiB          [emitted]  [big]  
+                                         assets/images/coachella-club-7f6760074a749242654c71027678fcb8-1000.jpg   153 KiB          [emitted]         
+                                          assets/images/coachella-club-9fd08c9f1d79cd7733a353eaf5613fbd-500.jpg  48.9 KiB          [emitted]         
+                                          assets/images/coachella-club-e319b2317df83558103dd50f1083612a-750.jpg  95.5 KiB          [emitted]         
+                                                 assets/images/college-2e6336e904ebd67e8f172cda7532ec32-500.jpg  39.3 KiB          [emitted]         
+                                                 assets/images/college-6bd50fd662a28643acb9c854bfb980d9-750.jpg  71.9 KiB          [emitted]         
+                                                assets/images/college-792a38cb49ba7fd2c78d657be3cb685a-1000.jpg   112 KiB          [emitted]         
+                                assets/images/community-service-hours-364093b9e9498452870f7e6543fe035b-1000.jpg   149 KiB          [emitted]         
+                                 assets/images/community-service-hours-6b3fc30cb9b22d281ad1933e6260189c-500.jpg  51.9 KiB          [emitted]         
+                                 assets/images/community-service-hours-bdacd91b681ac254fe7db56b67edae6b-750.jpg  95.3 KiB          [emitted]         
+                                               assets/images/computers-5023df9a5b07768b6ca8f43662acf14e-500.jpg  42.5 KiB          [emitted]         
+                                               assets/images/computers-7857404b54bce6a17cf4500c3d7cc212-750.jpg  76.6 KiB          [emitted]         
+                                              assets/images/computers-c2f1ba540768aa7701e2e9fc93d1690a-1000.jpg   116 KiB          [emitted]         
+                                         assets/images/contact-us-hero-1a04342203a3a7afcd9d11a7042b9fa0-500.jpg    41 KiB          [emitted]         
+                                        assets/images/contact-us-hero-84c5c74b37edc48998d14253a071af28-1000.jpg   112 KiB          [emitted]         
+                                         assets/images/contact-us-hero-9d0d2acecee7cd6d15bef50a1e222124-750.jpg  73.8 KiB          [emitted]         
+                                              assets/images/date-smart-4cc091d17f436b9ffd5bf9bc2f10f8c6-300.jpg  14.4 KiB          [emitted]         
+                                   assets/images/digital-arts-festival-49e191eb88f0286d2b4991474bced999-300.jpg  11.7 KiB          [emitted]         
+                                      assets/images/diplomas-2-degrees-0bdbb53e95e2b6205bed326fc44471b1-300.jpg  8.59 KiB          [emitted]         
+                                           assets/images/drama-matters-5a5048e39d550e1fddea17e8f86e005e-300.jpg  6.68 KiB          [emitted]         
+                                   assets/images/dreamstime_m_20200665-22643b7feb8cb541080bb3044837bd3e-500.jpg  55.1 KiB          [emitted]         
+                                   assets/images/dreamstime_m_20200665-9376ec914dcf7f7889b411bfe6dea04f-750.jpg  97.3 KiB          [emitted]         
+                                  assets/images/dreamstime_m_20200665-aae0bda88081e3a47ea3982b42e59983-1000.jpg   146 KiB          [emitted]         
+                                 assets/images/education-careers-thumb-57173393103d2f4ca717b46fcd05011b-460.jpg  21.1 KiB          [emitted]         
+                                             assets/images/events-hero-462e84aa5d9077024e23de081da89568-500.jpg  44.3 KiB          [emitted]         
+                                             assets/images/events-hero-7a63145083923825bf123b319bf47786-750.jpg  88.7 KiB          [emitted]         
+                                            assets/images/events-hero-ece5f0f7f573dc7f053a0eb84274ed76-1000.jpg   145 KiB          [emitted]         
+                                                assets/images/fmc_fund-18f9cf29335bb9fc681834be6db7c297-500.png  13.6 KiB          [emitted]         
+                                               assets/images/fmc_fund-b570a93d18857fc12851a77a8d95a5d0-1000.png  32.4 KiB          [emitted]         
+                                                assets/images/fmc_fund-c907dd29ec680dd0814b08e6fbee0d4e-750.png  22.6 KiB          [emitted]         
+                                               assets/images/food4less-ea3cdb6547fb4992517cb95057b76f4c-500.png   151 KiB          [emitted]         
+                                               assets/images/food4less-f2f4569f876c8c13823b0c007f8d0f6f-750.png   296 KiB          [emitted]  [big]  
+                                              assets/images/food4less-f45b9d47dda7b1303e6fc3553ab05b5e-1000.png   468 KiB          [emitted]  [big]  
+                                              assets/images/free-lunch-0273a10f702a339f6f3ec4780a3d6dd6-500.jpg  54.4 KiB          [emitted]         
+                                              assets/images/free-lunch-eccc84d1de71f2685c4220a1d9a1be08-750.jpg   108 KiB          [emitted]         
+                                             assets/images/free-lunch-f680da83332411b8b4c1c44b09ac7d9f-1000.jpg   178 KiB          [emitted]         
+                                     assets/images/friends-of-bgcofcv-b8aaa2a79d102493f8b5eb9d3214050c-1000.jpg   157 KiB          [emitted]         
+                                      assets/images/friends-of-bgcofcv-e599e32875abc3fd871b5110100d469e-500.jpg  49.3 KiB          [emitted]         
+                                      assets/images/friends-of-bgcofcv-e655a13a443344f4fedb97d4e31b78dc-750.jpg  97.1 KiB          [emitted]         
+                                              assets/images/fundraiser-43d53e52b2579189d575b5863bd13cb8-640.jpg  81.1 KiB          [emitted]         
+                                              assets/images/fundraiser-5514afd4b80b43f5b78cc0be3754277b-500.jpg  55.9 KiB          [emitted]         
+                                               assets/images/game-tech-897a04fd10fd95f23057c89ec5f4aa21-300.png  6.66 KiB          [emitted]         
+                                        assets/images/graduate-for-mas-ac1bda74b5afa3d4ff05dc85e7484e8a-200.jpg  6.12 KiB          [emitted]         
+                                      assets/images/grand-auction-2026-1ed23f2972352f015978b8a50e095ab9-715.png  59.5 KiB          [emitted]         
+                                      assets/images/grand-auction-2026-e30d92f49da900e7f5214feb2bc316df-500.png  45.6 KiB          [emitted]         
+                                     assets/images/happy-holidays-2022-06520120cb4adbf2adc6a47cbcb7198c-750.png   228 KiB          [emitted]         
+                                    assets/images/happy-holidays-2022-18631c85d8a03b701d52cba237b0aa39-1000.png   370 KiB          [emitted]  [big]  
+                                     assets/images/happy-holidays-2022-c7034b3a83e3d9194162b4e9f416843b-500.png   113 KiB          [emitted]         
+                                                  assets/images/hero-2-bc621e40942040d1f0b77e2c311d36b0-750.jpg  82.7 KiB          [emitted]         
+                                                  assets/images/hero-2-d86fddd3ce7f2a726f71d5825c001eb2-500.jpg  44.9 KiB          [emitted]         
+                                                 assets/images/hero-2-f2f8f5461cca9541e3a7e1b47fdcd1a7-1000.jpg   130 KiB          [emitted]         
+                                                  assets/images/hero-3-15852db0937ebed2302ad5570f720ecf-500.jpg  45.2 KiB          [emitted]         
+                                                 assets/images/hero-3-39a8897f68eb343179d758e5cfb1f66d-1000.jpg   119 KiB          [emitted]         
+                                                  assets/images/hero-3-9ebd5a2b4cda7ff8f03efd453ba72a6a-750.jpg  79.3 KiB          [emitted]         
+                                                    assets/images/hero-5bfff82aa42ed38582402e45f62bced9-500.jpg  52.9 KiB          [emitted]         
+                                                    assets/images/hero-6bb75801ed0609ea282692f041e309b5-750.jpg  97.8 KiB          [emitted]         
+                                                   assets/images/hero-d98c915ad6ebc4b39706e26a5d825596-1000.jpg   151 KiB          [emitted]         
+                                               assets/images/hero-logo-0dd2ec56f740eb76603d016a4ccc2cbe-500.png  27.8 KiB          [emitted]         
+                                              assets/images/hero-logo-b3198747aeb021c73d82ce76c40941e9-1000.png  56.7 KiB          [emitted]         
+                                               assets/images/hero-logo-dd9ade966d8a8b95a6ce2e080ef46c91-750.png  42.1 KiB          [emitted]         
+                                                 assets/images/image-1-2606de564463e471ebde0ce92af13e3c-500.jpg  50.7 KiB          [emitted]         
+                                                assets/images/image-1-2ec0ad4bee075aa2a4104d12bf3ff46b-1000.jpg   144 KiB          [emitted]         
+                                                 assets/images/image-1-31916592bf22b7f071b2f986fa6f3654-750.jpg  93.1 KiB          [emitted]         
+                                                assets/images/image-2-1bf60edaa9c0622d96b8806ec93bb60e-1000.jpg   114 KiB          [emitted]         
+                                                 assets/images/image-2-8b077b1b82e05f8e23f6305aac41f236-500.jpg  40.4 KiB          [emitted]         
+                                                 assets/images/image-2-8decbbe88c1623830f0410b8ad1631e9-750.jpg  73.8 KiB          [emitted]         
+                                                 assets/images/image-3-9b507bf2836739e1964a60a9e53453f9-500.jpg  69.6 KiB          [emitted]         
+                                                assets/images/image-3-a8629888db1f55aef092a96d0622c8b7-1000.jpg   216 KiB          [emitted]         
+                                                 assets/images/image-3-de4f68122da88688d649dd6878bd0548-750.jpg   133 KiB          [emitted]         
+                                                 assets/images/image-4-36a1e367c6a608b3de3046ec5de09537-750.jpg  72.2 KiB          [emitted]         
+                                                assets/images/image-4-982111e5acf5d7ee95a25c1baf6463d9-1000.jpg   109 KiB          [emitted]         
+                                                 assets/images/image-4-a43cdc149e7a8ec16203ec44812b6299-500.jpg  40.5 KiB          [emitted]         
+                                                assets/images/image-5-0002dc4e6b693913547e18b54a8f8531-1000.jpg   151 KiB          [emitted]         
+                                                 assets/images/image-5-33c1624adfc7735771f2723a74dd3e9b-500.jpg  54.9 KiB          [emitted]         
+                                                 assets/images/image-5-40a21960e4596f2a4ddc6e9911719048-750.jpg  99.7 KiB          [emitted]         
+                                            assets/images/image-makers-6ea7e05246c19001d6157473904907f3-350.png  24.6 KiB          [emitted]         
+                                      assets/images/impact-report-img-150c3aca46f5d6042845c6963da9e93a-1000.png  1.16 MiB          [emitted]  [big]  
+                                       assets/images/impact-report-img-359e38f71ef50623608fe8ec4010067b-750.png   722 KiB          [emitted]  [big]  
+                                       assets/images/impact-report-img-a0bba9c480d2f1c5a72f0cced2400d45-500.png   356 KiB          [emitted]  [big]  
+                                         assets/images/indio-clubhouse-11829d39de02654a7a4c6c6a3cfb3676-500.jpg  53.3 KiB          [emitted]         
+                                         assets/images/indio-clubhouse-20c3619c44a770afaf26fdc63f5eef01-640.jpg  91.3 KiB          [emitted]         
+                                              assets/images/iwcc-pic-2-87001066b946edcb444d65be572b02d0-900.png   934 KiB          [emitted]  [big]  
+                                              assets/images/iwcc-pic-2-daedc8803b826221e138ca979d497a32-500.png   289 KiB          [emitted]  [big]  
+                                              assets/images/iwcc-pic-2-efc076076a666c6e9775c80eec85741d-750.png   620 KiB          [emitted]  [big]  
+                                                assets/images/keystone-7a818bf6f6f2563e3f9cca054fd9f86e-274.png  12.8 KiB          [emitted]         
+                                                    assets/images/kids-4c7d128f2a6f54906fa363f83d08f70c-750.jpg   119 KiB          [emitted]         
+                                                    assets/images/kids-5dcbd752bb8cd84c31caca7aedde46cd-500.jpg  58.5 KiB          [emitted]         
+                                                   assets/images/kids-c45ecc01ebc997f6930d1c73d42c2bad-1000.jpg   195 KiB          [emitted]         
+                                          assets/images/la-quinta-club-2660d31ea6f0ad9ee745631a748389aa-750.jpg   102 KiB          [emitted]         
+                                          assets/images/la-quinta-club-31c5c84e6bc7fbf5e35b038b8627fe34-500.jpg  51.1 KiB          [emitted]         
+                                         assets/images/la-quinta-club-3ef1e2c336b2956b5d481e2bd09eb4de-1000.jpg   169 KiB          [emitted]         
+                                                assets/images/level-up-00cce06dbabad32a59e474304f5184be-750.jpg   112 KiB          [emitted]         
+                                                assets/images/level-up-0e72077e2a05bccbea16c576717a11e5-500.jpg  59.4 KiB          [emitted]         
+                                               assets/images/level-up-b5eaddbe16ad903951b6db0fe5296cb6-1000.jpg   175 KiB          [emitted]         
+                                          assets/images/lewis-brisbois-26b64a511274f8ae301f7d551fc92729-500.png  81.6 KiB          [emitted]         
+                                          assets/images/lewis-brisbois-adb589419564c36c155adb88cc375ec8-750.png   156 KiB          [emitted]         
+                                         assets/images/lewis-brisbois-e4fe296a88ca77f1e61018dc3326cfe3-1000.png   246 KiB          [emitted]  [big]  
+                                                   assets/images/logo2-ffb788da3b5b2fc3962d61d2317c3aed-161.png    20 KiB          [emitted]         
+                                                   assets/images/logo3-74bd40cce41f80e67c6285e3ad718852-752.jpg  51.1 KiB          [emitted]         
+                                                   assets/images/logo3-90f5b7b89c6cf51b8dd10a54e898f294-750.jpg  50.2 KiB          [emitted]         
+                                                   assets/images/logo3-92f596480af6d5c4c679dc43ed7de49c-500.jpg  30.6 KiB          [emitted]         
+                                              assets/images/mask-pattern-7d6a52aa4dd9939967ff0f0c8630f9d0-2.png  71 bytes          [emitted]         
+                                assets/images/mathis-brothers-campaign-1c4d76282ea3f550edb16b34bd3ba596-750.png   644 KiB          [emitted]  [big]  
+                                assets/images/mathis-brothers-campaign-3fb84f1bfa3b5dc364d5c7fe6b03fd9c-500.png   314 KiB          [emitted]  [big]  
+                               assets/images/mathis-brothers-campaign-4add3d15cbb30e13f79fc7c24b58eac6-1000.png  1.01 MiB          [emitted]  [big]  
+                                     assets/images/meal-distribution-1-694a33bc8df78b3b3145430c20b3d9fe-607.png   226 KiB          [emitted]         
+                                     assets/images/meal-distribution-1-b4a201699cc536f2a56c3ef32c3629ff-500.png   193 KiB          [emitted]         
+                                     assets/images/meal-distribution-2-8d0abfc93534963e691650829872576c-395.png   248 KiB          [emitted]  [big]  
+                                                   assets/images/meals-1fb38dd343e8f21ea3f6cf86663262f3-500.jpg  47.5 KiB          [emitted]         
+                                                   assets/images/meals-4957349a6ee3dd146a0ebb4b479a3c2e-750.jpg  87.7 KiB          [emitted]         
+                                                  assets/images/meals-6744f955f425a75e23b7aabdcd8c9ee8-1000.jpg   136 KiB          [emitted]         
+                                              assets/images/mecca-club-26231f37d57ebbf90b50ca950a8af990-750.jpg  65.6 KiB          [emitted]         
+                                             assets/images/mecca-club-32ce7135fcfa09959136299ae21bf828-1000.jpg   110 KiB          [emitted]         
+                                              assets/images/mecca-club-6d93a4e9897f1da21bf8dc34cdb8d3fe-500.jpg  31.7 KiB          [emitted]         
+                                         assets/images/million-members-be11cb24f5663f5662d4985ef19df20f-159.png  16.2 KiB          [emitted]         
+                            assets/images/mission-vision-core-beliefs-2c92797817b91021799f6438413576cf-1000.png   684 KiB          [emitted]  [big]  
+                             assets/images/mission-vision-core-beliefs-7c5f86b706216f526d9371b637a06006-750.png   414 KiB          [emitted]  [big]  
+                             assets/images/mission-vision-core-beliefs-cf01d71fc9e8c32db80242c8fd7a55aa-500.png   201 KiB          [emitted]         
+                                           assets/images/money-matters-8c44f8b772c562093ac4da9edda472e2-302.png  12.2 KiB          [emitted]         
+                                        assets/images/monthly-donation-0bcf2c60f9155cb4042e4c0c5c4f5886-640.jpg  77.8 KiB          [emitted]         
+                                        assets/images/monthly-donation-93c718fe83cfee8e3b4e7383cee1a562-500.jpg  53.3 KiB          [emitted]         
+                                          assets/images/my-future-hero-27dc04594fd632baf55e7e73e8e9e651-750.jpg  36.3 KiB          [emitted]         
+                                         assets/images/my-future-hero-2d8692ef303a0d89f220ee7ddf50a584-1000.jpg  53.8 KiB          [emitted]         
+                                          assets/images/my-future-hero-5113c819b750991677a0a0ae94866f1d-500.jpg    21 KiB          [emitted]         
+                                         assets/images/my-future-thumb-aa87ffd6f645e4a7f4ce4b1a3cfc8712-500.jpg  27.6 KiB          [emitted]         
+                                         assets/images/my-future-thumb-e57f8babef0540cc9655203a56e41cd6-640.jpg  43.4 KiB          [emitted]         
+                              assets/images/national-fine-arts-exhibit-656b42ea3f1ef4f3b76c6170971fcbae-300.jpg  9.38 KiB          [emitted]         
+                                               assets/images/netsmartz-cf9ea4542ac6a8e0a71245303db17b36-500.png  83.7 KiB          [emitted]         
+                                       assets/images/one-time-donation-204c1c12766af411277ea7f21504636c-640.jpg  92.9 KiB          [emitted]         
+                                       assets/images/one-time-donation-e9e2675515613c6175bb1f3da66d985a-500.jpg  64.4 KiB          [emitted]         
+                                             assets/images/open-graph-2e8dbf5329470ce5ce8a61699354e02d-1000.png   362 KiB          [emitted]  [big]  
+                                              assets/images/open-graph-376a14cfee4e28a0b2e27e119e2cb610-750.png   233 KiB          [emitted]         
+                                              assets/images/open-graph-cf542eb25cf98f9556d0de6d97449def-500.png   123 KiB          [emitted]         
+                                               assets/images/our-clubs-102056934836e3fcf44c326770aebd05-500.jpg  44.4 KiB          [emitted]         
+                                               assets/images/our-clubs-1f32b18c720b86b4fb79cd5309e42983-750.jpg  82.1 KiB          [emitted]         
+                                              assets/images/our-clubs-60664d4662718a40c41009e48bf5d503-1000.jpg   126 KiB          [emitted]         
+                                     assets/images/passport-to-manhood-fa803f0c713a451e03a2690ecbd54a17-300.jpg  9.22 KiB          [emitted]         
+                                      assets/images/pga-sports-academy-6aac575cab9f77256cfa47fb9303695b-300.jpg  17.3 KiB          [emitted]         
+                                              assets/images/power-hour-09110748d734ac46648f98591e110e5b-300.jpg  13.4 KiB          [emitted]         
+                                      assets/images/presidents-circle-9d8c17590af5e8b6f84fa43f86efbc54-1000.jpg   132 KiB          [emitted]         
+                                       assets/images/presidents-circle-a604ff83940d8ea23e91e08f331ead06-500.jpg  44.4 KiB          [emitted]         
+                                       assets/images/presidents-circle-c6ea92f4dd03718216b9f32b4065257d-500.png   316 KiB          [emitted]  [big]  
+                                       assets/images/presidents-circle-d0bbd18e2c7ccd7d93e4ba7d0ea3f8a3-750.png   660 KiB          [emitted]  [big]  
+                         assets/images/presidents-circle-display-image-e274b420d9fa16d435ac3c41ebeb12ce-225.png  39.4 KiB          [emitted]         
+                           assets/images/presidents-circle-donate-info-a51aeea17b2625cdebdc0b9b7b30b396-500.jpg  29.5 KiB          [emitted]         
+                          assets/images/presidents-circle-donate-info-b9592e66273db97ec4dd58b8d74d15fd-1000.jpg  80.4 KiB          [emitted]         
+                           assets/images/presidents-circle-donate-info-d0e641dad4ec86fc0076843d082a94a6-750.jpg  51.1 KiB          [emitted]         
+                                       assets/images/presidents-circle-e30e3cacccc7f4a633e2da73098a6d6d-750.jpg    84 KiB          [emitted]         
+                                      assets/images/presidents-circle-eee9b0b6a5cfee3120c0a5ea642d8b41-1000.png  1.08 MiB          [emitted]  [big]  
+                             assets/images/presidents-circle-logo-2024-35867ad0eee1ee2316acf85d4ac813df-449.png  91.4 KiB          [emitted]         
+                                                 assets/images/purple-0a830eb1b95cb9a23d9a74d8e913648c-1000.jpg  95.4 KiB          [emitted]         
+                                                  assets/images/purple-664ee530bead64d848d0961251d6844e-750.jpg  59.5 KiB          [emitted]         
+                                                  assets/images/purple-f6790a9bf72bce2949a1bac561ae69c3-500.jpg  29.8 KiB          [emitted]         
+                                               assets/images/robo-tech-a82b944096f21890802da7ba51a822d9-300.png  12.1 KiB          [emitted]         
+                                     assets/images/save-the-dates-2023-4bc2253ca17ebd08f1130e5d0a914093-500.png  92.9 KiB          [emitted]         
+                                    assets/images/save-the-dates-2023-749253c417366414c9ff7a1adb523432-1000.png   254 KiB          [emitted]  [big]  
+                                     assets/images/save-the-dates-2023-aff25d16fd438f150100b6438b18d27a-750.png   168 KiB          [emitted]         
+                             assets/images/schedule-of-events-sgg-2024-59825e120e631b0e944f5349672e51df-900.jpg   544 KiB          [emitted]  [big]  
+                             assets/images/schedule-of-events-sgg-2024-859e8dc2a8ce67fd6b157e01f988da31-500.jpg   210 KiB          [emitted]         
+                             assets/images/schedule-of-events-sgg-2024-a7675d17162e5d254a3fc31b4d66f0c0-750.jpg   378 KiB          [emitted]  [big]  
+                                             assets/images/scholarship-1e7f54be528d16f29464e68dd8bec2a8-750.jpg   130 KiB          [emitted]         
+                                             assets/images/scholarship-a10881cfbffc58940a7604d5b118ac06-500.jpg  64.8 KiB          [emitted]         
+                                            assets/images/scholarship-dc6e31226b973ee44ab3efe6ff0c9d35-1000.jpg   211 KiB          [emitted]         
+                                           assets/images/sgg-promotion-0eae3f0250d004032643a1004b46065f-324.png  36.3 KiB          [emitted]         
+                                     assets/images/shalhoub-mcdonald-s-2095b378f8ecbffcb219b24131c82837-446.png    18 KiB          [emitted]         
+                                                     assets/images/shl-199a3bb02febcad00b29829f4145b14d-500.png   101 KiB          [emitted]         
+                                                     assets/images/shl-45b24d2e79a56480d93205e096974891-750.png   188 KiB          [emitted]         
+                                                     assets/images/shl-9c12e2cad0fbcd4dc1c490d54cb9d5eb-797.png   200 KiB          [emitted]         
+                                             assets/images/smart-girls-094934ab45f1c0e8aa00a515185bae1c-300.png  34.7 KiB          [emitted]         
+                                             assets/images/smart-moves-29b367d77c3c588402a5cce0aa57645d-300.png  40.7 KiB          [emitted]         
+                                          assets/images/sports-fitness-09989b62d04f78fa8cdce9deac92249f-750.jpg  82.2 KiB          [emitted]         
+                                         assets/images/sports-fitness-89334d2ba34a82cc48e014c36c161cbd-1000.jpg   131 KiB          [emitted]         
+                                          assets/images/sports-fitness-d932463eb55404f3879c8efde16c41b8-500.jpg  44.2 KiB          [emitted]         
+                                     assets/images/sports-fitness-hero-28dfc238e97f68497f9c941508565582-500.jpg    31 KiB          [emitted]         
+                                     assets/images/sports-fitness-hero-f0a051bdfddf5e1c969d03aa094dd425-690.jpg  53.7 KiB          [emitted]         
+                                    assets/images/sports-fitness-thumb-3477fbc92fd682d97cd05bc9ca53d066-460.jpg  31.8 KiB          [emitted]         
+                                 assets/images/sports-heroes-luncheon-a59a0aa3472bdc3d1c78caf2d2b8fc3f-1000.png   233 KiB          [emitted]         
+                                  assets/images/sports-heroes-luncheon-cc70584af5dccf9b29d023e57a1f1e7c-500.png  82.6 KiB          [emitted]         
+                                  assets/images/sports-heroes-luncheon-e14f8c2492cbce824e738f9cad8a2347-750.png   153 KiB          [emitted]         
+                            assets/images/spotlight-albertsons-banner-2037a721fd5d5bea825e7c51493faa8c-1000.png   176 KiB          [emitted]         
+                             assets/images/spotlight-albertsons-banner-37339f8902b700dfba42edf4a506600e-500.png  64.7 KiB          [emitted]         
+                             assets/images/spotlight-albertsons-banner-b632004a4bb532b954b946270de5b6ef-750.png   123 KiB          [emitted]         
+                                  assets/images/spotlight-vans-banner-9781dc8c6fd526c3df56a19bff1734ab-1000.png  79.7 KiB          [emitted]         
+                                   assets/images/spotlight-vans-banner-a066448020298cc4fa44c0c5b26240c9-500.png    33 KiB          [emitted]         
+                                   assets/images/spotlight-vans-banner-fd19d0ce32be3dea301993e33e3090c0-750.png  56.2 KiB          [emitted]         
+                                               assets/images/stem-team-0b27cfad17a5ee0487559f6ac64a3448-943.png   380 KiB          [emitted]  [big]  
+                                               assets/images/stem-team-8756e7773587888625aeda7eeb900833-750.png   298 KiB          [emitted]  [big]  
+                                               assets/images/stem-team-bb721d6b9bfe2f9047f3044d78feaba9-500.png   148 KiB          [emitted]         
+                                               assets/images/studying-0734ce2ac2c9a4b2dbf570a1272cbb36-1000.jpg  97.7 KiB          [emitted]         
+                                                assets/images/studying-6092e60fa41eac033b6d1c6381162af4-750.jpg  63.5 KiB          [emitted]         
+                                                assets/images/studying-70443f4382d08f0fd0450dc96c9b2d52-500.jpg  34.9 KiB          [emitted]         
+                                                assets/images/swg-2026-690d3af77e0764ef77e06bdf915d03b4-941.png   738 KiB          [emitted]  [big]  
+                                                assets/images/swg-2026-73d96e627b41f69b67898e10e218273a-500.png   289 KiB          [emitted]  [big]  
+                                                assets/images/swg-2026-ad8433114c7516ec9f9f7fa539acd856-750.png   546 KiB          [emitted]  [big]  
+                                         assets/images/swg-2026-info-2-3351d0fcefafafee5cbf43f91bb950e8-500.png   267 KiB          [emitted]  [big]  
+                                         assets/images/swg-2026-info-2-988954cd890fdd99034cc5739a68a6d6-750.png   570 KiB          [emitted]  [big]  
+                                        assets/images/swg-2026-info-2-fb5a119db4174855b2692fa14b0aa7d8-1000.png   973 KiB          [emitted]  [big]  
+                                           assets/images/swg-2026-info-339d4394795ecaa47412767ebbece2de-750.png   499 KiB          [emitted]  [big]  
+                                           assets/images/swg-2026-info-4d4ee62bef804c9b76fc55e22fe40c62-500.png   237 KiB          [emitted]         
+                                          assets/images/swg-2026-info-4feaabb67cb55f5bcfd05e84e8086636-1000.png   843 KiB          [emitted]  [big]  
+                                               assets/images/team-hero-5b25e54993ab9fbec7efc4fa3fcd7409-500.jpg  86.2 KiB          [emitted]         
+                                              assets/images/team-hero-a9f15d9fe3dba5e8426b8620593a2bea-1000.jpg   312 KiB          [emitted]  [big]  
+                                               assets/images/team-hero-e58751e24092e07f491fbf6c4e961b30-750.jpg   184 KiB          [emitted]         
+                                               assets/images/testing-2-0324f8a59930cda18e30520438faf578-750.jpg    62 KiB          [emitted]         
+                                              assets/images/testing-2-0b2d6e5dd9011f8e30dc008e7e2ef40c-1000.jpg  97.1 KiB          [emitted]         
+                                               assets/images/testing-2-2280246199703e77b08f538576899aac-500.jpg  34.7 KiB          [emitted]         
+                                                 assets/images/testing-530a64e10f7a6d2c499a0ca4f405ff1f-500.jpg  36.2 KiB          [emitted]         
+                                                assets/images/testing-5648bd03a2e25f31257abbe56544d83b-1000.jpg  99.7 KiB          [emitted]         
+                                                 assets/images/testing-d1a18bc36bf7b7e3f7984e84580347ed-750.jpg  64.4 KiB          [emitted]         
+                                   assets/images/thanksgiving-campaign-a6182b25de8bdc485bb4b0f401fd798f-500.png  89.5 KiB          [emitted]         
+                                   assets/images/thanksgiving-campaign-bc8790a3012b1d27e473e61576cc7ded-750.png   175 KiB          [emitted]         
+                                  assets/images/thanksgiving-campaign-d5f09d8b4fe99fe13a8f895b05b9b550-1000.png   284 KiB          [emitted]  [big]  
+                                                   assets/images/tony-0ee8ff01801de99faf0065bf935f3fbe-1000.jpg   139 KiB          [emitted]         
+                                                    assets/images/tony-946ffdb4390826554851be93c8f678e2-500.jpg  48.1 KiB          [emitted]         
+                                                    assets/images/tony-ceac539393297be1a62f40987cae5946-750.jpg  88.9 KiB          [emitted]         
+                            assets/images/tony-reagins-golf-tournament-49f8beecb42546db6a02635cf0131977-500.jpg  36.5 KiB          [emitted]         
+                            assets/images/tony-reagins-golf-tournament-635d07f901bb18e9ccad4db5389b9048-511.jpg  40.9 KiB          [emitted]         
+                                              assets/images/torch-club-414ef0a10f2158960a389beb66040eb9-124.png  11.4 KiB          [emitted]         
+                                       assets/images/tournament-winner-13f8bd799ee2982ddbc8d936b7b45ed0-750.png   189 KiB          [emitted]         
+                                       assets/images/tournament-winner-80aba58baf56d72966b4597f452f8b95-500.png   110 KiB          [emitted]         
+                                      assets/images/tournament-winner-e6f38407cc98fbccd51b06656c89ae17-1000.png   273 KiB          [emitted]  [big]  
+                                             assets/images/triple-play-d9e9074e1ce8d0b8ada322622e5a8a06-300.jpg  26.8 KiB          [emitted]         
+    assets/images/vector-graphic-abstract-circle-purple-450w-222133453-222fa298ecdc0930e7e757f2fca1769e-450.jpg  19.2 KiB          [emitted]         
+                                                 assets/images/visits-4c9b15a366a01f9d9edd7199306f0145-1000.jpg   206 KiB          [emitted]         
+                                                  assets/images/visits-96c7b699324ffd6f99156a515822dec9-750.jpg   122 KiB          [emitted]         
+                                                  assets/images/visits-c8743517c09f1a52920170fa3cbe7c4d-500.jpg  58.9 KiB          [emitted]         
+                                              assets/images/wanna-play-e2cfbc9cfb89a19242aba7751e67106d-300.jpg  18.7 KiB          [emitted]         
+                                          assets/images/ways-to-give-1-20454f245ca1e61ec624d1b26b63b174-750.jpg  70.2 KiB          [emitted]         
+                                         assets/images/ways-to-give-1-776fab7f0397428cb014cfee633b9b76-1000.jpg   109 KiB          [emitted]         
+                                          assets/images/ways-to-give-1-acb3d95d679ede78911518ae9a67d41f-500.jpg  38.1 KiB          [emitted]         
+                                         assets/images/ways-to-give-2-1ac6b0974d7fd922ac655ef8d0494f92-1000.jpg   119 KiB          [emitted]         
+                                          assets/images/ways-to-give-2-6164025fbab2773073a8f0bc9f7723d2-500.jpg  43.1 KiB          [emitted]         
+                                          assets/images/ways-to-give-2-93dda698faadf28af5e2c208122b40fe-750.jpg    78 KiB          [emitted]         
+                          assets/images/ways-to-give-birthday-donation-5e98a7d136cb313969c868a35e396a5a-500.png   298 KiB          [emitted]  [big]  
+                         assets/images/ways-to-give-birthday-donation-c7d33096f3c2ab6eac8404d6582a9cfa-1000.png  1010 KiB          [emitted]  [big]  
+                          assets/images/ways-to-give-birthday-donation-f57652e6f8da7eec9c09e603001502d9-750.png   608 KiB          [emitted]  [big]  
+                                       assets/images/ways-to-give-hero-004889055ba423121c0e34d276024ac3-500.jpg  63.4 KiB          [emitted]         
+                                       assets/images/ways-to-give-hero-83d8d8874e4f1dec1a31903acc2deb36-750.jpg   117 KiB          [emitted]         
+                                      assets/images/ways-to-give-hero-c86fdf8cbd8e63eeab085510ba7e16ec-1000.jpg   179 KiB          [emitted]         
+                                                 assets/images/winners-4a14654bbbbb4cca81fb8e04a4ce8060-500.png  71.8 KiB          [emitted]         
+                                                 assets/images/winners-4a583d0e78a14bfbdff2c38f14b28edd-500.jpg   121 KiB          [emitted]         
+                                                 assets/images/winners-4bc0219c68bd2e2db2339a34ef2fa356-950.png   180 KiB          [emitted]         
+                                                 assets/images/winners-655da1f499374dce8c2b75eaf1be3268-750.png   141 KiB          [emitted]         
+                                                assets/images/winners-6cd8fd92033c2763cb8b81a180acf7c7-1000.jpg   329 KiB          [emitted]  [big]  
+                                                 assets/images/winners-c9a2bda92adad483828e88107c088b66-750.jpg   214 KiB          [emitted]         
+                                       assets/images/youth-of-the-year-95c7165b070ea51bbb10b55c3796a820-200.jpg  11.2 KiB          [emitted]         
+                                           assets/images/zelle-qr-code-400edb6251c1fd5501fcf0c9918dea98-334.png    32 KiB          [emitted]         
+     + 1 hidden asset
+    Entrypoint undefined = _data\images-metadata.json
+     [0] C:/Users/hola/Workspace/bgcofcv/node_modules/html-webpack-plugin/lib/loader.js!./templates/images-metadata.tmpl.js 1.47 KiB {0} [built]
+     [1] ./assets/images sync nonrecursive \.(png|jpe?g|svg)$ 4.39 KiB {0} [built]
+     [2] ./assets/images/1-international-paper.png 1.23 KiB {0} [optional] [built]
+     [3] ./assets/images/10-des-pac-prop.png 3.36 KiB {0} [optional] [built]
+     [4] ./assets/images/12-western-growers.png 3.24 KiB {0} [optional] [built]
+     [5] ./assets/images/13-anthonyvineyards.png 4.28 KiB {0} [optional] [built]
+     [6] ./assets/images/14-desert-valley-date.png 4.24 KiB {0} [optional] [built]
+     [7] ./assets/images/15-dimare.jpg 3.6 KiB {0} [optional] [built]
+     [8] ./assets/images/16-foster-gardner.png 1.4 KiB {0} [optional] [built]
+     [9] ./assets/images/17-perricone-farms.png 3.51 KiB {0} [optional] [built]
+    [10] ./assets/images/18-peter-rabbit-farms.png 3.15 KiB {0} [optional] [built]
+    [11] ./assets/images/19-prime-time.png 2.47 KiB {0} [optional] [built]
+    [12] ./assets/images/20-richard-bagdasarian.png 2.2 KiB {0} [optional] [built]
+    [13] ./assets/images/20190123_boysandgirlsclub_0055.jpg 3.19 KiB {0} [optional] [built]
+    [14] ./assets/images/20190123_boysandgirlsclub_0068.jpg 3 KiB {0} [optional] [built]
+        + 151 hidden modules
+Child html-webpack-plugin for "_includes\img_srcset.html":
+     1 asset
+    Entrypoint undefined = _includes\img_srcset.html
+    [0] C:/Users/hola/Workspace/bgcofcv/node_modules/html-webpack-plugin/lib/loader.js!./templates/srcset.tmpl.js 934 bytes {0} [built]
+Child html-webpack-plugin for "_layouts\clubs-layout.html":
+     1 asset
+    Entrypoint undefined = _layouts\clubs-layout.html
+    [0] C:/Users/hola/Workspace/bgcofcv/node_modules/html-webpack-plugin/lib/loader.js!./templates/clubs-layout.tmpl.html 6.47 KiB {0} [built]
+    [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+    [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+        + 1 hidden module
+Child html-webpack-plugin for "_layouts\events-layout.html":
+     1 asset
+    Entrypoint undefined = _layouts\events-layout.html
+    [0] C:/Users/hola/Workspace/bgcofcv/node_modules/html-webpack-plugin/lib/loader.js!./templates/events-layout.tmpl.html 18 KiB {0} [built]
+    [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+    [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+        + 1 hidden module
+Child html-webpack-plugin for "_layouts\home-layout.html":
+     1 asset
+    Entrypoint undefined = _layouts\home-layout.html
+    [0] C:/Users/hola/Workspace/bgcofcv/node_modules/html-webpack-plugin/lib/loader.js!./templates/home-layout.tmpl.html 494 bytes {0} [built]
+    [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+    [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+        + 1 hidden module
+Child html-webpack-plugin for "_layouts\programs-layout.html":
+     1 asset
+    Entrypoint undefined = _layouts\programs-layout.html
+    [0] C:/Users/hola/Workspace/bgcofcv/node_modules/html-webpack-plugin/lib/loader.js!./templates/programs-layout.tmpl.html 3.94 KiB {0} [built]
+    [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+    [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+        + 1 hidden module
+Child html-webpack-plugin for "_layouts\site-layout.html":
+     1 asset
+    Entrypoint undefined = _layouts\site-layout.html
+    [0] C:/Users/hola/Workspace/bgcofcv/node_modules/html-webpack-plugin/lib/loader.js!./templates/site-layout.tmpl.html 486 bytes {0} [built]
+    [2] (webpack)/buildin/global.js 472 bytes {0} [built]
+    [3] (webpack)/buildin/module.js 497 bytes {0} [built]
+        + 1 hidden module
+Child mini-css-extract-plugin ../../node_modules/css-loader/index.js!../../node_modules/postcss-loader/src/index.js!../../node_modules/sass-loader/dist/cjs.js!scss/site.scss:
+    Entrypoint mini-css-extract-plugin = *
+    [0] C:/Users/hola/Workspace/bgcofcv/node_modules/css-loader!C:/Users/hola/Workspace/bgcofcv/node_modules/postcss-loader/src!C:/Users/hola/Workspace/bgcofcv/node_modules/sass-loader/dist/cjs.js!./scss/site.scss 167 KiB {0} [built]
+    [3] ./assets/images/mask-pattern.png 744 bytes {0} [built]
+        + 2 hidden modules
+Configuration file: C:/Users/hola/Workspace/bgcofcv/_config.yml
+            Source: C:/Users/hola/Workspace/bgcofcv/root/jekyll
+       Destination: C:/Users/hola/Workspace/bgcofcv/dist
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+           Warning: Excerpt modified in _events/tony-reagins-golf-tournament.html!
+                    Found a Liquid block containing the excerpt separator "\n\n". 
+                    The block has been modified with the appropriate closing tag.
+                    Feel free to define a custom excerpt or excerpt_separator in the
+                    document's Front Matter if the generated excerpt is unsatisfactory.
+           Warning: Excerpt modified in _events/virtual-grand-auction-2022.html!
+                    Found a Liquid block containing the excerpt separator "\n\n". 
+                    The block has been modified with the appropriate closing tag.
+                    Feel free to define a custom excerpt or excerpt_separator in the
+                    document's Front Matter if the generated excerpt is unsatisfactory.
+                    done in 16.568 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

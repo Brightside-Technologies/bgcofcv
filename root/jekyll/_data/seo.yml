@@ -1,0 +1,57 @@
+# SEO copy is separate from descriptions also displayed as page content.
+"/index.html":
+  canonical: /
+  description: Explore youth programs and clubhouses in Indio, Coachella, La Quinta and Mecca. Find your local club or support Boys & Girls Clubs of Coachella Valley.
+"/our-clubs.html":
+  canonical: /our-clubs
+  title: Find a Clubhouse
+  description: Find Boys & Girls Clubs locations in Indio, Coachella, La Quinta and Mecca. View clubhouse contacts, hours and information about becoming a member.
+"/programs.html":
+  canonical: /programs
+  title: Youth Programs
+  description: Explore youth programs in education, arts, sports, leadership and life skills, plus college scholarship support in the Coachella Valley.
+"/ways-to-give.html":
+  canonical: /ways-to-give
+  title: Ways to Give
+  description: Support young people across the Coachella Valley. Explore ways to give to Boys & Girls Clubs and help provide safe places to learn and grow.
+"/events.html":
+  canonical: /events
+  title: Fundraising Events
+  description: Explore Boys & Girls Clubs of Coachella Valley fundraising events and past community gatherings. Join the mailing list for event updates.
+"/contact-us.html":
+  canonical: /contact-us
+  title: Contact Us
+  description: Contact Boys & Girls Clubs of Coachella Valley for organization, donation and event inquiries. Find staff contacts or send a message online.
+"/team.html":
+  canonical: /team
+  title: Our Team
+  description: Meet the people behind Boys & Girls Clubs of Coachella Valley and learn about the leadership supporting local youth.
+"/alumni.html":
+  canonical: /alumni
+  title: Alumni
+  description: Connect with Boys & Girls Clubs of Coachella Valley alumni and explore stories from the community that grew up in our clubs.
+"/be-in-the-know.html":
+  title: Newsletters
+  description: Read Boys & Girls Clubs of Coachella Valley newsletters for organization news, community stories and updates on support for local youth.
+"/surveys.html":
+  description: Share your feedback with Boys & Girls Clubs of Coachella Valley through our surveys for families and the club community.
+"/our-clubs/indio.html":
+  title: Indio Clubhouse
+  description: Learn about the John Carroll and Jim O’Brien Clubhouse in Indio, including its teen center, gym and boxing facilities. Find hours and contact details.
+"/our-clubs/coachella.html":
+  title: Coachella Clubhouse
+  description: Find the Frank Foster & Palmer Powell Family Clubhouse in Coachella. View location, hours and contact information for your local Boys & Girls Club.
+"/our-clubs/laquinta.html":
+  title: La Quinta Clubhouse
+  description: Learn about the President Gerald R. Ford Clubhouse in La Quinta. Find the address, hours and contact information for your local Boys & Girls Club.
+"/our-clubs/mecca.html":
+  title: Mecca Clubhouse
+  description: Find the Joel E. Smilow Clubhouse in Mecca. View its location, hours and contact details, and learn about your local Boys & Girls Club.
+"/events/presidents-circle-reception.html":
+  description: Learn about the President's Circle Reception and support Boys & Girls Clubs of Coachella Valley. Contact our events team for details.
+"/events/southern-growers-golf-tournament.html":
+  description: Learn about the Southwestern Growers Golf Tournament supporting Boys & Girls Clubs of Coachella Valley, with tournament information and event contacts.
+"/events/tony-reagins-golf-tournament.html":
+  description: Explore the Tony Reagins Golf Tournament supporting Boys & Girls Clubs of Coachella Valley. Find event information and contact details.
+"/events/grand-auction-2026":
+  description: Explore Grand Auction 2026 supporting Boys & Girls Clubs of Coachella Valley, with event information, venue details and organizer contacts.

@@ -28,7 +28,7 @@ programs:
     image: assets/images/drama-matters.jpg
   - title: Image Makers
     description: >-
-      The [ImageMakers](www.imagemakersbgca.org. ) is full of fun, creative
+      The [ImageMakers](https://www.bgca.org/programs/the-arts/) program is full of fun, creative
       activity ideas for three skill levels, contains a brief, user-friendly
       guide for advisers and details information about the annual photography
       contest that provides local, regional and national recognition. Club

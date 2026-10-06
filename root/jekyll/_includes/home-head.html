@@ -1,27 +1,11 @@
-<meta charset="utf-8" /> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<meta name="robots" content="index, follow" />
-<meta name="keywords" content="{{ site.data.metadata.keywords | join: ', ' }}" />
-<meta name="description" content="{{ site.data.metadata.description }}" />
-<meta itemprop="name" content="{{ site.data.metadata.title }}" />
-<meta itemprop="description" content="{{ site.data.metadata.description }}" />
-<meta itemprop="image" content="{{ site.data.metadata.image | absolute_url }}" />
-<meta property="og:title" content="{{ site.data.metadata.title }}" />
-<meta property="og:type" content="{{ site.data.metadata.type }}" />
-<meta property="og:description" content="{{ site.data.metadata.description }}" />
-<meta property="og:image" content="{{ site.data.metadata.image | absolute_url }}" />
-<meta property="og:url" content="{{ page.url | absolute_url }}" />
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="{{ site.data.metadata.title }}" />
-<meta name="twitter:description" content="{{ site.data.metadata.description }}" />
-<meta name="twitter:image" content="{{ site.data.metadata.image | absolute_url }}" />
-<meta name="twitter:url" content="{{ page.url | absolute_url }}" />
+{% include head.html %}
+<style>
+    .home-seo a:not(.btn) { color: #00658a; }
+    .home-seo a:not(.btn):hover { color: #00445d; text-decoration: underline; }
+    .home-seo .btn-primary { background-color: #00658a; border-color: #00658a; }
+    .home-seo .btn-primary:hover { background-color: #00445d; border-color: #00445d; }
+    .home-seo .btn-outline-primary { color: #00658a; border-color: #00658a; }
+    .home-seo .btn-outline-primary:hover { color: #fff; background-color: #00658a; }
+    .home-seo a:focus-visible { outline: 2px solid #00658a; outline-offset: 4px; }
+</style>
 <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<script
-    defer
-    src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
-    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
-    crossorigin="anonymous"
-></script>
-<link rel="shortcut icon" href="{{ site.data.metadata.favicon | absolute_url }}" />
-<title>{{ page.title }} | {{ site.data.metadata.title }}</title>
