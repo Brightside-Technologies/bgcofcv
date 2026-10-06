@@ -272,14 +272,23 @@ permalink: ways-to-give.html
           Fundraiser" style="height: 300px"
           filename="ways-to-give-birthday-donation.png" %}
           <div class="card-body px-1 d-flex flex-column align-items-center">
-            <div>
+            <div class="d-flex flex-wrap justify-content-center align-items-center">
               <a
                 href="https://www.facebook.com/fund/bgcvclubs/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="btn btn-light font-weight-bold text-secondary btn-sm btn-give text-uppercase stretched-link"
+                class="btn btn-light font-weight-bold text-secondary btn-sm btn-give text-uppercase m-1"
               >
                 Donate your birthday on Facebook!
+              </a>
+              <a
+                href="{{ site.data.global.donateUrl }}"
+                target="_blank"
+                rel="noopener"
+                role="button"
+                class="btn btn-secondary font-weight-bold btn-sm btn-give text-uppercase shadow m-1"
+              >
+                Donate<i class="ml-1 fas fa-heart" aria-hidden="true"></i>
               </a>
             </div>
           </div>
