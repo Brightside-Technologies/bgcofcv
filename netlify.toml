@@ -5,6 +5,14 @@
     publish = "dist"
     command = "npm run build:dev"
 [[redirects]]
+    from = "/events/grand-auction-2026"
+    to = "/events/grand-auction-2027"
+    status = 301
+[[redirects]]
+    from = "/events/grand-auction-2026.html"
+    to = "/events/grand-auction-2027"
+    status = 301
+[[redirects]]
     from = "https://bgcofcv.netlify.com/*"
     to = "https://www.bgcofcv.org/:splat"
     status = 301
